@@ -189,7 +189,7 @@ def merge(curated, found):
         if g is None and c.get("repo"):
             g = release_of(c["repo"])
         if g:
-            for k in ("stars", "license", "version", "download"):
+            for k in ("license", "version", "download"):
                 p[k] = g[k]
         out.append(p)
     names = {c["name"].lower().replace(" ", "").replace("-", "") for c in curated}
