@@ -1,0 +1,163 @@
+[
+ {
+  "name": "Vital",
+  "vendor": "Vital Audio",
+  "kind": "instrument",
+  "about": "Synthé à tables d'ondes. Compte gratuit demandé.",
+  "url": "https://vital.audio/",
+  "matches": "vital",
+  "formats": [
+   "VST3"
+  ]
+ },
+ {
+  "name": "Surge XT",
+  "vendor": "Surge Synth Team",
+  "kind": "instrument",
+  "about": "Synthé hybride, des centaines de sons. Libre.",
+  "url": "https://surge-synthesizer.github.io/",
+  "matches": "surge xt",
+  "formats": [
+   "VST3"
+  ],
+  "repo": "surge-synthesizer/releases-xt"
+ },
+ {
+  "name": "Dexed",
+  "vendor": "Digital Suburban",
+  "kind": "instrument",
+  "about": "Synthé FM inspiré du DX7. Libre.",
+  "url": "https://asb2m10.github.io/dexed/",
+  "matches": "dexed",
+  "formats": [
+   "VST3"
+  ],
+  "repo": "asb2m10/dexed"
+ },
+ {
+  "name": "OB-Xd",
+  "vendor": "discoDSP",
+  "kind": "instrument",
+  "about": "Synthé analogique virtuel inspiré de l'OB-X.",
+  "url": "https://www.discodsp.com/obxd/",
+  "matches": "ob-xd",
+  "formats": [
+   "VST3"
+  ]
+ },
+ {
+  "name": "TAL-NoiseMaker",
+  "vendor": "TAL Software",
+  "kind": "instrument",
+  "about": "Synthé analogique virtuel simple.",
+  "url": "https://tal-software.com/products/tal-noisemaker",
+  "matches": "noisemaker",
+  "formats": [
+   "VST3"
+  ]
+ },
+ {
+  "name": "Odin 2",
+  "vendor": "TheWaveWarden",
+  "kind": "instrument",
+  "about": "Synthé semi-modulaire. Libre.",
+  "url": "https://thewavewarden.com/pages/odin-2",
+  "matches": "odin",
+  "formats": [
+   "VST3"
+  ],
+  "repo": "TheWaveWarden/odin2"
+ },
+ {
+  "name": "Cardinal",
+  "vendor": "DISTRHO",
+  "kind": "instrument",
+  "about": "Rack modulaire basé sur VCV Rack. Libre.",
+  "url": "https://cardinal.kx.studio/",
+  "matches": "cardinal",
+  "formats": [
+   "VST3"
+  ],
+  "repo": "DISTRHO/Cardinal"
+ },
+ {
+  "name": "Valhalla Supermassive",
+  "vendor": "Valhalla DSP",
+  "kind": "effect",
+  "about": "Réverbe et delay très amples.",
+  "url": "https://valhalladsp.com/shop/reverb/valhalla-supermassive/",
+  "matches": "supermassive",
+  "formats": [
+   "VST3"
+  ]
+ },
+ {
+  "name": "TDR Nova",
+  "vendor": "Tokyo Dawn Records",
+  "kind": "effect",
+  "about": "Égaliseur dynamique.",
+  "url": "https://www.tokyodawn.net/tdr-nova/",
+  "matches": "nova",
+  "formats": [
+   "VST3"
+  ]
+ },
+ {
+  "name": "Kilohearts Essentials",
+  "vendor": "Kilohearts",
+  "kind": "effect",
+  "about": "Une trentaine d'effets de base. Compte gratuit demandé.",
+  "url": "https://kilohearts.com/products/kilohearts_essentials",
+  "matches": "kilohearts",
+  "formats": [
+   "VST3"
+  ]
+ },
+ {
+  "name": "ChowTapeModel",
+  "vendor": "Chowdhury DSP",
+  "kind": "effect",
+  "about": "Saturation de magnétophone à bande. Libre.",
+  "url": "https://chowdsp.com/products.html",
+  "matches": "chowtape",
+  "formats": [
+   "VST3"
+  ],
+  "repo": "jatinchowdhury18/AnalogTapeModel"
+ },
+ {
+  "name": "Airwindows Consolidated",
+  "vendor": "Airwindows",
+  "kind": "effect",
+  "about": "Toute la collection Airwindows en un plugin. Libre.",
+  "url": "https://www.airwindows.com/consolidated/",
+  "matches": "airwindows",
+  "formats": [
+   "VST3"
+  ],
+  "repo": "baconpaul/airwin2rack"
+ },
+ {
+  "name": "Dragonfly Reverb",
+  "vendor": "Michael Willis",
+  "kind": "effect",
+  "about": "Réverbes de salle, de pièce et à plaque. Libre.",
+  "url": "https://michaelwillis.github.io/dragonfly-reverb/",
+  "matches": "dragonfly",
+  "formats": [
+   "VST3"
+  ],
+  "repo": "michaelwillis/dragonfly-reverb"
+ },
+ {
+  "name": "MFreeFXBundle",
+  "vendor": "MeldaProduction",
+  "kind": "effect",
+  "about": "Une trentaine d'effets de mixage.",
+  "url": "https://www.meldaproduction.com/MFreeFXBundle",
+  "matches": "melda",
+  "formats": [
+   "VST3"
+  ]
+ }
+]
