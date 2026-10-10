@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T07:38:41Z",
+ "updated": "2026-10-10T09:20:42Z",
  "plugins": [
   {
    "name": "Vital",
@@ -32,6 +32,20 @@
     "name": "surge-xt-macos-1.3.4-pluginsonly.zip",
     "size": 186958216,
     "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macos-1.3.4-pluginsonly.zip",
+     "name": "surge-xt-macos-1.3.4-pluginsonly.zip",
+     "size": 186958216,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-portable-install.zip",
+     "name": "surge-xt-win64-1.3.4-portable-install.zip",
+     "size": 301759660,
+     "type": "zip"
+    }
    }
   },
   {
@@ -53,6 +67,20 @@
     "name": "Dexed-1.0.1-macOS.zip",
     "size": 16939688,
     "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.zip",
+     "name": "Dexed-1.0.1-macOS.zip",
+     "size": 16939688,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.zip",
+     "name": "Dexed-1.0.1-win.zip",
+     "size": 9742538,
+     "type": "zip"
+    }
    }
   },
   {
@@ -98,6 +126,26 @@
     "name": "Odin2.4.1MacInstaller.pkg",
     "size": 132362369,
     "type": "pkg"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.4.1Linux.zip",
+     "name": "Odin2.4.1Linux.zip",
+     "size": 66588004,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.4.1MacInstaller.pkg",
+     "name": "Odin2.4.1MacInstaller.pkg",
+     "size": 132362369,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/TheWaveWarden/odin2/releases/download/NightlyDevel/Odin2.4.1WinInstaller.exe",
+     "name": "Odin2.4.1WinInstaller.exe",
+     "size": 40936418,
+     "type": "exe"
+    }
    }
   },
   {
@@ -119,6 +167,20 @@
     "name": "Cardinal-macOS-universal-26.02.pkg",
     "size": 974061970,
     "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-macOS-universal-26.02.pkg",
+     "name": "Cardinal-macOS-universal-26.02.pkg",
+     "size": 974061970,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/DISTRHO/Cardinal/releases/download/26.02/Cardinal-win64-26.02.zip",
+     "name": "Cardinal-win64-26.02.zip",
+     "size": 1146920345,
+     "type": "zip"
+    }
    }
   },
   {
@@ -176,6 +238,20 @@
     "name": "ChowTapeModel-Mac-2.11.4.dmg",
     "size": 28745196,
     "type": "dmg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Mac-2.11.4.dmg",
+     "name": "ChowTapeModel-Mac-2.11.4.dmg",
+     "size": 28745196,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Win-64bit-2.11.4.exe",
+     "name": "ChowTapeModel-Win-64bit-2.11.4.exe",
+     "size": 10646528,
+     "type": "exe"
+    }
    }
   },
   {
@@ -210,6 +286,20 @@
     "name": "dragonfly-reverb-3.2.10-macos-universal.dmg",
     "size": 24954281,
     "type": "dmg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg",
+     "name": "dragonfly-reverb-3.2.10-macos-universal.dmg",
+     "size": 24954281,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-win64.zip",
+     "name": "dragonfly-reverb-3.2.10-win64.zip",
+     "size": 22447365,
+     "type": "zip"
+    }
    }
   },
   {
@@ -240,6 +330,26 @@
     "size": 81797637,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/linux-rnnoise.zip",
+     "name": "linux-rnnoise.zip",
+     "size": 36831356,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/macos-rnnoise.zip",
+     "name": "macos-rnnoise.zip",
+     "size": 81797637,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
+     "name": "win-rnnoise.zip",
+     "size": 37740885,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
@@ -253,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://damrsn.github.io/NeuralNote/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3076,
+   "stars": 3077,
    "license": "Apache-2.0",
    "version": "v2.0.0",
    "download": {
@@ -261,6 +371,20 @@
     "name": "NeuralNote_Installer_Mac_arm64.pkg",
     "size": 66397516,
     "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/DamRsn/NeuralNote/releases/download/v2.0.0/NeuralNote_Installer_Mac_arm64.pkg",
+     "name": "NeuralNote_Installer_Mac_arm64.pkg",
+     "size": 66397516,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/DamRsn/NeuralNote/releases/download/v2.0.0/NeuralNote_Installer_Windows_x64.exe",
+     "name": "NeuralNote_Installer_Windows_x64.exe",
+     "size": 41360153,
+     "type": "exe"
+    }
    },
    "formats": [
     "AU"
@@ -282,6 +406,26 @@
     "name": "ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
     "size": 11194539,
     "type": "dmg"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Equalizer.2-1.4.1-Linux-x86-64-AVX2.zip",
+     "size": 11322441,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
+     "name": "ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
+     "size": 11194539,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-x86-64.msi",
+     "name": "ZL.Equalizer.2-1.4.1-Windows-x86-64.msi",
+     "size": 9961472,
+     "type": "msi"
+    }
    },
    "formats": [
     "VST3",
@@ -305,6 +449,26 @@
     "size": 10292979,
     "type": "zip"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-macOS.zip",
+     "name": "OctaSine-v0.9.1-macOS.zip",
+     "size": 10292979,
+     "type": "zip"
+    },
+    "linux": {
+     "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-Ubuntu-20_04.zip",
+     "name": "OctaSine-v0.9.1-Ubuntu-20_04.zip",
+     "size": 5760864,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/greatest-ape/OctaSine/releases/download/v0.9.1/OctaSine-v0.9.1-Windows.zip",
+     "name": "OctaSine-v0.9.1-Windows.zip",
+     "size": 4624717,
+     "type": "zip"
+    }
+   },
    "formats": [
     "CLAP",
     "AU"
@@ -326,6 +490,20 @@
     "name": "master_me-1.3.1-macos-universal.dmg",
     "size": 12811088,
     "type": "dmg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-macos-universal.dmg",
+     "name": "master_me-1.3.1-macos-universal.dmg",
+     "size": 12811088,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/trummerschlunk/master_me/releases/download/1.3.1/master_me-1.3.1-win64.zip",
+     "name": "master_me-1.3.1-win64.zip",
+     "size": 13178088,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -349,9 +527,53 @@
     "size": 15634131,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-linux-v1.5.19.zip",
+     "name": "ripplerx-linux-v1.5.19.zip",
+     "size": 6379092,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-macos-v1.5.19.zip",
+     "name": "ripplerx-macos-v1.5.19.zip",
+     "size": 15634131,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/tiagolr/ripplerx/releases/download/v1.5.19/ripplerx-win-v1.5.19.zip",
+     "name": "ripplerx-win-v1.5.19.zip",
+     "size": 6929945,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Jot",
+   "vendor": "shashwatah",
+   "kind": "effect",
+   "about": "⚡Rapid note management for the terminal.",
+   "url": "https://github.com/shashwatah/jot",
+   "repo": "shashwatah/jot",
+   "stars": 612,
+   "license": "MIT",
+   "version": "v0.1.2",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/shashwatah/jot/releases/download/v0.1.2/jt.exe",
+     "name": "jt.exe",
+     "size": 1283072,
+     "type": "exe"
+    }
+   },
+   "formats": [
+    "CLAP"
    ],
    "source": "github"
   },
@@ -370,6 +592,20 @@
     "name": "noise-repellent-macOS-Universal-0.4.1.zip",
     "size": 17610215,
     "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/lucianodato/noise-repellent/releases/download/v0.4.1/noise-repellent-macOS-Universal-0.4.1.zip",
+     "name": "noise-repellent-macOS-Universal-0.4.1.zip",
+     "size": 17610215,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/lucianodato/noise-repellent/releases/download/v0.4.1/noise-repellent-windows-x64-0.4.1.zip",
+     "name": "noise-repellent-windows-x64-0.4.1.zip",
+     "size": 3950960,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -393,6 +629,20 @@
     "size": 10072513,
     "type": "zip"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/amsynth/amsynth/releases/download/release-2.0.0/amsynth-2.0.0-macos.zip",
+     "name": "amsynth-2.0.0-macos.zip",
+     "size": 10072513,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/amsynth/amsynth/releases/download/release-2.0.0/amsynth-2.0.0-windows.exe",
+     "name": "amsynth-2.0.0-windows.exe",
+     "size": 3240660,
+     "type": "exe"
+    }
+   },
    "formats": [
     "VST3"
    ],
@@ -413,6 +663,26 @@
     "name": "Maim-1.1.1-macOS.dmg",
     "size": 17636483,
     "type": "dmg"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-Linux.zip",
+     "name": "Maim-1.1.1-Linux.zip",
+     "size": 21132389,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-macOS.dmg",
+     "name": "Maim-1.1.1-macOS.dmg",
+     "size": 17636483,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/ArdenButterfield/Maim/releases/download/v1.1.1/Maim-1.1.1-Windows.exe",
+     "name": "Maim-1.1.1-Windows.exe",
+     "size": 5599030,
+     "type": "exe"
+    }
    },
    "formats": [
     "VST3",
@@ -436,6 +706,26 @@
     "size": 9398940,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.0/INTERSECT-v0.17.0-Linux-x64.zip",
+     "name": "INTERSECT-v0.17.0-Linux-x64.zip",
+     "size": 9852119,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.0/INTERSECT-v0.17.0-macOS-arm64.zip",
+     "name": "INTERSECT-v0.17.0-macOS-arm64.zip",
+     "size": 9398940,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.0/INTERSECT-v0.17.0-Windows-x64.zip",
+     "name": "INTERSECT-v0.17.0-Windows-x64.zip",
+     "size": 7417920,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
@@ -458,6 +748,20 @@
     "size": 246954246,
     "type": "dmg"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-macos-universal.dmg",
+     "name": "zam-plugins-4.5-macos-universal.dmg",
+     "size": 246954246,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/zamaudio/zam-plugins/releases/download/4.5/zam-plugins-4.5-win64.zip",
+     "name": "zam-plugins-4.5-win64.zip",
+     "size": 128302481,
+     "type": "zip"
+    }
+   },
    "formats": [
     "AU"
    ],
@@ -478,6 +782,26 @@
     "name": "jc303-0.13.0-macos_universal-plugins.zip",
     "size": 66016857,
     "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/midilab/jc303/releases/download/v0.13.0/jc303-0.13.0-linux_x64-plugins.zip",
+     "name": "jc303-0.13.0-linux_x64-plugins.zip",
+     "size": 27277969,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/midilab/jc303/releases/download/v0.13.0/jc303-0.13.0-macos_universal-plugins.zip",
+     "name": "jc303-0.13.0-macos_universal-plugins.zip",
+     "size": 66016857,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/midilab/jc303/releases/download/v0.13.0/jc303-0.13.0-windows_x64-plugins.zip",
+     "name": "jc303-0.13.0-windows_x64-plugins.zip",
+     "size": 25976598,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -501,6 +825,26 @@
     "size": 19300930,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-linux-v1.4.0.zip",
+     "name": "reevr-linux-v1.4.0.zip",
+     "size": 7549063,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-macos-v1.4.0.zip",
+     "name": "reevr-macos-v1.4.0.zip",
+     "size": 19300930,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/tiagolr/reevr/releases/download/v1.4.0/reevr-win-v1.4.0.zip",
+     "name": "reevr-win-v1.4.0.zip",
+     "size": 7730204,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3"
    ],
@@ -521,6 +865,26 @@
     "name": "wolf-shaper-v1.0.2-macos-universal.zip",
     "size": 5980398,
     "type": "zip"
+   },
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2%2B20230515144200-windows-x64.zip",
+     "name": "wolf-shaper-v1.0.2+20230515144200-windows-x64.zip",
+     "size": 5481008,
+     "type": "zip"
+    },
+    "linux": {
+     "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-x64.zip",
+     "name": "wolf-shaper-v1.0.2-linux-x64.zip",
+     "size": 5089663,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip",
+     "name": "wolf-shaper-v1.0.2-macos-universal.zip",
+     "size": 5980398,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -545,6 +909,14 @@
     "size": 10980161,
     "type": "pkg"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/astriiddev/Ami-Sampler-VST/releases/download/v0.7.2/AmiSampler_macOS.pkg",
+     "name": "AmiSampler_macOS.pkg",
+     "size": 10980161,
+     "type": "pkg"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
@@ -566,6 +938,26 @@
     "name": "ZL.Compressor-0.6.1-macOS-arm64.dmg",
     "size": 12527352,
     "type": "dmg"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
+     "size": 9412291,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-macOS-arm64.dmg",
+     "name": "ZL.Compressor-0.6.1-macOS-arm64.dmg",
+     "size": 12527352,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64-AVX2.msi",
+     "name": "ZL.Compressor-0.6.1-Windows-x86-64-AVX2.msi",
+     "size": 11366400,
+     "type": "msi"
+    }
    },
    "formats": [
     "VST3",
@@ -589,9 +981,54 @@
     "size": 6962376,
     "type": "zip"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/JAS.macOS.VST3.v1.3.3.zip",
+     "name": "JAS.macOS.VST3.v1.3.3.zip",
+     "size": 6962376,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/Install.Just.a.Sample.Windows.v1.3.3.zip",
+     "name": "Install.Just.a.Sample.Windows.v1.3.3.zip",
+     "size": 5026813,
+     "type": "zip"
+    },
+    "linux": {
+     "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/JAS.Linux.VST3.v1.3.3.zip",
+     "name": "JAS.Linux.VST3.v1.3.3.zip",
+     "size": 3733889,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "NeuralRack",
+   "vendor": "brummer10",
+   "kind": "effect",
+   "about": "NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.",
+   "url": "https://github.com/brummer10/NeuralRack",
+   "repo": "brummer10/NeuralRack",
+   "stars": 217,
+   "license": "BSD-3-Clause",
+   "version": "v0.4.1",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/brummer10/NeuralRack/releases/download/v0.4.1/NeuralRack-app-v0.4.1-win64.zip",
+     "name": "NeuralRack-app-v0.4.1-win64.zip",
+     "size": 3289307,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP"
    ],
    "source": "github"
   },
@@ -606,14 +1043,82 @@
    "license": "BSD-3-Clause",
    "version": "v1.0.37",
    "download": {
-    "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Symbols_Mac.zip",
-    "name": "Symbols_Mac.zip",
-    "size": 4576446,
-    "type": "zip"
+    "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.pkg",
+    "name": "Wavetable.pkg",
+    "size": 96232496,
+    "type": "pkg"
+   },
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.exe",
+     "name": "Wavetable.exe",
+     "size": 55382432,
+     "type": "exe"
+    },
+    "mac": {
+     "url": "https://github.com/FigBug/Wavetable/releases/download/v1.0.37/Wavetable.pkg",
+     "name": "Wavetable.pkg",
+     "size": 96232496,
+     "type": "pkg"
+    }
    },
    "formats": [
     "VST3",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Ratatouille.lv2",
+   "vendor": "brummer10",
+   "kind": "effect",
+   "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
+   "url": "https://github.com/brummer10/Ratatouille.lv2",
+   "repo": "brummer10/Ratatouille.lv2",
+   "stars": 194,
+   "license": "BSD-3-Clause",
+   "version": "v0.9.11",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
+     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
+     "size": 3038472,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Geonkick",
+   "vendor": "quamplex",
+   "kind": "instrument",
+   "about": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also uniq",
+   "url": "https://quamplex.com/geonkick",
+   "repo": "quamplex/geonkick",
+   "stars": 192,
+   "license": "GPL-3.0",
+   "version": "v3.9.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/quamplex/geonkick/releases/download/v3.9.0/GeonkickWindowsInstaller-v3.9.0-x86_64_basic.exe",
+     "name": "GeonkickWindowsInstaller-v3.9.0-x86_64_basic.exe",
+     "size": 15240737,
+     "type": "exe"
+    },
+    "linux": {
+     "url": "https://github.com/quamplex/geonkick/releases/download/v3.9.0/GNULinux_binaries_v3.9.0_basic.zip",
+     "name": "GNULinux_binaries_v3.9.0_basic.zip",
+     "size": 3767094,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3"
    ],
    "source": "github"
   },
@@ -632,6 +1137,26 @@
     "name": "KR106-macOS.zip",
     "size": 41146701,
     "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Linux.zip",
+     "name": "KR106-Linux.zip",
+     "size": 20587492,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-macOS.zip",
+     "name": "KR106-macOS.zip",
+     "size": 41146701,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106/releases/download/v2.5.13/KR106-Windows.zip",
+     "name": "KR106-Windows.zip",
+     "size": 9405386,
+     "type": "zip"
+    }
    },
    "formats": [
     "AU"
@@ -654,6 +1179,26 @@
     "size": 658359,
     "type": "zip"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-x86_64-apple-darwin.zip",
+     "name": "nrr-x86_64-apple-darwin.zip",
+     "size": 658359,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-aarch64-pc-windows-msvc.zip",
+     "name": "nrr-aarch64-pc-windows-msvc.zip",
+     "size": 506583,
+     "type": "zip"
+    },
+    "linux": {
+     "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-x86_64-unknown-linux-musl.zip",
+     "name": "nrr-x86_64-unknown-linux-musl.zip",
+     "size": 788964,
+     "type": "zip"
+    }
+   },
    "formats": [
     "CLAP"
    ],
@@ -675,9 +1220,77 @@
     "size": 13395910,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-linux-v1.3.0.zip",
+     "name": "filtr-linux-v1.3.0.zip",
+     "size": 5487278,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-macos-v1.3.0.zip",
+     "name": "filtr-macos-v1.3.0.zip",
+     "size": 13395910,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/tiagolr/filtr/releases/download/v1.3.0/filtr-win-v1.3.0.zip",
+     "name": "filtr-win-v1.3.0.zip",
+     "size": 6599776,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Kanban",
+   "vendor": "kanban-rs",
+   "kind": "effect",
+   "about": "Terminal based project management solution",
+   "url": "https://kanban.rs",
+   "repo": "kanban-rs/kanban",
+   "stars": 175,
+   "license": "Apache-2.0",
+   "version": "v0.11.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/kanban-rs/kanban/releases/download/v0.11.0/kanban-v0.11.0-x86_64-pc-windows-msvc.zip",
+     "name": "kanban-v0.11.0-x86_64-pc-windows-msvc.zip",
+     "size": 12996241,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Tod",
+   "vendor": "tod-org",
+   "kind": "effect",
+   "about": "An unofficial Todoist command line client written in Rust",
+   "url": "https://github.com/tod-org/tod",
+   "repo": "tod-org/tod",
+   "stars": 174,
+   "license": "MIT",
+   "version": "v0.19.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/tod-org/tod/releases/download/v0.19.0/tod-0.19.0-windows-amd64.zip",
+     "name": "tod-0.19.0-windows-amd64.zip",
+     "size": 4707430,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
    ],
    "source": "github"
   },
@@ -696,6 +1309,26 @@
     "name": "Aeolus-standalone-mac-0.3.0.zip",
     "size": 14761374,
     "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-vst3-linux-0.3.0.zip",
+     "name": "Aeolus-vst3-linux-0.3.0.zip",
+     "size": 8596224,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-standalone-mac-0.3.0.zip",
+     "name": "Aeolus-standalone-mac-0.3.0.zip",
+     "size": 14761374,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-standalone-win64-0.3.0.zip",
+     "name": "Aeolus-standalone-win64-0.3.0.zip",
+     "size": 7136124,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -719,6 +1352,26 @@
     "size": 5201749,
     "type": "dmg"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip",
+     "name": "ZL.Splitter-0.3.0-Linux-x86.zip",
+     "size": 8851204,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg",
+     "name": "ZL.Splitter-0.3.0-macOS-arm.dmg",
+     "size": 5201749,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi",
+     "name": "ZL.Splitter-0.3.0-Windows-x86.msi",
+     "size": 5566464,
+     "type": "msi"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
@@ -741,6 +1394,26 @@
     "size": 8877154,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-linux-v1.2.3.zip",
+     "name": "qdelay-linux-v1.2.3.zip",
+     "size": 5462344,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-macos-v1.2.3.zip",
+     "name": "qdelay-macos-v1.2.3.zip",
+     "size": 8877154,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-win-v1.2.3.zip",
+     "name": "qdelay-win-v1.2.3.zip",
+     "size": 3346241,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3"
    ],
@@ -762,8 +1435,46 @@
     "size": 191811319,
     "type": "zip"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Mac-v1.0.2.zip",
+     "name": "KissOfShame-Mac-v1.0.2.zip",
+     "size": 191811319,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Windows-v1.0.2.zip",
+     "name": "KissOfShame-Windows-v1.0.2.zip",
+     "size": 49212561,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Wolf Spectrum",
+   "vendor": "wolf-plugins",
+   "kind": "effect",
+   "about": "Real-time 2D spectrogram plugin (LV2, VST and Jack)",
+   "url": "https://github.com/wolf-plugins/wolf-spectrum",
+   "repo": "wolf-plugins/wolf-spectrum",
+   "stars": 154,
+   "license": "GPL-3.0",
+   "version": "v1.0.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/wolf-plugins/wolf-spectrum/releases/download/v1.0.0/wolf-spectrum-v1.0.0-windows-vst2.zip",
+     "name": "wolf-spectrum-v1.0.0-windows-vst2.zip",
+     "size": 853466,
+     "type": "zip"
+    }
+   },
+   "formats": [
     "AU"
    ],
    "source": "github"
@@ -783,6 +1494,26 @@
     "name": "CloudReverb-v0.5-macOS.zip",
     "size": 15082485,
     "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Linux-x86_64.zip",
+     "name": "CloudReverb-v0.5-Linux-x86_64.zip",
+     "size": 7050789,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-macOS.zip",
+     "name": "CloudReverb-v0.5-macOS.zip",
+     "size": 15082485,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Windows-x86_64.zip",
+     "name": "CloudReverb-v0.5-Windows-x86_64.zip",
+     "size": 8238611,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -806,6 +1537,26 @@
     "size": 5847995,
     "type": "pkg"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/attilammagyar/js80p/releases/download/v4.1.1/js80p-4_1_1-linux-x86_64-avx-vst3_single.zip",
+     "name": "js80p-4_1_1-linux-x86_64-avx-vst3_single.zip",
+     "size": 4574253,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/attilammagyar/js80p/releases/download/v4.1.1/js80p-4_1_1-macos-universal-vst3_bundle-signed.pkg",
+     "name": "js80p-4_1_1-macos-universal-vst3_bundle-signed.pkg",
+     "size": 5847995,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/attilammagyar/js80p/releases/download/v4.1.1/js80p-4_1_1-windows-x86_64-avx-vst3_single.zip",
+     "name": "js80p-4_1_1-windows-x86_64-avx-vst3_single.zip",
+     "size": 5213335,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
@@ -827,6 +1578,26 @@
     "name": "lamb-v2.1.0-macos-universal.zip",
     "size": 23920420,
     "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-macos-universal.zip",
+     "name": "lamb-v2.1.0-macos-universal.zip",
+     "size": 23920420,
+     "type": "zip"
+    },
+    "linux": {
+     "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-ubuntu-20.04.zip",
+     "name": "lamb-v2.1.0-ubuntu-20.04.zip",
+     "size": 12807099,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/magnetophon/lamb-rs/releases/download/v2.1.0/lamb-v2.1.0-windows.zip",
+     "name": "lamb-v2.1.0-windows.zip",
+     "size": 11499144,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -851,6 +1622,45 @@
     "size": 9472202,
     "type": "zip"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/igorski/fogpad/releases/download/1.0.3/fogpad.1.0.3_macos.zip",
+     "name": "fogpad.1.0.3_macos.zip",
+     "size": 9472202,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/igorski/fogpad/releases/download/1.0.3/fogpad.1.0.3_windows.zip",
+     "name": "fogpad.1.0.3_windows.zip",
+     "size": 2428873,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Drumlabooh",
+   "vendor": "psemiletov",
+   "kind": "instrument",
+   "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
+   "url": "https://psemiletov.github.io/drumlabooh/",
+   "repo": "psemiletov/drumlabooh",
+   "stars": 122,
+   "license": "GPL-3.0",
+   "version": "13.0.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/psemiletov/drumlabooh/releases/download/13.0.0/drumlabooh-installer.exe",
+     "name": "drumlabooh-installer.exe",
+     "size": 124204952,
+     "type": "exe"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
@@ -872,6 +1682,20 @@
     "name": "regrader.1.0.5_macos.zip",
     "size": 9870628,
     "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/igorski/regrader/releases/download/1.0.5/regrader.1.0.5_macos.zip",
+     "name": "regrader.1.0.5_macos.zip",
+     "size": 9870628,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/igorski/regrader/releases/download/1.0.5/regrader.1.0.5_windows.zip",
+     "name": "regrader.1.0.5_windows.zip",
+     "size": 2858396,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -895,6 +1719,26 @@
     "size": 14645710,
     "type": "dmg"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-Linux.zip",
+     "name": "OS-251-Linux.zip",
+     "size": 8621948,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-macOS.dmg",
+     "name": "OS-251-macOS.dmg",
+     "size": 14645710,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/utokusa/OS-251/releases/download/v1.3.0/OS-251-Windows.zip",
+     "name": "OS-251-Windows.zip",
+     "size": 2397407,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
@@ -917,6 +1761,26 @@
     "size": 20892696,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_Linux_VST_0.5.0.zip",
+     "name": "Signalizer_Linux_VST_0.5.0.zip",
+     "size": 17499169,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_MacOS_0.5.0.zip",
+     "name": "Signalizer_MacOS_0.5.0.zip",
+     "size": 20892696,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_Windows_VST_0.5.0.zip",
+     "name": "Signalizer_Windows_VST_0.5.0.zip",
+     "size": 10634019,
+     "type": "zip"
+    }
+   },
    "formats": [
     "AU"
    ],
@@ -937,6 +1801,20 @@
     "name": "plasma-v1.2.1-macos.pkg",
     "size": 11398049,
     "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg",
+     "name": "plasma-v1.2.1-macos.pkg",
+     "size": 11398049,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-windows.exe",
+     "name": "plasma-v1.2.1-windows.exe",
+     "size": 3991791,
+     "type": "exe"
+    }
    },
    "formats": [
     "VST3",
@@ -960,9 +1838,48 @@
     "size": 9020840,
     "type": "zip"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_macos.zip",
+     "name": "vstsid.1.1.2_macos.zip",
+     "size": 9020840,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/igorski/VSTSID/releases/download/v1.1.2/vstsid.1.1.2_windows.zip",
+     "name": "vstsid.1.1.2_windows.zip",
+     "size": 2607280,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "ToneShiftEQ",
+   "vendor": "brummer10",
+   "kind": "effect",
+   "about": "12-band equalizer designed for precise spectral shaping, mixing, mastering, and corrective audio processing.",
+   "url": "https://github.com/brummer10/ToneShiftEQ",
+   "repo": "brummer10/ToneShiftEQ",
+   "stars": 100,
+   "license": "BSD-3-Clause",
+   "version": "v1.3.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/brummer10/ToneShiftEQ/releases/download/v1.3.0/ToneShiftEQ-v1.3.0-vst3-win64.zip",
+     "name": "ToneShiftEQ-v1.3.0-vst3-win64.zip",
+     "size": 2702366,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP"
    ],
    "source": "github"
   },
@@ -981,6 +1898,26 @@
     "name": "XenRoll_v0.4.3_VST3_macOS_arm64.zip",
     "size": 2739819,
     "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.3/XenRoll_v0.4.3_VST3_linux_x86_64.zip",
+     "name": "XenRoll_v0.4.3_VST3_linux_x86_64.zip",
+     "size": 3481536,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.3/XenRoll_v0.4.3_VST3_macOS_arm64.zip",
+     "name": "XenRoll_v0.4.3_VST3_macOS_arm64.zip",
+     "size": 2739819,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/Ankalot/XenRoll/releases/download/v0.4.3/XenRoll_v0.4.3_VST3_windows.zip",
+     "name": "XenRoll_v0.4.3_VST3_windows.zip",
+     "size": 5213242,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -1004,6 +1941,20 @@
     "size": 45453854,
     "type": "dmg"
    },
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-Windows-11-x64.zip",
+     "name": "OWMB-Windows-11-x64.zip",
+     "size": 8008454,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
+     "name": "OWMB-macOS-Universal-Installer.dmg",
+     "size": 45453854,
+     "type": "dmg"
+    }
+   },
    "formats": [
     "AU"
    ],
@@ -1025,10 +1976,48 @@
     "size": 13389887,
     "type": "pkg"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-macos.pkg",
+     "name": "disflux-v1.2.0-macos.pkg",
+     "size": 13389887,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/Dimethoxy/Disflux/releases/download/v1.2.0/disflux-v1.2.0-windows.exe",
+     "name": "disflux-v1.2.0-windows.exe",
+     "size": 5200078,
+     "type": "exe"
+    }
+   },
    "formats": [
     "VST3",
     "CLAP",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Cli",
+   "vendor": "hopinc",
+   "kind": "effect",
+   "about": "💻 Interact with Hop in your terminal",
+   "url": "https://docs.hop.io/cli",
+   "repo": "hopinc/cli",
+   "stars": 82,
+   "license": "MPL-2.0",
+   "version": "v0.2.61",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/hopinc/cli/releases/download/v0.2.61/hop-x86_64-Windows.zip",
+     "name": "hop-x86_64-Windows.zip",
+     "size": 4501656,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
    ],
    "source": "github"
   },
@@ -1047,6 +2036,20 @@
     "name": "roboverb-osx-1.1.0.zip",
     "size": 11243905,
     "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-osx-1.1.0.zip",
+     "name": "roboverb-osx-1.1.0.zip",
+     "size": 11243905,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-windows-1.1.0.zip",
+     "name": "roboverb-windows-1.1.0.zip",
+     "size": 16299114,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -1071,6 +2074,20 @@
     "size": 3578245,
     "type": "pkg"
    },
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0-windows-x64.exe",
+     "name": "BlackBird-0.1.0-windows-x64.exe",
+     "size": 4189654,
+     "type": "exe"
+    },
+    "mac": {
+     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
+     "name": "BlackBird-0.1.0.pkg",
+     "size": 3578245,
+     "type": "pkg"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
@@ -1093,9 +2110,59 @@
     "size": 1501920,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_linux_x64.zip",
+     "name": "PerceptoMap_vst3_v0.18.2_linux_x64.zip",
+     "size": 2104447,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+     "name": "PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+     "size": 1501920,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_windows_x64.zip",
+     "name": "PerceptoMap_vst3_v0.18.2_windows_x64.zip",
+     "size": 2717837,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Tumult",
+   "vendor": "consint",
+   "kind": "effect",
+   "about": "Noisemaker, texturizer, vintag maker audio effekt plugin",
+   "url": "https://www.consint.net",
+   "repo": "consint/Tumult",
+   "stars": 80,
+   "license": "GPL-3.0",
+   "version": "1.1.1",
+   "download": null,
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Linux_vst3.zip",
+     "name": "Tumult_1_1_1_Linux_vst3.zip",
+     "size": 242030776,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Win_vst3.zip",
+     "name": "Tumult_1_1_1_Win_vst3.zip",
+     "size": 239289360,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3"
    ],
    "source": "github"
   },
@@ -1114,6 +2181,20 @@
     "name": "nam-juce-v0.5.0-apple-silicon.dmg",
     "size": 17393607,
     "type": "dmg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.5.0/nam-juce-v0.5.0-apple-silicon.dmg",
+     "name": "nam-juce-v0.5.0-apple-silicon.dmg",
+     "size": 17393607,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.5.0/nam-juce-v0.5.0-win.zip",
+     "name": "nam-juce-v0.5.0-win.zip",
+     "size": 12741752,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3"
@@ -1136,8 +2217,70 @@
     "size": 177055,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-linux-x86_64-v0.12.0.zip",
+     "name": "Nuked-SC55-CLAP-linux-x86_64-v0.12.0.zip",
+     "size": 95848,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-macos-v0.12.0.zip",
+     "name": "Nuked-SC55-CLAP-macos-v0.12.0.zip",
+     "size": 177055,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-windows-x64-v0.12.0.zip",
+     "name": "Nuked-SC55-CLAP-windows-x64-v0.12.0.zip",
+     "size": 85439,
+     "type": "zip"
+    }
+   },
    "formats": [
     "CLAP"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "ZLSpectrumEqualizer",
+   "vendor": "ZL-Audio",
+   "kind": "effect",
+   "about": "dynamic spectrum equalizer plugin",
+   "url": "https://zl-audio.github.io/plugins/zlspeceq/",
+   "repo": "ZL-Audio/ZLSpectrumEqualizer",
+   "stars": 75,
+   "license": "AGPL-3.0",
+   "version": "0.1.1",
+   "download": {
+    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+    "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+    "size": 5615636,
+    "type": "dmg"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
+     "size": 6283843,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+     "size": 5615636,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
+     "size": 5996544,
+     "type": "msi"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
    ],
    "source": "github"
   },
@@ -1157,27 +2300,25 @@
     "size": 12638320,
     "type": "zip"
    },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "ZLSpectrumEqualizer",
-   "vendor": "ZL-Audio",
-   "kind": "effect",
-   "about": "dynamic spectrum equalizer plugin",
-   "url": "https://zl-audio.github.io/plugins/zlspeceq/",
-   "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 74,
-   "license": "AGPL-3.0",
-   "version": "0.1.1",
-   "download": {
-    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-    "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-    "size": 5615636,
-    "type": "dmg"
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-Linux.zip",
+     "name": "RSAlgorithmicVerb-v0.5.5-Linux.zip",
+     "size": 2105359,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-macOS.zip",
+     "name": "RSAlgorithmicVerb-v0.5.5-macOS.zip",
+     "size": 12638320,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-Windows.zip",
+     "name": "RSAlgorithmicVerb-v0.5.5-Windows.zip",
+     "size": 2715682,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -1200,6 +2341,20 @@
     "name": "Prism-0.4.0-beta-arm64.pkg",
     "size": 172047319,
     "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism-0.4.0-beta-arm64.pkg",
+     "name": "Prism-0.4.0-beta-arm64.pkg",
+     "size": 172047319,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism.Setup.0.4.0-beta.exe",
+     "name": "Prism.Setup.0.4.0-beta.exe",
+     "size": 132370968,
+     "type": "exe"
+    }
    },
    "formats": [
     "VST3",
@@ -1224,6 +2379,26 @@
     "size": 3887318,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-linux-v0.0.12.zip",
+     "name": "WarpCore-linux-v0.0.12.zip",
+     "size": 6958178,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-macos-arm64-v0.0.12.zip",
+     "name": "WarpCore-macos-arm64-v0.0.12.zip",
+     "size": 3887318,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-win-v0.0.12.zip",
+     "name": "WarpCore-win-v0.0.12.zip",
+     "size": 3011636,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3"
    ],
@@ -1244,6 +2419,20 @@
     "name": "Grisey-v2.0.0-beta.1-macOS.zip",
     "size": 7814895,
     "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-macOS.zip",
+     "name": "Grisey-v2.0.0-beta.1-macOS.zip",
+     "size": 7814895,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-Windows.zip",
+     "name": "Grisey-v2.0.0-beta.1-Windows.zip",
+     "size": 10318639,
+     "type": "zip"
+    }
    },
    "formats": [
     "CLAP",
@@ -1267,6 +2456,26 @@
     "size": 21452337,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-Linux-x86_64.zip",
+     "name": "Mango-Linux-x86_64.zip",
+     "size": 8369744,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-macOS-universal.zip",
+     "name": "Mango-macOS-universal.zip",
+     "size": 21452337,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-Windows-x86_64.zip",
+     "name": "Mango-Windows-x86_64.zip",
+     "size": 7147655,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
     "AU"
@@ -1288,6 +2497,14 @@
     "name": "Even-0.1.0.pkg",
     "size": 12571296,
     "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+     "name": "Even-0.1.0.pkg",
+     "size": 12571296,
+     "type": "pkg"
+    }
    },
    "formats": [
     "VST3",
@@ -1311,8 +2528,52 @@
     "size": 10568723,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-Linux.zip",
+     "name": "repitch-Linux.zip",
+     "size": 9272945,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-macOS.zip",
+     "name": "repitch-macOS.zip",
+     "size": 10568723,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-Windows.zip",
+     "name": "repitch-Windows.zip",
+     "size": 4197656,
+     "type": "zip"
+    }
+   },
    "formats": [
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "SoundObject binary",
+   "vendor": "suzumushi0",
+   "kind": "effect",
+   "about": "SoundObject binary distribution.",
+   "url": "https://suzumushi0.hatenablog.com/entry/SOv1/SO_EN",
+   "repo": "suzumushi0/SoundObject_binary",
+   "stars": 62,
+   "license": null,
+   "version": "4.2.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/suzumushi0/SoundObject_binary/releases/download/4.2.0/SoundObject_Win_4.2.0.zip",
+     "name": "SoundObject_Win_4.2.0.zip",
+     "size": 2531834,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3"
    ],
    "source": "github"
   },
@@ -1332,8 +2593,52 @@
     "size": 22596370,
     "type": "pkg"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Linux.zip",
+     "name": "VocalGate_Linux.zip",
+     "size": 10131783,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Mac_Installer.pkg",
+     "name": "VocalGate_Mac_Installer.pkg",
+     "size": 22596370,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Windows_Installer.exe",
+     "name": "VocalGate_Windows_Installer.exe",
+     "size": 31330154,
+     "type": "exe"
+    }
+   },
    "formats": [
     "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Ykchorus",
+   "vendor": "SpotlightKid",
+   "kind": "effect",
+   "about": "A chorus audio effect plugin based on DSP code by Togu Audio Line (TAL)",
+   "url": "https://github.com/SpotlightKid/ykchorus",
+   "repo": "SpotlightKid/ykchorus",
+   "stars": 58,
+   "license": null,
+   "version": "v0.2.4",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/SpotlightKid/ykchorus/releases/download/v0.2.4/ykchorus-0.2.4-bin-win64.zip",
+     "name": "ykchorus-0.2.4-bin-win64.zip",
+     "size": 2166789,
+     "type": "zip"
+    }
+   },
+   "formats": [
     "AU"
    ],
    "source": "github"
@@ -1354,8 +2659,54 @@
     "size": 16719652,
     "type": "zip"
    },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.11.1/Overtonium-v1.11.1-Linux.zip",
+     "name": "Overtonium-v1.11.1-Linux.zip",
+     "size": 9538301,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.11.1/Overtonium-v1.11.1-macOS.zip",
+     "name": "Overtonium-v1.11.1-macOS.zip",
+     "size": 16719652,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.11.1/Overtonium-v1.11.1-Windows.zip",
+     "name": "Overtonium-v1.11.1-Windows.zip",
+     "size": 7635795,
+     "type": "zip"
+    }
+   },
    "formats": [
     "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Faustfilters",
+   "vendor": "SpotlightKid",
+   "kind": "effect",
+   "about": "A collection of virtual-analog filter multi-format audio plugins.",
+   "url": "https://github.com/SpotlightKid/faustfilters",
+   "repo": "SpotlightKid/faustfilters",
+   "stars": 50,
+   "license": null,
+   "version": "v0.4.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/SpotlightKid/faustfilters/releases/download/v0.4.0/faustfilters-0.4.0-win64.zip",
+     "name": "faustfilters-0.4.0-win64.zip",
+     "size": 4683166,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP",
     "AU"
    ],
    "source": "github"
@@ -1376,8 +2727,40 @@
     "size": 18785989,
     "type": "dmg"
    },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/madskjeldgaard/Birdhouse/releases/download/v0.1.2/BirdHouse_MacARM.dmg",
+     "name": "BirdHouse_MacARM.dmg",
+     "size": 18785989,
+     "type": "dmg"
+    }
+   },
    "formats": [
     "VST3",
+    "CLAP"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Ssher Rs",
+   "vendor": "poneding",
+   "kind": "effect",
+   "about": "ssher is an easy-to-use command line tool for connecting to remote servers.",
+   "url": "http://ssher-rs.pding.top/",
+   "repo": "poneding/ssher-rs",
+   "stars": 45,
+   "license": "Apache-2.0",
+   "version": "v0.5.2",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/poneding/ssher-rs/releases/download/v0.5.2/ssher_v0.5.2_windows_amd64.zip",
+     "name": "ssher_v0.5.2_windows_amd64.zip",
+     "size": 2541058,
+     "type": "zip"
+    }
+   },
+   "formats": [
     "CLAP"
    ],
    "source": "github"
@@ -1397,6 +2780,26 @@
     "name": "FireflySynth2-mac-vst3-Release.zip",
     "size": 13267257,
     "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-linux-vst3-Release.zip",
+     "name": "FireflySynth2-linux-vst3-Release.zip",
+     "size": 10018243,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-mac-vst3-Release.zip",
+     "name": "FireflySynth2-mac-vst3-Release.zip",
+     "size": 13267257,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-windows-vst3-Release.zip",
+     "name": "FireflySynth2-windows-vst3-Release.zip",
+     "size": 9486339,
+     "type": "zip"
+    }
    },
    "formats": [
     "VST3",
@@ -1420,6 +2823,26 @@
     "name": "castello-macos-universal-1.3.0.zip",
     "size": 912342,
     "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-linux-x64-1.3.0.zip",
+     "name": "castello-linux-x64-1.3.0.zip",
+     "size": 765043,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-macos-universal-1.3.0.zip",
+     "name": "castello-macos-universal-1.3.0.zip",
+     "size": 912342,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-windows-x64-1.3.0.zip",
+     "name": "castello-windows-x64-1.3.0.zip",
+     "size": 1957057,
+     "type": "zip"
+    }
    },
    "formats": [
     "AU"
