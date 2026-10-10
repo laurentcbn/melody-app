@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T07:37:19Z",
+ "updated": "2026-10-10T07:38:41Z",
  "plugins": [
   {
    "name": "Vital",
@@ -25,7 +25,6 @@
    ],
    "repo": "surge-synthesizer/releases-xt",
    "source": "curated",
-   "stars": 145,
    "license": "GPL-3.0",
    "version": "1.3.4",
    "download": {
@@ -47,7 +46,6 @@
    ],
    "repo": "asb2m10/dexed",
    "source": "curated",
-   "stars": 3560,
    "license": "GPL-3.0",
    "version": "v1.0.1",
    "download": {
@@ -93,7 +91,6 @@
    ],
    "repo": "TheWaveWarden/odin2",
    "source": "curated",
-   "stars": 819,
    "license": null,
    "version": "NightlyDevel",
    "download": {
@@ -115,7 +112,6 @@
    ],
    "repo": "DISTRHO/Cardinal",
    "source": "curated",
-   "stars": 3218,
    "license": "GPL-3.0",
    "version": "26.02",
    "download": {
@@ -173,7 +169,6 @@
    ],
    "repo": "jatinchowdhury18/AnalogTapeModel",
    "source": "curated",
-   "stars": 1439,
    "license": "GPL-3.0",
    "version": "v2.11.4",
    "download": {
@@ -208,7 +203,6 @@
    ],
    "repo": "michaelwillis/dragonfly-reverb",
    "source": "curated",
-   "stars": 1154,
    "license": "GPL-3.0",
    "version": "3.2.10",
    "download": {
