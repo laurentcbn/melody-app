@@ -32,12 +32,15 @@ QUERIES = [
 MIN_STARS = 40
 MAX_AGE_DAYS = 3 * 365
 MAX_PLUGINS = 120
+# Dépôts trouvés par la recherche qui ne sont pas des plugins (logiciels, outils).
+BLOCKLIST = {"giada", "owlplug", "clap-validator", "effetune", "camomile", "magda-core", "audiogridder"}
 
 MAC = re.compile(r"(mac|macos|osx|darwin|apple|universal)", re.I)
 NOT_MAC = re.compile(r"(win|windows|linux|ubuntu|\.deb|\.rpm|x86_64-linux|aarch64-linux|source|src|debug|\.sig|\.sha)", re.I)
 INSTRUMENT = re.compile(r"(synth|instrument|sampler|drum|piano|organ|rompler|wavetable|fm\b|modular)", re.I)
 EFFECT = re.compile(r"(reverb|delay|eq\b|equali[sz]er|compressor|distortion|saturat|chorus|flanger|phaser|filter|limiter|effect|fx\b|amp\b|tape|echo)", re.I)
-NOT_PLUGIN = re.compile(r"(framework|sdk|library|template|example|wrapper|bindings|host\b|daw\b|tutorial)", re.I)
+NOT_PLUGIN = re.compile(r"(framework|sdk|library|template|example|wrapper|bindings|host\b|daw\b|tutorial|validator|plugin manager)", re.I)
+BAD_TOPICS = {"daw", "plugin-manager", "plugin-host", "framework", "sdk"}
 
 
 def get(path, params=None):
@@ -74,6 +77,10 @@ def mac_asset(assets):
             continue
         mac = bool(MAC.search(name)) or ext in ("dmg", "pkg")
         if not mac or NOT_MAC.search(MAC.sub("", name)):
+            continue
+        low = name.lower()
+        # versions de développement, et paquets Audio Unit seuls (Melody lit VST3 et CLAP)
+        if "nightly" in low or ((re.search(r"(^|[^a-z])au([^a-z]|$)", low)) and "vst" not in low and "clap" not in low):
             continue
         cand = (rank[ext], -a.get("download_count", 0), {
             "url": a["browser_download_url"],
@@ -120,6 +127,8 @@ def discover():
                 seen.add(full)
                 pushed = datetime.fromisoformat(r["pushed_at"].replace("Z", "+00:00"))
                 if pushed < cutoff or NOT_PLUGIN.search((r.get("description") or "") + " " + r["name"]):
+                    continue
+                if r["name"].lower() in BLOCKLIST or BAD_TOPICS & set(r.get("topics", [])):
                     continue
                 rel = get(f"/repos/{full}/releases/latest")
                 if not rel or rel.get("prerelease") or rel.get("draft"):
@@ -183,7 +192,12 @@ def merge(curated, found):
             for k in ("stars", "license", "version", "download"):
                 p[k] = g[k]
         out.append(p)
-    out.extend(by_repo.values())
+    names = {c["name"].lower().replace(" ", "").replace("-", "") for c in curated}
+    for g in by_repo.values():
+        key = g["name"].lower().replace(" ", "").replace("-", "")
+        if key in names or any(key.startswith(n) or n.startswith(key) for n in names if len(n) > 3 and len(key) > 3):
+            continue
+        out.append(g)
     return out
 
 
