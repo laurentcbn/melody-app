@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-"""Cherche des plugins audio gratuits (VST3 / CLAP) avec une version Mac sur GitHub,
-les fusionne avec la sélection de Melody et écrit plugins.json.
+"""Cherche des plugins audio gratuits (VST3 / CLAP) avec une version Mac, Windows ou Linux
+sur GitHub, les fusionne avec la sélection de Melody et écrit plugins.json.
+
+Chaque plugin porte `downloads` : le meilleur fichier par système ("mac", "windows",
+"linux"). `download` reprend le fichier Mac pour les versions 0.3 de Melody.
 
 Lancé chaque jour par .github/workflows/plugins.yml. Variable GITHUB_TOKEN requise.
 Usage : discover.py [sortie.json]
@@ -66,31 +69,61 @@ def get(path, params=None):
     return None
 
 
-def mac_asset(assets):
-    """Meilleur fichier Mac d'une release : zip (installable), sinon dmg, sinon pkg."""
-    best = None
-    rank = {"zip": 0, "dmg": 1, "pkg": 2}
+WIN = re.compile(r"(win|msvc)", re.I)
+LINUX = re.compile(r"(linux|ubuntu|debian|x86_64-linux|aarch64-linux)", re.I)
+SKIP = re.compile(r"(source|src|debug|\.sig|\.sha|symbols|pdb)", re.I)
+# Types de fichiers que Melody sait installer, du plus simple au moins simple.
+RANK = {
+    "mac": {"zip": 0, "dmg": 1, "pkg": 2},
+    "windows": {"zip": 0, "exe": 1, "msi": 2},
+    "linux": {"zip": 0},
+}
+
+
+def system_of(name):
+    """Système visé par un fichier de release, d'après son nom et son extension."""
+    low = name.lower()
+    ext = low.rsplit(".", 1)[-1]
+    if ext in ("dmg", "pkg"):
+        return "mac"
+    if ext in ("exe", "msi"):
+        return "windows"
+    rest = MAC.sub("", name)
+    is_mac = bool(MAC.search(name))
+    is_linux = bool(LINUX.search(rest))
+    is_win = bool(WIN.search(LINUX.sub("", rest)))
+    if is_mac + is_linux + is_win != 1:
+        return None
+    return "mac" if is_mac else "linux" if is_linux else "windows"
+
+
+def best_assets(assets):
+    """Meilleur fichier de chaque système dans une release."""
+    best = {}
     for a in assets:
         name = a["name"]
-        ext = name.rsplit(".", 1)[-1].lower()
-        if ext not in rank:
-            continue
-        mac = bool(MAC.search(name)) or ext in ("dmg", "pkg")
-        if not mac or NOT_MAC.search(MAC.sub("", name)):
-            continue
         low = name.lower()
+        ext = low.rsplit(".", 1)[-1]
+        system = system_of(name)
+        if not system or ext not in RANK[system] or SKIP.search(low):
+            continue
         # versions de développement, et paquets Audio Unit seuls (Melody lit VST3 et CLAP)
         if "nightly" in low or ((re.search(r"(^|[^a-z])au([^a-z]|$)", low)) and "vst" not in low and "clap" not in low):
             continue
-        cand = (rank[ext], -a.get("download_count", 0), {
+        cand = (RANK[system][ext], -a.get("download_count", 0), {
             "url": a["browser_download_url"],
             "name": name,
             "size": a.get("size", 0),
             "type": ext,
         })
-        if best is None or cand[:2] < best[:2]:
-            best = cand
-    return best[2] if best else None
+        if system not in best or cand[:2] < best[system][:2]:
+            best[system] = cand
+    return {k: v[2] for k, v in best.items()}
+
+
+def mac_asset(assets):
+    """Meilleur fichier Mac d'une release (zip, sinon dmg, sinon pkg)."""
+    return best_assets(assets).get("mac")
 
 
 def formats(text):
@@ -133,8 +166,8 @@ def discover():
                 rel = get(f"/repos/{full}/releases/latest")
                 if not rel or rel.get("prerelease") or rel.get("draft"):
                     continue
-                asset = mac_asset(rel.get("assets", []))
-                if not asset:
+                files = best_assets(rel.get("assets", []))
+                if not files:
                     continue
                 lic = (r.get("license") or {}).get("spdx_id")
                 found.append({
@@ -147,7 +180,8 @@ def discover():
                     "stars": r["stargazers_count"],
                     "license": None if lic in (None, "NOASSERTION") else lic,
                     "version": rel.get("tag_name"),
-                    "download": asset,
+                    "download": files.get("mac"),
+                    "downloads": files,
                     "formats": formats(" ".join(a["name"] for a in rel.get("assets", [])) + " " + " ".join(r.get("topics", []))),
                     "source": "github",
                 })
@@ -158,7 +192,7 @@ def discover():
 
 
 def release_of(full):
-    """Dernière release Mac d'un dépôt de la sélection (absent des résultats de recherche)."""
+    """Dernière release d'un dépôt de la sélection (absent des résultats de recherche)."""
     try:
         r = get(f"/repos/{full}")
         rel = get(f"/repos/{full}/releases/latest")
@@ -167,15 +201,16 @@ def release_of(full):
         return None
     if not r or not rel:
         return None
-    asset = mac_asset(rel.get("assets", []))
-    if not asset:
+    files = best_assets(rel.get("assets", []))
+    if not files:
         return None
     lic = (r.get("license") or {}).get("spdx_id")
     return {
         "stars": r["stargazers_count"],
         "license": None if lic in (None, "NOASSERTION") else lic,
         "version": rel.get("tag_name"),
-        "download": asset,
+        "download": files.get("mac"),
+        "downloads": files,
     }
 
 
@@ -189,7 +224,7 @@ def merge(curated, found):
         if g is None and c.get("repo"):
             g = release_of(c["repo"])
         if g:
-            for k in ("license", "version", "download"):
+            for k in ("license", "version", "download", "downloads"):
                 p[k] = g[k]
         out.append(p)
     names = {c["name"].lower().replace(" ", "").replace("-", "") for c in curated}
