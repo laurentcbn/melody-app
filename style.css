@@ -21,6 +21,11 @@ h1{font-size:clamp(46px,8vw,96px);font-weight:700;letter-spacing:-.045em;line-he
 .download:hover{transform:translateY(-1px);box-shadow:0 14px 50px rgba(255,138,61,.4)}
 .download svg{width:20px;height:20px;fill:currentColor;margin-top:-2px}
 .meta{margin-top:14px;color:var(--text3);font-size:14px}
+.os-text,.os-icon{display:none}
+html[data-os=mac] .os-mac,html[data-os=windows] .os-windows,html[data-os=linux] .os-linux{display:revert}
+.also{margin-top:6px;color:var(--text3);font-size:14px}
+.also a{color:var(--text2);text-decoration:underline;text-underline-offset:3px}
+html[data-os=mac] .also a[data-os=mac],html[data-os=windows] .also a[data-os=windows],html[data-os=linux] .also a[data-os=linux]{color:var(--text3);text-decoration:none;pointer-events:none}
 .glass{border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.16);background:#120e0c;box-shadow:0 40px 100px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.18)}
 .glass img{display:block;width:100%;height:auto}
 .hero-shot{margin-top:64px}
