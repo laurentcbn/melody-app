@@ -32,7 +32,7 @@
     f8t: "All<br>your plugins.", f8p: "Your favorite VST3 and CLAP instruments and effects, plus free plugins to install in one click.",
     f9t: "Inspiration,<br>on demand.", f9p: "Drums, bass, chords or a melody, generated in your key.",
     f10t: "Sing it,<br>it's written.", f10p: "Melody turns a recording into MIDI notes.",
-    f12t: "Melody<br>Maker.", f12p: "Sing a melody, fix its notes, then pick every chord and every instrument yourself.",
+    f12t: "Melody<br>Maker.", f12p: "Hum an idea. Build the song around it, chord by chord.",
     f13t: "Your takes<br>in the song.", f13p: "Drop your recordings in the Playlist, cut them, add fades.",
     f11t: "Mac, Windows<br>and Linux.", f11p: "The same studio, on your computer.",
     cta: 'Available now in <span class="grad">beta</span>.',
