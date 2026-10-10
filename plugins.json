@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T07:33:07Z",
+ "updated": "2026-10-10T07:37:19Z",
  "plugins": [
   {
    "name": "Vital",
@@ -253,28 +253,6 @@
    "source": "github"
   },
   {
-   "name": "Surge",
-   "vendor": "surge-synthesizer",
-   "kind": "instrument",
-   "about": "Synthesizer plug-in (previously released as Vember Audio Surge)",
-   "url": "https://surge-synthesizer.github.io/",
-   "repo": "surge-synthesizer/surge",
-   "stars": 4054,
-   "license": "GPL-3.0",
-   "version": "Nightly",
-   "download": {
-    "url": "https://github.com/surge-synthesizer/surge/releases/download/Nightly/surge-xt-macos-NIGHTLY-2026-10-10-7858e61-pluginsonly.zip",
-    "name": "surge-xt-macos-NIGHTLY-2026-10-10-7858e61-pluginsonly.zip",
-    "size": 152654661,
-    "type": "zip"
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "NeuralNote",
    "vendor": "DamRsn",
    "kind": "effect",
@@ -296,28 +274,6 @@
    "source": "github"
   },
   {
-   "name": "Giada",
-   "vendor": "monocasual",
-   "kind": "instrument",
-   "about": "Your Hardcore Loop Machine.",
-   "url": "https://www.giadamusic.com",
-   "repo": "monocasual/giada",
-   "stars": 2101,
-   "license": "GPL-3.0",
-   "version": "1.6.0",
-   "download": {
-    "url": "https://github.com/monocasual/giada/releases/download/1.6.0/giada-1.6.0-arm64-macos.zip",
-    "name": "giada-1.6.0-arm64-macos.zip",
-    "size": 8539302,
-    "type": "zip"
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "ZLEqualizer",
    "vendor": "ZL-Audio",
    "kind": "effect",
@@ -332,50 +288,6 @@
     "name": "ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
     "size": 11194539,
     "type": "dmg"
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Camomile",
-   "vendor": "pierreguillot",
-   "kind": "effect",
-   "about": "An audio plugin with Pure Data embedded that allows to load and to control patches",
-   "url": "https://github.com/pierreguillot/Camomile",
-   "repo": "pierreguillot/Camomile",
-   "stars": 994,
-   "license": "GPL-3.0",
-   "version": "v1.0.7",
-   "download": {
-    "url": "https://github.com/pierreguillot/Camomile/releases/download/v1.0.7/CamomileMacOS.zip",
-    "name": "CamomileMacOS.zip",
-    "size": 10083558,
-    "type": "zip"
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Audiogridder",
-   "vendor": "apohl79",
-   "kind": "effect",
-   "about": "DSP servers using general purpose computers and networks",
-   "url": "https://audiogridder.com",
-   "repo": "apohl79/audiogridder",
-   "stars": 888,
-   "license": "MIT",
-   "version": "release_1_2_0",
-   "download": {
-    "url": "https://github.com/apohl79/audiogridder/releases/download/release_1_2_0/AudioGridder_1.2.0-MacOS.zip",
-    "name": "AudioGridder_1.2.0-MacOS.zip",
-    "size": 321233305,
-    "type": "zip"
    },
    "formats": [
     "VST3",
@@ -450,28 +362,6 @@
    "source": "github"
   },
   {
-   "name": "Vaporizer2",
-   "vendor": "VASTDynamics",
-   "kind": "instrument",
-   "about": "Vaporizer2 hybrid wavetable additive / subtractive VST / AU / AAX synthesizer / sampler workstation plugin",
-   "url": "https://www.vast-dynamics.com/?q=products",
-   "repo": "VASTDynamics/Vaporizer2",
-   "stars": 590,
-   "license": "GPL-3.0",
-   "version": "v3.5.0",
-   "download": {
-    "url": "https://github.com/VASTDynamics/Vaporizer2/releases/download/v3.5.0/Vaporizer2_installer_OSX64_3.5.0.zip",
-    "name": "Vaporizer2_installer_OSX64_3.5.0.zip",
-    "size": 636191008,
-    "type": "zip"
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Noise Repellent",
    "vendor": "lucianodato",
    "kind": "effect",
@@ -489,27 +379,6 @@
    },
    "formats": [
     "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "OwlPlug",
-   "vendor": "DropSnorz",
-   "kind": "effect",
-   "about": "Audio plugin manager. Desktop application to manage VST / AU / LV2 plugins on Windows, MacOS and Linux.",
-   "url": "https://owlplug.com",
-   "repo": "DropSnorz/OwlPlug",
-   "stars": 525,
-   "license": "GPL-3.0",
-   "version": "2.0.2",
-   "download": {
-    "url": "https://github.com/DropSnorz/OwlPlug/releases/download/2.0.2/OwlPlug-2.0.2-osx-arm64.dmg",
-    "name": "OwlPlug-2.0.2-osx-arm64.dmg",
-    "size": 142983115,
-    "type": "dmg"
-   },
-   "formats": [
     "AU"
    ],
    "source": "github"
@@ -644,28 +513,6 @@
    "source": "github"
   },
   {
-   "name": "OB Xd",
-   "vendor": "reales",
-   "kind": "instrument",
-   "about": "Virtual Analog Oberheim based synthesizer.",
-   "url": "https://github.com/reales/OB-Xd",
-   "repo": "reales/OB-Xd",
-   "stars": 270,
-   "license": null,
-   "version": "v2.20",
-   "download": {
-    "url": "https://github.com/reales/OB-Xd/releases/download/v2.20/OB-Xd.2.20.pkg",
-    "name": "OB-Xd.2.20.pkg",
-    "size": 39681520,
-    "type": "pkg"
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Wolf Shaper",
    "vendor": "wolf-plugins",
    "kind": "effect",
@@ -711,27 +558,6 @@
    "source": "github"
   },
   {
-   "name": "Magda Core",
-   "vendor": "Conceptual-Machines",
-   "kind": "effect",
-   "about": "An open ecosystem for music production.",
-   "url": "https://magda.land/",
-   "repo": "Conceptual-Machines/magda-core",
-   "stars": 231,
-   "license": "GPL-3.0",
-   "version": "v0.20.2",
-   "download": {
-    "url": "https://github.com/Conceptual-Machines/magda-core/releases/download/v0.20.2/MAGDA-0.20.2-macOS-arm64.dmg",
-    "name": "MAGDA-0.20.2-macOS-arm64.dmg",
-    "size": 68953429,
-    "type": "dmg"
-   },
-   "formats": [
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "ZLCompressor",
    "vendor": "ZL-Audio",
    "kind": "effect",
@@ -764,9 +590,9 @@
    "license": "MIT",
    "version": "v1.3-latest",
    "download": {
-    "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/JAS.macOS.AU.v1.3.3.zip",
-    "name": "JAS.macOS.AU.v1.3.3.zip",
-    "size": 6976903,
+    "url": "https://github.com/BOBONA/Just-a-Sample/releases/download/v1.3-latest/JAS.macOS.VST3.v1.3.3.zip",
+    "name": "JAS.macOS.VST3.v1.3.3.zip",
+    "size": 6962376,
     "type": "zip"
    },
    "formats": [
@@ -872,9 +698,9 @@
    "license": "GPL-3.0",
    "version": "v0.3.0",
    "download": {
-    "url": "https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-au-mac-0.3.0.zip",
-    "name": "Aeolus-au-mac-0.3.0.zip",
-    "size": 14893555,
+    "url": "https://github.com/Archie3d/aeolus_plugin/releases/download/v0.3.0/Aeolus-standalone-mac-0.3.0.zip",
+    "name": "Aeolus-standalone-mac-0.3.0.zip",
+    "size": 14761374,
     "type": "zip"
    },
    "formats": [
@@ -993,28 +819,6 @@
    "source": "github"
   },
   {
-   "name": "Effetune",
-   "vendor": "Frieve-A",
-   "kind": "effect",
-   "about": "Free real-time audio effects for music listening: EQ, tube amp, AM radio, visualizer, and 100+ more. Web/PWA, desktop, Chrome/Edge extension, VST3.",
-   "url": "https://effetune.frieve.com/",
-   "repo": "Frieve-A/effetune",
-   "stars": 139,
-   "license": "MIT",
-   "version": "v2.13.0",
-   "download": {
-    "url": "https://github.com/Frieve-A/effetune/releases/download/v2.13.0/EffeTune-2.13.0-Mac-arm64-DMG.zip",
-    "name": "EffeTune-2.13.0-Mac-arm64-DMG.zip",
-    "size": 145829063,
-    "type": "zip"
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Lamb Rs",
    "vendor": "magnetophon",
    "kind": "effect",
@@ -1121,27 +925,6 @@
    },
    "formats": [
     "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Clap Validator",
-   "vendor": "free-audio",
-   "kind": "effect",
-   "about": "An automatic CLAP validation and testing tool",
-   "url": "https://github.com/free-audio/clap-validator",
-   "repo": "free-audio/clap-validator",
-   "stars": 111,
-   "license": "MIT",
-   "version": "0.4.1",
-   "download": {
-    "url": "https://github.com/free-audio/clap-validator/releases/download/0.4.1/clap-validator-0.4.1-127-g152b982-macos-universal.zip",
-    "name": "clap-validator-0.4.1-127-g152b982-macos-universal.zip",
-    "size": 2809677,
-    "type": "zip"
-   },
-   "formats": [
-    "CLAP"
    ],
    "source": "github"
   },
@@ -1576,28 +1359,6 @@
     "name": "Overtonium-v1.11.1-macOS.zip",
     "size": 16719652,
     "type": "zip"
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "FreeEQ8",
-   "vendor": "GareBear99",
-   "kind": "effect",
-   "about": "FreeEQ8 is a professional-grade, free and open-source 8-band parametric EQ plugin for macOS, Linux, and Windows. Linear phase, dynamic EQ, match EQ, per-band dr",
-   "url": "https://github.com/GareBear99/FreeEQ8/releases",
-   "repo": "GareBear99/FreeEQ8",
-   "stars": 49,
-   "license": "GPL-3.0",
-   "version": "v2.3.1",
-   "download": {
-    "url": "https://github.com/GareBear99/FreeEQ8/releases/download/v2.3.1/FreeEQ8-v2.3.1-macOS.dmg",
-    "name": "FreeEQ8-v2.3.1-macOS.dmg",
-    "size": 35512356,
-    "type": "dmg"
    },
    "formats": [
     "VST3",
