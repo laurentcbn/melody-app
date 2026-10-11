@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T09:20:42Z",
+ "updated": "2026-10-11T11:23:37Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6905,
+   "stars": 6909,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://damrsn.github.io/NeuralNote/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3077,
+   "stars": 3088,
    "license": "Apache-2.0",
    "version": "v2.0.0",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 651,
+   "stars": 652,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -774,7 +774,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 293,
+   "stars": 294,
    "license": "GPL-3.0",
    "version": "v0.13.0",
    "download": {
@@ -1039,7 +1039,7 @@
    "about": "Wavetable synth",
    "url": "https://socalabs.com/synths/wavetable/",
    "repo": "FigBug/Wavetable",
-   "stars": 215,
+   "stars": 216,
    "license": "BSD-3-Clause",
    "version": "v1.0.37",
    "download": {
@@ -1649,7 +1649,7 @@
    "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
    "url": "https://psemiletov.github.io/drumlabooh/",
    "repo": "psemiletov/drumlabooh",
-   "stars": 122,
+   "stars": 123,
    "license": "GPL-3.0",
    "version": "13.0.0",
    "download": null,
@@ -1998,6 +1998,48 @@
    "source": "github"
   },
   {
+   "name": "PerceptoMap",
+   "vendor": "hqrrr",
+   "kind": "effect",
+   "about": "From frequencies to feeling",
+   "url": "https://github.com/hqrrr/PerceptoMap",
+   "repo": "hqrrr/PerceptoMap",
+   "stars": 82,
+   "license": "AGPL-3.0",
+   "version": "v0.18.2",
+   "download": {
+    "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+    "name": "PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+    "size": 1501920,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_linux_x64.zip",
+     "name": "PerceptoMap_vst3_v0.18.2_linux_x64.zip",
+     "size": 2104447,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+     "name": "PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+     "size": 1501920,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_windows_x64.zip",
+     "name": "PerceptoMap_vst3_v0.18.2_windows_x64.zip",
+     "size": 2717837,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Cli",
    "vendor": "hopinc",
    "kind": "effect",
@@ -2095,48 +2137,6 @@
    "source": "github"
   },
   {
-   "name": "PerceptoMap",
-   "vendor": "hqrrr",
-   "kind": "effect",
-   "about": "From frequencies to feeling",
-   "url": "https://github.com/hqrrr/PerceptoMap",
-   "repo": "hqrrr/PerceptoMap",
-   "stars": 81,
-   "license": "AGPL-3.0",
-   "version": "v0.18.2",
-   "download": {
-    "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
-    "name": "PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
-    "size": 1501920,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_linux_x64.zip",
-     "name": "PerceptoMap_vst3_v0.18.2_linux_x64.zip",
-     "size": 2104447,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
-     "name": "PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
-     "size": 1501920,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_windows_x64.zip",
-     "name": "PerceptoMap_vst3_v0.18.2_windows_x64.zip",
-     "size": 2717837,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Tumult",
    "vendor": "consint",
    "kind": "effect",
@@ -2163,6 +2163,47 @@
    },
    "formats": [
     "VST3"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Nuked SC55 CLAP",
+   "vendor": "johnnovak",
+   "kind": "effect",
+   "about": "Nuked SC-55 CLAP audio plugin",
+   "url": "https://github.com/johnnovak/Nuked-SC55-CLAP",
+   "repo": "johnnovak/Nuked-SC55-CLAP",
+   "stars": 79,
+   "license": "GPL-2.0",
+   "version": "v0.12.0",
+   "download": {
+    "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-macos-v0.12.0.zip",
+    "name": "Nuked-SC55-CLAP-macos-v0.12.0.zip",
+    "size": 177055,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-linux-x86_64-v0.12.0.zip",
+     "name": "Nuked-SC55-CLAP-linux-x86_64-v0.12.0.zip",
+     "size": 95848,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-macos-v0.12.0.zip",
+     "name": "Nuked-SC55-CLAP-macos-v0.12.0.zip",
+     "size": 177055,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-windows-x64-v0.12.0.zip",
+     "name": "Nuked-SC55-CLAP-windows-x64-v0.12.0.zip",
+     "size": 85439,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
    ],
    "source": "github"
   },
@@ -2198,47 +2239,6 @@
    },
    "formats": [
     "VST3"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Nuked SC55 CLAP",
-   "vendor": "johnnovak",
-   "kind": "effect",
-   "about": "Nuked SC-55 CLAP audio plugin",
-   "url": "https://github.com/johnnovak/Nuked-SC55-CLAP",
-   "repo": "johnnovak/Nuked-SC55-CLAP",
-   "stars": 78,
-   "license": "GPL-2.0",
-   "version": "v0.12.0",
-   "download": {
-    "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-macos-v0.12.0.zip",
-    "name": "Nuked-SC55-CLAP-macos-v0.12.0.zip",
-    "size": 177055,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-linux-x86_64-v0.12.0.zip",
-     "name": "Nuked-SC55-CLAP-linux-x86_64-v0.12.0.zip",
-     "size": 95848,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-macos-v0.12.0.zip",
-     "name": "Nuked-SC55-CLAP-macos-v0.12.0.zip",
-     "size": 177055,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-windows-x64-v0.12.0.zip",
-     "name": "Nuked-SC55-CLAP-windows-x64-v0.12.0.zip",
-     "size": 85439,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP"
    ],
    "source": "github"
   },
@@ -2333,7 +2333,7 @@
    "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
    "url": "https://astramusic.dev/prism",
    "repo": "Boof2015/prism",
-   "stars": 72,
+   "stars": 73,
    "license": "GPL-3.0",
    "version": "v0.4.0-beta",
    "download": {
@@ -2405,6 +2405,48 @@
    "source": "github"
   },
   {
+   "name": "Mango",
+   "vendor": "odoare",
+   "kind": "instrument",
+   "about": "Modular sound glitcher / mangler",
+   "url": "fx-mechanics.com",
+   "repo": "odoare/Mango",
+   "stars": 66,
+   "license": "AGPL-3.0",
+   "version": "v0.2.0",
+   "download": {
+    "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-macOS-universal.zip",
+    "name": "Mango-macOS-universal.zip",
+    "size": 21452337,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-Linux-x86_64.zip",
+     "name": "Mango-Linux-x86_64.zip",
+     "size": 8369744,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-macOS-universal.zip",
+     "name": "Mango-macOS-universal.zip",
+     "size": 21452337,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-Windows-x86_64.zip",
+     "name": "Mango-Windows-x86_64.zip",
+     "size": 7147655,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Grisey",
    "vendor": "ZhiyuAlexZhang",
    "kind": "effect",
@@ -2436,48 +2478,6 @@
    },
    "formats": [
     "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Mango",
-   "vendor": "odoare",
-   "kind": "instrument",
-   "about": "Modular sound glitcher / mangler",
-   "url": "fx-mechanics.com",
-   "repo": "odoare/Mango",
-   "stars": 65,
-   "license": "AGPL-3.0",
-   "version": "v0.2.0",
-   "download": {
-    "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-macOS-universal.zip",
-    "name": "Mango-macOS-universal.zip",
-    "size": 21452337,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-Linux-x86_64.zip",
-     "name": "Mango-Linux-x86_64.zip",
-     "size": 8369744,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-macOS-universal.zip",
-     "name": "Mango-macOS-universal.zip",
-     "size": 21452337,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/odoare/Mango/releases/download/v0.2.0/Mango-Windows-x86_64.zip",
-     "name": "Mango-Windows-x86_64.zip",
-     "size": 7147655,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2650,32 +2650,32 @@
    "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
    "url": "https://benjamindehli.github.io/overtonium/",
    "repo": "benjamindehli/overtonium",
-   "stars": 55,
+   "stars": 56,
    "license": "AGPL-3.0",
-   "version": "v1.11.1",
+   "version": "v1.12.0",
    "download": {
-    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.11.1/Overtonium-v1.11.1-macOS.zip",
-    "name": "Overtonium-v1.11.1-macOS.zip",
-    "size": 16719652,
+    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.12.0/Overtonium-v1.12.0-macOS.zip",
+    "name": "Overtonium-v1.12.0-macOS.zip",
+    "size": 16833728,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.11.1/Overtonium-v1.11.1-Linux.zip",
-     "name": "Overtonium-v1.11.1-Linux.zip",
-     "size": 9538301,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.12.0/Overtonium-v1.12.0-Linux.zip",
+     "name": "Overtonium-v1.12.0-Linux.zip",
+     "size": 9592000,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.11.1/Overtonium-v1.11.1-macOS.zip",
-     "name": "Overtonium-v1.11.1-macOS.zip",
-     "size": 16719652,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.12.0/Overtonium-v1.12.0-macOS.zip",
+     "name": "Overtonium-v1.12.0-macOS.zip",
+     "size": 16833728,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.11.1/Overtonium-v1.11.1-Windows.zip",
-     "name": "Overtonium-v1.11.1-Windows.zip",
-     "size": 7635795,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.12.0/Overtonium-v1.12.0-Windows.zip",
+     "name": "Overtonium-v1.12.0-Windows.zip",
+     "size": 7675208,
      "type": "zip"
     }
    },
