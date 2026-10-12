@@ -39,10 +39,38 @@
     f15t: "To Live, Logic<br>and beyond.", f15p: "Export to MIDI, to MP3, or track by track.",
     f11t: "Mac, Windows<br>and Linux.", f11p: "The same studio, on your computer.",
     cta: 'Available now in <span class="grad">beta</span>.',
-    footer: "Melody is in beta."
+    footer: "Melody is in beta.",
+    mcp_link: "Assistant (MCP)",
+    mcp_title: "Melody · Assistant (MCP)",
+    mcp_h1: 'Drive Melody<br>with an <span class="grad">assistant</span>.',
+    mcp_lead: "Melody includes an MCP server. Claude, or another compatible assistant, can read your project, write clips, set the tempo and tracks, and launch scenes.",
+    mcp_setup: "Set up with Claude Desktop",
+    mcp_s1: "Install Melody 0.15 or later, and open it.",
+    mcp_s2: "In Claude Desktop, open Settings, then Developer, then “Edit Config”.",
+    mcp_s3: "Add Melody to the file, with the path for your system:",
+    mcp_you: "you", mcp_you2: "you", mcp_you3: "you",
+    mcp_s4: "Restart Claude Desktop. Melody shows up in the list of tools.",
+    mcp_code: "With Claude Code, one command is enough:",
+    mcp_ask: "Try asking",
+    mcp_a1: "“Set the project to 100 BPM and launch scene 1.”",
+    mcp_a2: "“Add a synth track and write an A minor bass line in scene 2.”",
+    mcp_a3: "“Turn the Pad down 3 dB and mute the Snare.”",
+    mcp_tools: "The tools",
+    mcp_t1: "Read the tempo, tracks and Session clips.",
+    mcp_t2: "Set the tempo, swing and metronome.",
+    mcp_t3: "Start and stop playback.",
+    mcp_t4: "Add a synth or drum track (kick, snare, hi-hat, clap).",
+    mcp_t5: "Rename a track, set its volume, pan, mute and solo.",
+    mcp_t6: "Read and write a clip's notes, in 16th notes (16 per bar).",
+    mcp_t7: "Delete a clip.",
+    mcp_t8: "Launch a clip or a scene on the next bar, or stop everything.",
+    mcp_safe: "On your computer only",
+    mcp_safe_p: "The assistant can only drive Melody from this computer, and only while Melody is open. Every change can be undone with ⌘Z (Ctrl+Z). To turn access off: Preferences, then Assistant (MCP)."
   };
   var nodes = document.querySelectorAll("[data-i18n]");
   var FR = { title: document.title };
+  var pg = document.documentElement.getAttribute("data-page");
+  if (pg) FR[pg + "_title"] = document.title;
   nodes.forEach(function (n) { FR[n.getAttribute("data-i18n")] = n.innerHTML; });
 
   function apply(lang) {
@@ -51,7 +79,8 @@
       var v = dict[n.getAttribute("data-i18n")];
       if (v !== undefined) n.innerHTML = v;
     });
-    document.title = dict.title;
+    var page = document.documentElement.getAttribute("data-page");
+    document.title = (page && dict[page + "_title"]) || dict.title;
     document.documentElement.lang = lang;
     document.querySelectorAll(".lang button").forEach(function (b) {
       b.setAttribute("aria-pressed", b.getAttribute("data-lang") === lang ? "true" : "false");
