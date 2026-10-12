@@ -7,6 +7,7 @@
     dl_mac: "Download for Mac",
     dl_windows: "Download for Windows",
     dl_linux: "Download for Linux",
+    try: "Try it in your browser",
     meta: "Free beta · macOS 11 or later · Apple Silicon and Intel",
     meta_windows: "Free beta · Windows 10 or 11, 64-bit",
     meta_linux: "Free beta · 64-bit Linux (Ubuntu 22.04 or later)",

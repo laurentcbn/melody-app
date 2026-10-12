@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Démo Melody</title>
+<link rel="icon" href="logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; height: 100%; background: #0a0807; overflow: hidden; }
+  canvas { position: absolute; inset: 0; width: 100%; height: 100%; outline: none; }
+  #go { position: absolute; font-size: 100%; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+        gap: 22px; padding: 24px; box-sizing: border-box; text-align: center; color: #f5f2ee;
+        font-family: Inter, system-ui, sans-serif;
+        background: radial-gradient(700px 500px at 50% 35%, rgba(255,138,61,.22), transparent 70%), #0a0807; }
+  #go img { width: 72px; }
+  #go h1 { margin: 0; font-size: 44px; font-weight: 700; letter-spacing: -1.5px; }
+  #go p { margin: 0; max-width: 420px; color: #b9b0a6; font-size: 16px; line-height: 1.5; }
+  #go button { font: 600 18px Inter, system-ui, sans-serif; padding: 15px 34px; border: 0; border-radius: 999px; cursor: pointer;
+               background: linear-gradient(100deg, #f5b942, #ff8a3d 50%, #e8553a); color: #160b05;
+               box-shadow: 0 14px 50px rgba(255,138,61,.35); }
+  #go button:disabled { opacity: .5; cursor: wait; }
+  #go small { color: #7d746b; font-size: 13px; }
+</style>
+</head>
+<body>
+<canvas id="melody"></canvas>
+<div id="go">
+  <img src="logo.svg" alt="">
+  <h1>Melody</h1>
+  <p id="lead">Essayez Melody dans votre navigateur.<br>Version allégée : sans plugins, micro ni fichiers.</p>
+  <button id="btn" disabled>Chargement…</button>
+  <small id="hint">Avec un casque ou des enceintes, sur un ordinateur.</small>
+</div>
+<script type="module">
+  import init, { start } from './pkg/melody.js';
+  const en = !navigator.language.startsWith('fr');
+  if (en) {
+    document.documentElement.lang = 'en';
+    document.getElementById('lead').innerHTML = 'Try Melody in your browser.<br>A lighter version: no plugins, mic or files.';
+    document.getElementById('hint').textContent = 'Best on a computer, with headphones or speakers.';
+  }
+  const btn = document.getElementById('btn');
+  btn.textContent = en ? 'Loading…' : 'Chargement…';
+  await init();
+  btn.disabled = false;
+  btn.textContent = en ? 'Start the demo' : 'Lancer la démo';
+  btn.addEventListener('click', () => {
+    document.getElementById('go').remove();
+    start('melody');
+    document.getElementById('melody').focus();
+  });
+</script>
+</body>
+</html>

@@ -23,6 +23,8 @@ h1{font-size:clamp(46px,8vw,96px);font-weight:700;letter-spacing:-.045em;line-he
 .meta{margin-top:14px;color:var(--text3);font-size:14px}
 .os-text,.os-icon{display:none}
 html[data-os=mac] .os-mac,html[data-os=windows] .os-windows,html[data-os=linux] .os-linux{display:revert}
+.try{display:block;width:max-content;margin:14px auto 0;padding:10px 22px;border-radius:999px;border:1px solid rgba(255,255,255,.18);color:var(--text);font-weight:600;font-size:15px;text-decoration:none;transition:background .15s,border-color .15s}
+.try:hover{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.3)}
 .also{margin-top:6px;color:var(--text3);font-size:14px}
 .also a{color:var(--text2);text-decoration:underline;text-underline-offset:3px}
 html[data-os=mac] .also a[data-os=mac],html[data-os=windows] .also a[data-os=windows],html[data-os=linux] .also a[data-os=linux]{color:var(--text3);text-decoration:none;pointer-events:none}
