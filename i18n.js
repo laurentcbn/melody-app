@@ -34,6 +34,8 @@
     f10t: "Sing it,<br>it's written.", f10p: "Melody turns a recording into MIDI notes.",
     f12t: "Melody<br>Maker.", f12p: "Sing whenever the idea comes. Melody turns it into MIDI.",
     f13t: "Your takes<br>in the song.", f13p: "Drop your recordings in the Playlist, cut them, add fades.",
+    f14t: "In time,<br>effortlessly.", f14p: "Your sounds follow the song's tempo, without changing pitch.",
+    f15t: "To Live, Logic<br>and beyond.", f15p: "Export to MIDI, to MP3, or track by track.",
     f11t: "Mac, Windows<br>and Linux.", f11p: "The same studio, on your computer.",
     cta: 'Available now in <span class="grad">beta</span>.',
     footer: "Melody is in beta."
