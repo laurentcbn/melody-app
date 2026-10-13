@@ -40,6 +40,7 @@
     f16t: "One loop,<br>a thousand ideas.", f16p: "Melody slices your loop on the hits. Replay each slice from the keyboard.",
     f17t: "One melody,<br>a whole song.", f17p: "Harmonize suggests the chords, then the bass and drums.",
     f18t: "Ready?<br>One, two, three…", f18p: "One bar of clicks before recording, so you're ready to play.",
+    f19t: "A bigger,<br>richer sound.", f19p: "Rebuilt drums, a stereo synth with Width, Sub, Vibrato and Warmth, and an output limiter.",
     f11t: "Mac, Windows<br>and Linux.", f11p: "The same studio, on your computer.",
     cta: 'Available now in <span class="grad">beta</span>.',
     footer: "Melody is in beta.",
