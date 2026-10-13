@@ -41,6 +41,7 @@
     f17t: "One melody,<br>a whole song.", f17p: "Harmonize suggests the chords, then the bass and drums.",
     f18t: "Ready?<br>One, two, three…", f18p: "One bar of clicks before recording, so you're ready to play.",
     f19t: "A bigger,<br>richer sound.", f19p: "Rebuilt drums, a stereo synth with Width, Sub, Vibrato and Warmth, and an output limiter.",
+    f20t: "Jam<br>together.", f20p: "Make music on the same song, live, with friends. No account: a code is all it takes. In the desktop app.",
     f11t: "Mac, Windows<br>and Linux.", f11p: "The same studio, on your computer.",
     cta: 'Available now in <span class="grad">beta</span>.',
     footer: "Melody is in beta.",
