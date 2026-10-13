@@ -37,6 +37,8 @@
     f13t: "Your takes<br>in the song.", f13p: "Drop your recordings in the Playlist, cut them, add fades.",
     f14t: "In time,<br>effortlessly.", f14p: "Your sounds follow the song's tempo, without changing pitch.",
     f15t: "To Live, Logic<br>and beyond.", f15p: "Export to MIDI, to MP3, or track by track.",
+    f16t: "One loop,<br>a thousand ideas.", f16p: "Melody slices your loop on the hits. Replay each slice from the keyboard.",
+    f17t: "One melody,<br>a whole song.", f17p: "Harmonize suggests the chords, then the bass and drums.",
     f11t: "Mac, Windows<br>and Linux.", f11p: "The same studio, on your computer.",
     cta: 'Available now in <span class="grad">beta</span>.',
     footer: "Melody is in beta.",
