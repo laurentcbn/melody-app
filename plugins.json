@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T12:41:43Z",
+ "updated": "2026-10-14T10:09:41Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6914,
+   "stars": 6915,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,26 +363,26 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://damrsn.github.io/NeuralNote/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3112,
+   "stars": 3121,
    "license": "Apache-2.0",
-   "version": "v2.0.0",
+   "version": "v2.1.0",
    "download": {
-    "url": "https://github.com/DamRsn/NeuralNote/releases/download/v2.0.0/NeuralNote_Installer_Mac_arm64.pkg",
-    "name": "NeuralNote_Installer_Mac_arm64.pkg",
-    "size": 66397516,
-    "type": "pkg"
+    "url": "https://github.com/DamRsn/NeuralNote/releases/download/v2.1.0/NeuralNote_Installer_Mac_arm64_dSYMs.zip",
+    "name": "NeuralNote_Installer_Mac_arm64_dSYMs.zip",
+    "size": 60214751,
+    "type": "zip"
    },
    "downloads": {
     "mac": {
-     "url": "https://github.com/DamRsn/NeuralNote/releases/download/v2.0.0/NeuralNote_Installer_Mac_arm64.pkg",
-     "name": "NeuralNote_Installer_Mac_arm64.pkg",
-     "size": 66397516,
-     "type": "pkg"
+     "url": "https://github.com/DamRsn/NeuralNote/releases/download/v2.1.0/NeuralNote_Installer_Mac_arm64_dSYMs.zip",
+     "name": "NeuralNote_Installer_Mac_arm64_dSYMs.zip",
+     "size": 60214751,
+     "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/DamRsn/NeuralNote/releases/download/v2.0.0/NeuralNote_Installer_Windows_x64.exe",
+     "url": "https://github.com/DamRsn/NeuralNote/releases/download/v2.1.0/NeuralNote_Installer_Windows_x64.exe",
      "name": "NeuralNote_Installer_Windows_x64.exe",
-     "size": 41360153,
+     "size": 41709279,
      "type": "exe"
     }
    },
@@ -440,7 +440,7 @@
    "about": "Frequency modulation synthesizer plugin (VST2, CLAP). Runs on macOS, Windows and Linux.",
    "url": "https://www.octasine.com/",
    "repo": "greatest-ape/OctaSine",
-   "stars": 817,
+   "stars": 818,
    "license": "AGPL-3.0",
    "version": "v0.9.1",
    "download": {
@@ -482,7 +482,7 @@
    "about": "automatic mastering plugin for live streaming, podcasts and internet radio.",
    "url": "https://github.com/trummerschlunk/master_me",
    "repo": "trummerschlunk/master_me",
-   "stars": 752,
+   "stars": 754,
    "license": "GPL-3.0",
    "version": "1.3.1",
    "download": {
@@ -774,7 +774,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 295,
+   "stars": 297,
    "license": "GPL-3.0",
    "version": "v0.13.0",
    "download": {
@@ -1099,7 +1099,7 @@
    "about": "Linux, Osx & Windows JUCE port of Ultramaster Group's classic 2001 software synth",
    "url": "https://kayrock.org/kr106",
    "repo": "kayrockscreenprinting/ultramaster_kr106",
-   "stars": 193,
+   "stars": 194,
    "license": "GPL-3.0",
    "version": "v2.5.13",
    "download": {
@@ -2483,36 +2483,6 @@
    "source": "github"
   },
   {
-   "name": "Even",
-   "vendor": "egor-sm",
-   "kind": "effect",
-   "about": "12-band parametric EQ",
-   "url": "https://github.com/egor-sm/even",
-   "repo": "egor-sm/even",
-   "stars": 63,
-   "license": "GPL-3.0",
-   "version": "v0.1.0",
-   "download": {
-    "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
-    "name": "Even-0.1.0.pkg",
-    "size": 12571296,
-    "type": "pkg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
-     "name": "Even-0.1.0.pkg",
-     "size": 12571296,
-     "type": "pkg"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Repitch",
    "vendor": "ellamenop",
    "kind": "effect",
@@ -2549,6 +2519,36 @@
     }
    },
    "formats": [
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Even",
+   "vendor": "egor-sm",
+   "kind": "effect",
+   "about": "12-band parametric EQ",
+   "url": "https://github.com/egor-sm/even",
+   "repo": "egor-sm/even",
+   "stars": 63,
+   "license": "GPL-3.0",
+   "version": "v0.1.0",
+   "download": {
+    "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+    "name": "Even-0.1.0.pkg",
+    "size": 12571296,
+    "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+     "name": "Even-0.1.0.pkg",
+     "size": 12571296,
+     "type": "pkg"
+    }
+   },
+   "formats": [
+    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2650,32 +2650,32 @@
    "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
    "url": "https://benjamindehli.github.io/overtonium/",
    "repo": "benjamindehli/overtonium",
-   "stars": 56,
+   "stars": 57,
    "license": "AGPL-3.0",
-   "version": "v1.12.0",
+   "version": "v1.13.0",
    "download": {
-    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.12.0/Overtonium-v1.12.0-macOS.zip",
-    "name": "Overtonium-v1.12.0-macOS.zip",
-    "size": 16833728,
+    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.13.0/Overtonium-v1.13.0-macOS.zip",
+    "name": "Overtonium-v1.13.0-macOS.zip",
+    "size": 17168285,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.12.0/Overtonium-v1.12.0-Linux.zip",
-     "name": "Overtonium-v1.12.0-Linux.zip",
-     "size": 9592000,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.13.0/Overtonium-v1.13.0-Linux.zip",
+     "name": "Overtonium-v1.13.0-Linux.zip",
+     "size": 9758338,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.12.0/Overtonium-v1.12.0-macOS.zip",
-     "name": "Overtonium-v1.12.0-macOS.zip",
-     "size": 16833728,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.13.0/Overtonium-v1.13.0-macOS.zip",
+     "name": "Overtonium-v1.13.0-macOS.zip",
+     "size": 17168285,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.12.0/Overtonium-v1.12.0-Windows.zip",
-     "name": "Overtonium-v1.12.0-Windows.zip",
-     "size": 7675208,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.13.0/Overtonium-v1.13.0-Windows.zip",
+     "name": "Overtonium-v1.13.0-Windows.zip",
+     "size": 7767041,
      "type": "zip"
     }
    },
@@ -2742,37 +2742,13 @@
    "source": "github"
   },
   {
-   "name": "Ssher Rs",
-   "vendor": "poneding",
-   "kind": "effect",
-   "about": "ssher is an easy-to-use command line tool for connecting to remote servers.",
-   "url": "http://ssher-rs.pding.top/",
-   "repo": "poneding/ssher-rs",
-   "stars": 45,
-   "license": "Apache-2.0",
-   "version": "v0.5.2",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/poneding/ssher-rs/releases/download/v0.5.2/ssher_v0.5.2_windows_amd64.zip",
-     "name": "ssher_v0.5.2_windows_amd64.zip",
-     "size": 2541058,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Firefly Synth 2",
    "vendor": "sjoerdvankreel",
    "kind": "instrument",
    "about": "Semi-modular synthesizer and FX plugin for Windows, Linux and Mac, VST3 and CLAP.",
    "url": "https://firefly-synth.com/",
    "repo": "sjoerdvankreel/firefly-synth-2",
-   "stars": 44,
+   "stars": 45,
    "license": "MIT",
    "version": "v2.1.6",
    "download": {
@@ -2805,6 +2781,30 @@
     "VST3",
     "CLAP",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Ssher Rs",
+   "vendor": "poneding",
+   "kind": "effect",
+   "about": "ssher is an easy-to-use command line tool for connecting to remote servers.",
+   "url": "http://ssher-rs.pding.top/",
+   "repo": "poneding/ssher-rs",
+   "stars": 45,
+   "license": "Apache-2.0",
+   "version": "v0.5.2",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/poneding/ssher-rs/releases/download/v0.5.2/ssher_v0.5.2_windows_amd64.zip",
+     "name": "ssher_v0.5.2_windows_amd64.zip",
+     "size": 2541058,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
    ],
    "source": "github"
   },
