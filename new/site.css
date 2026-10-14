@@ -307,22 +307,46 @@ html[data-os=mac] .platform[data-for=mac] .yours,html[data-os=windows] .platform
 @media (max-width:980px){.platforms{grid-template-columns:1fr}.tour-panel{grid-template-columns:1fr}}
 @media (max-width:760px){.nav-end .btn{display:none}.menu-toggle{margin-left:0}}
 
-/* Sobriété : blanc, angles nets, aucun dégradé ni ombre, une seule famille de lettres */
-:root{--paper:#ffffff;--surface:#ffffff;--rule:#dddddd;--ink2:#4a4a4a;--ink3:#767676}
-h1,h2,h3{font-family:var(--body);font-stretch:100%;font-weight:700;letter-spacing:-.025em}
-h1{font-size:clamp(44px,7vw,96px);line-height:1}
-h2{font-size:clamp(32px,4.2vw,56px);line-height:1.05}
-.brand{font-family:var(--body);font-stretch:100%;font-weight:700}
-.mark{background:none;color:inherit}
-.eyebrow,.meta,.billed,footer h4,.chapter-head .num,tr.group th,.platform .yours,.news b,.billing small{font-family:var(--body);text-transform:none;letter-spacing:0}
-.eyebrow{font-size:15px;font-weight:600;color:var(--ink)}
-.btn,.subnav a,.billing,.billing button,.os-tabs,.os-tabs button,.tour-tabs,.tour-tabs button,.news,.news b{border-radius:2px}
-.shot,.card .shot,.pillar,.plan,.extra,.table-wrap,.dl-card,.platform,.teaser,.notice,.phone{border-radius:0;box-shadow:none}
-.pillar:hover{transform:none;box-shadow:none}
-.pillar:hover h3{text-decoration:underline}
-.btn-light:hover{transform:none}
-.final::after{display:none}
-.plan .tag{background:var(--ink);color:var(--on-ink);border-radius:2px}
-.specs b{font-family:var(--body);font-stretch:100%;font-weight:700}
-.teaser-prices b{font-family:var(--body);font-stretch:100%}
+/* Aplats : blanc, couleurs franches en grands blocs (pas de dégradé ni d'ombre), typo large */
+:root{--paper:#ffffff;--surface:#ffffff;--rule:#e2e2e2;--ink2:#444;--ink3:#707070}
+h1{font-size:clamp(48px,8vw,116px);line-height:.95}
+.mark{background:none;color:var(--tang)}
+.eyebrow,.meta,footer h4,.chapter-head .num,.platform .yours{font-family:var(--body);text-transform:none;letter-spacing:0}
+.eyebrow{font-size:15px;font-weight:700;color:var(--ink)}
+.btn,.subnav a,.os-tabs,.os-tabs button,.tour-tabs,.tour-tabs button{border-radius:3px}
+.shot,.card .shot,.pillar,.plan,.extra,.table-wrap,.dl-card,.platform,.teaser,.notice{border-radius:0;box-shadow:none}
 .nav{backdrop-filter:none;background:#ffffff}
+
+/* l'app posée sur un grand aplat orange, bord à bord */
+.hero{isolation:isolate;padding-bottom:0}
+.hero-shot{position:relative;padding-top:40px}
+.hero-shot::before{content:"";position:absolute;z-index:-1;left:50%;width:100vw;transform:translateX(-50%);top:38%;bottom:-90px;background:var(--tang)}
+.hero-shot .shot{border:0}
+.specs{margin-top:150px}
+
+/* vignettes : chaque capture sur sa couleur */
+.pillar{border:0;background:none}
+.pillar:hover{transform:none;box-shadow:none}
+.pillar:hover h3{text-decoration:underline;text-underline-offset:4px}
+.pillar .thumb{padding:22px 0 0 22px;background:var(--amber)}
+.pillar:nth-child(2) .thumb{background:var(--tang)}
+.pillar:nth-child(3) .thumb{background:var(--ember)}
+.pillar:nth-child(4) .thumb{background:#2f6fde}
+.pillar div:last-child{padding:18px 0 0}
+
+/* bande vidéo : rouge franc */
+.dark{background:var(--ember);color:#fff}
+.dark .lead{color:#fff}
+.dark .eyebrow{color:#fff}
+.phone{border:0;border-radius:18px}
+
+/* encadré beta : jaune pâle uni */
+.teaser{background:#fff3d6;border:0}
+
+/* appel final : jaune franc, texte noir */
+.final{background:var(--amber);color:var(--ink)}
+.final::after{display:none}
+.final .btn-light{background:var(--ink);color:#fff;border-color:var(--ink)}
+.final .btn-ghost{color:var(--ink);border-color:var(--ink)}
+.final .eyebrow{color:var(--ink)}
+@media (max-width:700px){.hero-shot::before{top:30%;bottom:-50px}.specs{margin-top:100px}}
