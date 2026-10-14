@@ -1,39 +1,52 @@
 <!doctype html>
-<html lang="fr" data-page="mcp">
+<html lang="fr" data-os="mac">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
 <title>Melody · Assistant (MCP)</title>
-<meta name="description" content="Pilotez Melody avec Claude ou un autre assistant compatible MCP.">
+<meta name="description" content="Melody est un studio de musique pour Mac, Windows et Linux. Composez, arrangez et mixez dans un seul studio, avec vos plugins VST3 et CLAP.">
+<meta property="og:title" content="Melody : studio de musique pour Mac, Windows et Linux">
+<meta property="og:description" content="Un studio de musique complet, simple au premier jour. Beta gratuite.">
+<meta property="og:image" content="media/hero.jpg">
 <link rel="icon" href="media/favicon.png">
 <link rel="apple-touch-icon" href="media/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112,700;112,800&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
 <script defer src="https://cloud.umami.is/script.js" data-website-id="9f4dcbee-532c-4200-bc9d-b2aeeace5eb0"></script>
 </head>
 <body>
-<div class="glow"></div>
 
 <header class="nav">
-  <a class="brand" href="./"><img src="media/logo.svg" alt=""><span>Melody</span></a>
-  <div class="nav-right"><div class="lang" role="group" aria-label="Langue"><button type="button" data-lang="fr">FR</button><button type="button" data-lang="en">EN</button></div><span class="pill"><i></i>Beta</span></div>
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="media/logo.svg" alt="">Melody</a>
+    <ul class="links">
+      <li><a href="fonctionnalites.html">Fonctionnalités</a></li>
+      <li><a data-umami-event="Essayer la démo" href="https://laurentcbn.github.io/melody-app/demo/">Essayer en ligne</a></li>
+      <li><a href="mcp.html" aria-current="page">Assistant</a></li>
+    </ul>
+    <div class="nav-end"><a class="btn btn-dark" href="telecharger.html">Télécharger</a>
+    <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button></div>
+  </div>
 </header>
 
-<main class="doc">
-  <section class="doc-head">
-    <span class="eyebrow">MCP</span>
-    <h1 data-i18n="mcp_h1">Pilotez Melody<br>avec un <span class="grad">assistant</span>.</h1>
-    <p class="lead" data-i18n="mcp_lead">Melody inclut un serveur MCP. Claude, ou un autre assistant compatible, peut lire votre projet, écrire des clips, régler le tempo et les pistes, et lancer les scènes.</p>
+<main>
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Assistant (MCP)</span>
+      <h1>Pilotez Melody avec un assistant</h1>
+      <p class="lead">Melody inclut un serveur MCP. Claude, ou un autre assistant compatible, peut lire votre projet, écrire des clips, régler le tempo et les pistes, et lancer les scènes.</p>
+    </div>
   </section>
-
-  <section class="doc-block">
-    <h2 data-i18n="mcp_setup">Installer avec Claude Desktop</h2>
+  <div class="wrap doc">
+<section class="doc-block">
+    <h2>Installer avec Claude Desktop</h2>
     <ol class="steps">
-      <li data-i18n="mcp_s1">Installez Melody 0.15 ou plus récent, et ouvrez-la.</li>
-      <li data-i18n="mcp_s2">Dans Claude Desktop, ouvrez Réglages, puis Développeur, puis « Modifier la configuration ».</li>
-      <li data-i18n="mcp_s3">Ajoutez Melody dans le fichier, avec le chemin de votre système :</li>
+      <li>Installez Melody 0.15 ou plus récent, et ouvrez-la.</li>
+      <li>Dans Claude Desktop, ouvrez Réglages, puis Développeur, puis « Modifier la configuration ».</li>
+      <li>Ajoutez Melody dans le fichier, avec le chemin de votre système :</li>
     </ol>
     <div class="tabs" role="tablist">
       <button type="button" role="tab" data-tab="mac">Mac</button><button type="button" role="tab" data-tab="windows">Windows</button><button type="button" role="tab" data-tab="linux">Linux</button>
@@ -49,7 +62,7 @@
 <pre class="code" data-panel="windows" hidden><code>{
   "mcpServers": {
     "melody": {
-      "command": "C:\\Users\\<span data-i18n="mcp_you">vous</span>\\Documents\\Melody\\Melody.exe",
+      "command": "C:\\Users\\vous\\Documents\\Melody\\Melody.exe",
       "args": ["--mcp"]
     }
   }
@@ -57,52 +70,61 @@
 <pre class="code" data-panel="linux" hidden><code>{
   "mcpServers": {
     "melody": {
-      "command": "/home/<span data-i18n="mcp_you2">vous</span>/.local/bin/melody",
+      "command": "/home/vous/.local/bin/melody",
       "args": ["--mcp"]
     }
   }
 }</code></pre>
     <ol class="steps" start="4">
-      <li data-i18n="mcp_s4">Redémarrez Claude Desktop. Melody apparaît dans la liste des outils.</li>
+      <li>Redémarrez Claude Desktop. Melody apparaît dans la liste des outils.</li>
     </ol>
-    <p class="note" data-i18n="mcp_code">Avec Claude Code, une seule commande suffit :</p>
+    <p class="note">Avec Claude Code, une seule commande suffit :</p>
 <pre class="code" data-panel="mac"><code>claude mcp add melody -- /Applications/Melody.app/Contents/MacOS/melody --mcp</code></pre>
-<pre class="code" data-panel="windows" hidden><code>claude mcp add melody -- "C:\Users\<span data-i18n="mcp_you3">vous</span>\Documents\Melody\Melody.exe" --mcp</code></pre>
+<pre class="code" data-panel="windows" hidden><code>claude mcp add melody -- "C:\Users\vous\Documents\Melody\Melody.exe" --mcp</code></pre>
 <pre class="code" data-panel="linux" hidden><code>claude mcp add melody -- ~/.local/bin/melody --mcp</code></pre>
   </section>
 
   <section class="doc-block">
-    <h2 data-i18n="mcp_ask">Essayez par exemple</h2>
+    <h2>Essayez par exemple</h2>
     <ul class="asks">
-      <li data-i18n="mcp_a1">« Passe le projet à 100 BPM et lance la scène 1. »</li>
-      <li data-i18n="mcp_a2">« Ajoute une piste synthé et écris une ligne de basse en La mineur sur la scène 2. »</li>
-      <li data-i18n="mcp_a3">« Baisse le Pad de 3 dB et coupe la Snare. »</li>
+      <li>« Passe le projet à 100 BPM et lance la scène 1. »</li>
+      <li>« Ajoute une piste synthé et écris une ligne de basse en La mineur sur la scène 2. »</li>
+      <li>« Baisse le Pad de 3 dB et coupe la Snare. »</li>
     </ul>
   </section>
 
   <section class="doc-block">
-    <h2 data-i18n="mcp_tools">Les outils</h2>
+    <h2>Les outils</h2>
     <div class="tools">
-      <div><span class="names"><code>get_project</code></span><span data-i18n="mcp_t1">Lire le tempo, les pistes et les clips de la Session.</span></div>
-      <div><span class="names"><code>set_project</code></span><span data-i18n="mcp_t2">Régler le tempo, le swing et le métronome.</span></div>
-      <div><span class="names"><code>play</code><code>stop</code></span><span data-i18n="mcp_t3">Lancer et arrêter la lecture.</span></div>
-      <div><span class="names"><code>add_track</code></span><span data-i18n="mcp_t4">Ajouter une piste synthé ou batterie (kick, snare, hi-hat, clap).</span></div>
-      <div><span class="names"><code>set_track</code></span><span data-i18n="mcp_t5">Renommer une piste, régler son volume, son pan, mute et solo.</span></div>
-      <div><span class="names"><code>get_clip</code><code>write_clip</code></span><span data-i18n="mcp_t6">Lire et écrire les notes d'un clip, en doubles-croches (16 par mesure).</span></div>
-      <div><span class="names"><code>delete_clip</code></span><span data-i18n="mcp_t7">Effacer un clip.</span></div>
-      <div><span class="names"><code>launch_clip</code><code>launch_scene</code> · <code>stop_clips</code></span><span data-i18n="mcp_t8">Lancer un clip ou une scène à la mesure suivante, ou tout arrêter.</span></div>
+      <div><span class="names"><code>get_project</code></span><span>Lire le tempo, les pistes et les clips de la Session.</span></div>
+      <div><span class="names"><code>set_project</code></span><span>Régler le tempo, le swing et le métronome.</span></div>
+      <div><span class="names"><code>play</code><code>stop</code></span><span>Lancer et arrêter la lecture.</span></div>
+      <div><span class="names"><code>add_track</code></span><span>Ajouter une piste synthé ou batterie (kick, snare, hi-hat, clap).</span></div>
+      <div><span class="names"><code>set_track</code></span><span>Renommer une piste, régler son volume, son pan, mute et solo.</span></div>
+      <div><span class="names"><code>get_clip</code><code>write_clip</code></span><span>Lire et écrire les notes d'un clip, en doubles-croches (16 par mesure).</span></div>
+      <div><span class="names"><code>delete_clip</code></span><span>Effacer un clip.</span></div>
+      <div><span class="names"><code>launch_clip</code><code>launch_scene</code> · <code>stop_clips</code></span><span>Lancer un clip ou une scène à la mesure suivante, ou tout arrêter.</span></div>
     </div>
   </section>
 
   <section class="doc-block">
-    <h2 data-i18n="mcp_safe">Sur votre ordinateur seulement</h2>
-    <p data-i18n="mcp_safe_p">L'assistant ne peut piloter Melody que depuis cet ordinateur, et seulement quand Melody est ouverte. Chaque modification s'annule avec ⌘Z (Ctrl+Z). Pour couper l'accès : Préférences, puis Assistant (MCP).</p>
+    <h2>Sur votre ordinateur seulement</h2>
+    <p>L'assistant ne peut piloter Melody que depuis cet ordinateur, et seulement quand Melody est ouverte. Chaque modification s'annule avec ⌘Z (Ctrl+Z). Pour couper l'accès : Préférences, puis Assistant (MCP).</p>
   </section>
+  </div>
 </main>
 
-<footer><img src="media/logo.svg" alt=""><span data-i18n="footer">Melody est en beta.</span></footer>
+<footer>
+  <div class="wrap">
+    <div class="about"><a class="brand" href="index.html"><img src="media/logo.svg" alt="">Melody</a><p>Un studio de musique pour Mac, Windows et Linux. En beta, gratuit.</p></div>
+    <div><h4>Produit</h4><ul><li><a href="fonctionnalites.html">Fonctionnalités</a></li><li><a href="telecharger.html">Télécharger</a></li></ul></div>
+    <div><h4>Essayer</h4><ul><li><a data-umami-event="Essayer la démo" href="https://laurentcbn.github.io/melody-app/demo/">Démo en ligne</a></li><li><a href="https://github.com/laurentcbn/melody-app/releases">Notes de version</a></li></ul></div>
+    <div><h4>Aller plus loin</h4><ul><li><a href="mcp.html">Assistant (MCP)</a></li><li><a href="fonctionnalites.html#mixer">Plugins</a></li></ul></div>
+  </div>
+</footer>
+<script src="site.js"></script>
 <script>
-  // Onglets Mac / Windows / Linux, sur le système de la visiteuse ou du visiteur par défaut
+  // Onglets Mac / Windows / Linux, sur le système du visiteur par défaut
   (function () {
     var ua = navigator.userAgent, os = /Windows/.test(ua) ? "windows" : /Mac/.test(ua) ? "mac" : /Linux|X11/.test(ua) ? "linux" : "mac";
     function show(t) {
@@ -113,6 +135,6 @@
     show(os);
   })();
 </script>
-<script src="i18n.js"></script>
+
 </body>
 </html>
