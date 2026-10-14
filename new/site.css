@@ -496,3 +496,10 @@ h1.quiet{font-size:clamp(40px,5.6vw,76px);max-width:none;margin-top:4px}
 @media (max-width:700px){.doc .tools>div{grid-template-columns:1fr;gap:4px}}
 .doc .tabs{align-self:flex-start}
 .doc{padding-bottom:120px}.doc-block>p{color:var(--ink2)}
+
+/* Télécharger : étapes de première ouverture */
+.os-tabs~.steps{margin-top:28px!important}
+.steps li{align-items:start;line-height:28px}
+.steps li::before{width:28px;height:28px;font-family:var(--body);font-weight:600}
+main>section:last-child{padding-bottom:120px}
+.steps~.meta,.steps~p{margin-top:24px}

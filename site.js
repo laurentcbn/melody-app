@@ -18,7 +18,9 @@
       var alts = Object.keys(FILES).filter(function (k) { return k !== os; }).map(function (k) {
         return '<a class="alt" data-umami-event="Télécharger" data-umami-event-os="' + k + '" href="' + BASE + FILES[k] + '">' + NAMES[k] + "</a>";
       });
-      p.innerHTML = "Aussi pour " + alts.join(" et ") + ' · <a href="telecharger.html">Installation pas à pas</a>';
+      var en = document.documentElement.lang === "en";
+      p.innerHTML = (en ? "Also for " : "Aussi pour ") + alts.join(en ? " and " : " et ") +
+        (en ? ' · <a href="download.html">Step-by-step install</a>' : ' · <a href="telecharger.html">Installation pas à pas</a>');
     });
   }
   setOs(detect());
