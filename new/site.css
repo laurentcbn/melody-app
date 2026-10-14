@@ -440,3 +440,7 @@ footer{background:var(--gray)}
 .dark h2,.dark h3{color:#fff}
 .dark .eyebrow,.teaser .eyebrow,.film-text .eyebrow{justify-content:flex-start}
 .final .eyebrow{color:var(--tang)}
+
+.app-id{display:flex;align-items:center;gap:14px;font-weight:600;font-size:clamp(34px,4.4vw,56px);letter-spacing:-.035em;color:var(--ink)}
+.app-id img{height:1em;width:auto}
+h1.quiet{font-size:clamp(40px,5.6vw,76px);max-width:none;margin-top:4px}
