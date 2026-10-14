@@ -362,3 +362,19 @@ h1{font-size:clamp(48px,8vw,116px);line-height:.95}
 .tagline{margin-top:0}
 .hero-side{padding-bottom:0}
 @media (max-width:900px){.hero-top{grid-template-columns:1fr}}
+
+/* version discrète : titres plus fins, couleurs plus retenues */
+h1,h2{font-family:var(--body);font-stretch:100%;font-weight:600;letter-spacing:-.03em}
+h3{font-family:var(--body);font-stretch:100%;font-weight:600}
+h1.quiet{grid-column:1;font-size:clamp(40px,5.2vw,72px);line-height:1.04}
+h2{font-size:clamp(30px,3.6vw,50px);line-height:1.08}
+.hero-top{align-items:end}
+.hero-shot::before{background:#f2ede6}
+.pillar .thumb,.pillar:nth-child(2) .thumb,.pillar:nth-child(3) .thumb,.pillar:nth-child(4) .thumb{background:#f2ede6}
+.dark{background:#141110;color:#fff}
+.dark .lead{color:#c9c2ba}
+.dark .eyebrow{color:var(--tang)}
+.final{background:#f2ede6}
+.teaser{background:#faf7f2}
+.eyebrow{color:var(--tang);font-weight:600}
+.brand{font-family:var(--body);font-stretch:100%;font-weight:700}
