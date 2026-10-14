@@ -11,7 +11,7 @@
   }
   function set(os) {
     document.documentElement.setAttribute("data-os", os);
-    document.querySelectorAll("a.dl").forEach(function (a) { a.href = BASE + FILES[os]; });
+    document.querySelectorAll("a.dl").forEach(function (a) { a.href = BASE + FILES[os]; a.setAttribute("data-umami-event-os", os); });
   }
   set(detect());
   document.querySelectorAll(".also a[data-os]").forEach(function (a) {
