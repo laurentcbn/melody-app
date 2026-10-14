@@ -378,3 +378,65 @@ h2{font-size:clamp(30px,3.6vw,50px);line-height:1.08}
 .teaser{background:#faf7f2}
 .eyebrow{color:var(--tang);font-weight:600}
 .brand{font-family:var(--body);font-stretch:100%;font-weight:700}
+
+/* esprit Apple : centré, aéré, gris très clair, grandes cartes arrondies, boutons en pilule */
+:root{--ink:#1d1d1f;--ink2:#6e6e73;--ink3:#86868b;--rule:#d2d2d7;--gray:#f5f5f7}
+body{font-size:17px;letter-spacing:-.01em}
+h1,h2,h3{color:var(--ink);font-weight:600;letter-spacing:-.035em}
+.btn{border-radius:980px;padding:12px 24px}
+.nav .btn{border-radius:980px}
+.btn-dark{background:var(--ink);border-color:var(--ink)}
+.btn-line{border-color:transparent;color:var(--tang);background:none;padding-inline:8px}
+.btn-line:hover{background:none;color:var(--ember);text-decoration:underline}
+.btn-line::after{content:" ›"}
+
+.hero{padding-top:90px;text-align:center}
+.hero-top{display:flex;flex-direction:column;align-items:center;gap:22px}
+.hero-top>div:first-child{display:flex;flex-direction:column;align-items:center;gap:10px}
+.kicker{font-weight:600;font-size:24px;color:var(--tang);letter-spacing:-.02em}
+h1.quiet{font-size:clamp(44px,6.4vw,84px);line-height:1.05;max-width:16ch}
+.hero-side{align-items:center;max-width:680px}
+.hero-side .lead{max-width:none;color:var(--ink2)}
+.hero-actions{justify-content:center;align-items:center}
+.hero-shot{padding-top:60px}
+.hero-shot::before{display:none}
+.shot,.hero-shot .shot,.duo .shot,.card .shot{border-radius:22px;overflow:hidden;border:0}
+.specs{margin-top:90px;border:0}
+.specs ul{background:var(--gray);border-radius:22px}
+.specs li{padding:28px 24px;text-align:center;align-items:center}
+.specs li+li{border-left:1px solid #e3e3e8}
+
+.section{padding-top:140px}
+.section-head{display:flex;flex-direction:column;align-items:center;text-align:center;gap:16px;margin-bottom:56px}
+.section-head .lead{justify-self:auto;max-width:640px}
+.section-head h2{margin-top:4px;font-size:clamp(34px,4.6vw,60px)}
+.eyebrow{justify-content:center;color:var(--tang);font-size:17px;font-weight:600}
+.tour-tabs{margin-inline:auto;border-radius:980px;background:var(--gray);border:0}
+.tour-tabs button{border-radius:980px}
+
+.pillar{background:var(--gray);border-radius:24px;overflow:hidden}
+.pillar .thumb,.pillar:nth-child(2) .thumb,.pillar:nth-child(3) .thumb,.pillar:nth-child(4) .thumb{background:none;padding:24px 24px 0;aspect-ratio:auto}
+.pillar .thumb img{border-radius:12px 12px 0 0;aspect-ratio:4/3}
+.pillar div:last-child{padding:22px 24px 26px}
+.pillar .more{color:var(--tang)}
+.pillar .more::after{content:" ›"}
+
+.levels{border-top:0;gap:20px}
+.levels>div,.levels>div+div{background:var(--gray);border-radius:24px;padding:36px;border:0}
+
+.dark{background:#000;margin-top:140px}
+.dark .wrap{padding-block:120px}
+.phone{border-radius:28px}
+
+.platform{background:var(--gray);border:0;border-radius:24px}
+html[data-os=mac] .platform[data-for=mac],html[data-os=windows] .platform[data-for=windows],html[data-os=linux] .platform[data-for=linux]{box-shadow:0 0 0 2px var(--ink)}
+.teaser{background:var(--gray);border-radius:24px}
+
+.final{background:var(--gray);text-align:center}
+.final .wrap{align-items:center}
+.final .btn-ghost{border-color:transparent;color:var(--tang)}
+footer{background:var(--gray)}
+.pillar .thumb img{height:auto;width:100%;object-fit:cover;object-position:left top}
+.dark h2,.dark h3{color:#fff}
+.dark .eyebrow,.teaser .eyebrow,.film-text .eyebrow{justify-content:flex-start}
+.final .eyebrow{color:var(--tang)}
