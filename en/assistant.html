@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en" data-os="mac">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Melody · Assistant (MCP)</title>
+<meta name="description" content="Melody is a music studio for Mac, Windows and Linux. Compose, arrange and mix in one place, with your VST3 and CLAP plugins.">
+<meta property="og:title" content="Melody: a music studio for Mac, Windows and Linux">
+<meta property="og:description" content="A complete music studio that feels simple from day one. Free beta.">
+<meta property="og:image" content="../media/hero.jpg">
+<link rel="alternate" hreflang="fr" href="https://laurentcbn.github.io/melody-app/mcp.html">
+<link rel="alternate" hreflang="en" href="https://laurentcbn.github.io/melody-app/en/assistant.html">
+<link rel="icon" href="../media/favicon.png">
+<link rel="apple-touch-icon" href="../media/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112,700;112,800&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css">
+<script defer src="https://cloud.umami.is/script.js" data-website-id="9f4dcbee-532c-4200-bc9d-b2aeeace5eb0"></script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="../media/logo.svg" alt="">Melody</a>
+    <ul class="links">
+      <li><a href="features.html">Features</a></li>
+      <li><a data-umami-event="Essayer la démo" href="https://laurentcbn.github.io/melody-app/demo/">Try it online</a></li>
+      <li><a href="assistant.html" aria-current="page">Assistant</a></li>
+    </ul>
+    <div class="nav-end"><div class="lang-switch" role="group" aria-label="Langue / Language"><a href="../mcp.html" hreflang="fr" lang="fr">FR</a><a href="assistant.html" hreflang="en" lang="en" class="on" aria-current="true">EN</a></div><a class="btn btn-dark" href="download.html">Download</a>
+    <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button></div>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Assistant (MCP)</span>
+      <h1>Control Melody with an AI assistant</h1>
+      <p class="lead">Melody includes an MCP server. Claude, or any other compatible assistant, can read your project, write clips, set the tempo and tracks, and launch scenes.</p>
+    </div>
+  </section>
+  <div class="wrap doc">
+<section class="doc-block">
+    <h2>Set up with Claude Desktop</h2>
+    <ol class="steps">
+      <li>Install Melody 0.15 or later, and open it.</li>
+      <li>In Claude Desktop, open Settings, then Developer, then “Edit Config”.</li>
+      <li>Add Melody to the file, using the path for your system:</li>
+    </ol>
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" data-tab="mac">Mac</button><button type="button" role="tab" data-tab="windows">Windows</button><button type="button" role="tab" data-tab="linux">Linux</button>
+    </div>
+<pre class="code" data-panel="mac"><code>{
+  "mcpServers": {
+    "melody": {
+      "command": "/Applications/Melody.app/Contents/MacOS/melody",
+      "args": ["--mcp"]
+    }
+  }
+}</code></pre>
+<pre class="code" data-panel="windows" hidden><code>{
+  "mcpServers": {
+    "melody": {
+      "command": "C:\\Users\\you\\Documents\\Melody\\Melody.exe",
+      "args": ["--mcp"]
+    }
+  }
+}</code></pre>
+<pre class="code" data-panel="linux" hidden><code>{
+  "mcpServers": {
+    "melody": {
+      "command": "/home/you/.local/bin/melody",
+      "args": ["--mcp"]
+    }
+  }
+}</code></pre>
+    <ol class="steps" start="4">
+      <li>Restart Claude Desktop. Melody now shows up in the list of tools.</li>
+    </ol>
+    <p class="note">With Claude Code, it takes a single command:</p>
+<pre class="code" data-panel="mac"><code>claude mcp add melody -- /Applications/Melody.app/Contents/MacOS/melody --mcp</code></pre>
+<pre class="code" data-panel="windows" hidden><code>claude mcp add melody -- "C:\Users\you\Documents\Melody\Melody.exe" --mcp</code></pre>
+<pre class="code" data-panel="linux" hidden><code>claude mcp add melody -- ~/.local/bin/melody --mcp</code></pre>
+  </section>
+
+  <section class="doc-block">
+    <h2>Things to try</h2>
+    <ul class="asks">
+      <li>“Set the project to 100 BPM and launch scene 1.”</li>
+      <li>“Add a synth track and write a bassline in A minor on scene 2.”</li>
+      <li>“Turn the Pad down 3 dB and mute the Snare.”</li>
+    </ul>
+  </section>
+
+  <section class="doc-block">
+    <h2>Tools</h2>
+    <div class="tools">
+      <div><span class="names"><code>get_project</code></span><span>Read the tempo, tracks and clips in Session.</span></div>
+      <div><span class="names"><code>set_project</code></span><span>Set the tempo, swing and metronome.</span></div>
+      <div><span class="names"><code>play</code><code>stop</code></span><span>Start and stop playback.</span></div>
+      <div><span class="names"><code>add_track</code></span><span>Add a synth or drum track (kick, snare, hi-hat, clap).</span></div>
+      <div><span class="names"><code>set_track</code></span><span>Rename a track and set its volume, pan, mute and solo.</span></div>
+      <div><span class="names"><code>get_clip</code><code>write_clip</code></span><span>Read and write the notes in a clip, in sixteenth notes (16 per bar).</span></div>
+      <div><span class="names"><code>delete_clip</code></span><span>Delete a clip.</span></div>
+      <div><span class="names"><code>launch_clip</code><code>launch_scene</code> · <code>stop_clips</code></span><span>Launch a clip or scene on the next bar, or stop everything.</span></div>
+    </div>
+  </section>
+
+  <section class="doc-block">
+    <h2>Only on your computer</h2>
+    <p>The assistant can only control Melody from this computer, and only while Melody is open. Every change can be undone with ⌘Z (Ctrl+Z). To turn off access, go to Preferences, then Assistant (MCP).</p>
+  </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="about"><a class="brand" href="index.html"><img src="../media/logo.svg" alt="">Melody</a><p>A music studio for Mac, Windows and Linux. Free during the beta.</p></div>
+    <div><h4>Product</h4><ul><li><a href="features.html">Features</a></li><li><a href="download.html">Download</a></li></ul></div>
+    <div><h4>Try it</h4><ul><li><a data-umami-event="Essayer la démo" href="https://laurentcbn.github.io/melody-app/demo/">Online demo</a></li><li><a href="https://github.com/laurentcbn/melody-app/releases">Release notes</a></li></ul></div>
+    <div><h4>Go further</h4><ul><li><a href="assistant.html">Assistant (MCP)</a></li><li><a href="features.html#mixer">Plugins</a></li></ul></div>
+  </div>
+</footer>
+<script src="../site.js"></script>
+<script>
+  // Onglets Mac / Windows / Linux, sur le système du visiteur par défaut
+  (function () {
+    var ua = navigator.userAgent, os = /Windows/.test(ua) ? "windows" : /Mac/.test(ua) ? "mac" : /Linux|X11/.test(ua) ? "linux" : "mac";
+    function show(t) {
+      document.querySelectorAll("[data-panel]").forEach(function (p) { p.hidden = p.getAttribute("data-panel") !== t; });
+      document.querySelectorAll("[data-tab]").forEach(function (b) { b.setAttribute("aria-selected", b.getAttribute("data-tab") === t ? "true" : "false"); });
+    }
+    document.querySelectorAll("[data-tab]").forEach(function (b) { b.addEventListener("click", function () { show(b.getAttribute("data-tab")); }); });
+    show(os);
+  })();
+</script>
+
+</body>
+</html>
