@@ -126,3 +126,18 @@
     new IntersectionObserver(function(e){ e[0].isIntersecting ? v.play().catch(function(){}) : v.pause(); }).observe(v);
   }
 })();
+
+// Démo intégrée : chargée seulement au clic (environ 11 Mo)
+(function(){
+  document.querySelectorAll('.try-frame').forEach(function(box){
+    var b=box.querySelector('.try-open'); if(!b) return;
+    b.addEventListener('click',function(){
+      var f=document.createElement('iframe');
+      f.src=box.getAttribute('data-src'); f.title='Melody'; f.allow='autoplay; fullscreen';
+      box.innerHTML=''; box.appendChild(f);
+      var fit=function(){ f.style.transform='scale('+(box.clientWidth/1360)+')'; };
+      fit(); window.addEventListener('resize',fit);
+      f.addEventListener('load',function(){ try{ f.contentWindow.focus(); }catch(e){} });
+    });
+  });
+})();
