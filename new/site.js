@@ -11,14 +11,16 @@
   }
   function setOs(os) {
     document.documentElement.setAttribute("data-os", os);
-    document.querySelectorAll("a.dl").forEach(function (a) { a.href = BASE + FILES[os]; });
+    document.querySelectorAll("a.dl").forEach(function (a) { a.href = BASE + FILES[os]; a.setAttribute("data-umami-event-os", os); });
     // « Aussi pour … » : les deux autres systèmes, reliés par « et »
     var NAMES = { mac: "Mac", windows: "Windows", linux: "Linux" };
     document.querySelectorAll(".other-os").forEach(function (p) {
       var alts = Object.keys(FILES).filter(function (k) { return k !== os; }).map(function (k) {
         return '<a class="alt" data-umami-event="Télécharger" data-umami-event-os="' + k + '" href="' + BASE + FILES[k] + '">' + NAMES[k] + "</a>";
       });
-      p.innerHTML = "Aussi pour " + alts.join(" et ") + ' · <a href="telecharger.html">Installation pas à pas</a>';
+      var en = document.documentElement.lang === "en";
+      p.innerHTML = (en ? "Also for " : "Aussi pour ") + alts.join(en ? " and " : " et ") +
+        (en ? ' · <a href="download.html">Step-by-step install</a>' : ' · <a href="telecharger.html">Installation pas à pas</a>');
     });
   }
   setOs(detect());
@@ -26,16 +28,14 @@
     b.addEventListener("click", function (e) { e.preventDefault(); setOs(b.getAttribute("data-os")); });
   });
 
-  // Thème : automatique, clair, sombre
-  var root = document.documentElement, themeBtn = document.querySelector(".theme");
-  function applyTheme(t) {
-    if (t) { root.setAttribute("data-theme", t); root.setAttribute("data-pref", t); }
-    else { root.removeAttribute("data-theme"); root.removeAttribute("data-pref"); }
-    try { t ? localStorage.setItem("melody-theme", t) : localStorage.removeItem("melody-theme"); } catch (e) {}
-  }
-  if (themeBtn) themeBtn.addEventListener("click", function () {
-    var cur = root.getAttribute("data-pref");
-    applyTheme(cur === null ? "light" : cur === "light" ? "dark" : null);
+  // Thème : clair par défaut, sombre au choix (mémorisé)
+  var root = document.documentElement;
+  document.querySelectorAll(".theme").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var dark = root.getAttribute("data-theme") !== "dark";
+      if (dark) root.setAttribute("data-theme", "dark"); else root.removeAttribute("data-theme");
+      try { dark ? localStorage.setItem("melody-theme", "dark") : localStorage.removeItem("melody-theme"); } catch (e) {}
+    });
   });
 
   // Visite guidée

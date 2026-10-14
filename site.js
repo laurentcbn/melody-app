@@ -28,16 +28,14 @@
     b.addEventListener("click", function (e) { e.preventDefault(); setOs(b.getAttribute("data-os")); });
   });
 
-  // Thème : automatique, clair, sombre
-  var root = document.documentElement, themeBtn = document.querySelector(".theme");
-  function applyTheme(t) {
-    if (t) { root.setAttribute("data-theme", t); root.setAttribute("data-pref", t); }
-    else { root.removeAttribute("data-theme"); root.removeAttribute("data-pref"); }
-    try { t ? localStorage.setItem("melody-theme", t) : localStorage.removeItem("melody-theme"); } catch (e) {}
-  }
-  if (themeBtn) themeBtn.addEventListener("click", function () {
-    var cur = root.getAttribute("data-pref");
-    applyTheme(cur === null ? "light" : cur === "light" ? "dark" : null);
+  // Thème : clair par défaut, sombre au choix (mémorisé)
+  var root = document.documentElement;
+  document.querySelectorAll(".theme").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var dark = root.getAttribute("data-theme") !== "dark";
+      if (dark) root.setAttribute("data-theme", "dark"); else root.removeAttribute("data-theme");
+      try { dark ? localStorage.setItem("melody-theme", "dark") : localStorage.removeItem("melody-theme"); } catch (e) {}
+    });
   });
 
   // Visite guidée

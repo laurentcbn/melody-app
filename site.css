@@ -510,3 +510,26 @@ main>section:last-child{padding-bottom:120px}
 .lang-switch a{font-size:12.5px;font-weight:600;text-decoration:none;color:var(--ink2);padding:5px 10px;border-radius:980px}
 .lang-switch a.on{background:#fff;color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12)}
 .subnav{border:0!important}
+
+
+/* mode sombre, au choix du visiteur (bouton lune / soleil) */
+.theme{width:34px;height:34px;border:0;background:var(--gray)}
+.theme .i-moon{display:block}
+.theme .i-sun{display:none}
+:root[data-theme="dark"] .theme .i-moon{display:none}
+:root[data-theme="dark"] .theme .i-sun{display:block}
+.nav,.subnav{background:var(--paper)}
+.lang-switch a.on{background:var(--paper)}
+.os-tabs button[aria-selected=true],.tabs button[aria-selected=true],.doc .steps li::before,.steps li::before{color:var(--on-ink)}
+.specs li+li,.doc .tools>div+div{border-color:var(--rule2,#e3e3e8)}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --paper:#000000;--surface:#161617;--gray:#1d1d1f;--ink:#f5f5f7;--ink2:#a1a1a6;--ink3:#86868b;--rule:#2e2e30;--rule2:#2e2e30;
+  --on-ink:#1d1d1f;--ink-hover:#ffffff;--navbg:rgba(0,0,0,.85);--shadow:rgba(0,0,0,.6);
+}
+:root[data-theme="dark"] .lang-switch a.on{background:#3a3a3c;box-shadow:none}
+:root[data-theme="dark"] .doc .code{background:#1d1d1f;border:1px solid #2e2e30}
+:root[data-theme="dark"] .shot{border:1px solid #2e2e30}
+:root[data-theme="dark"] footer{background:#0b0b0c}
+:root[data-theme="dark"] html,:root[data-theme="dark"] body{background:var(--paper)}
+.final .btn-light{color:var(--on-ink)}
