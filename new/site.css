@@ -444,17 +444,3 @@ footer{background:var(--gray)}
 .app-id{display:flex;align-items:center;gap:14px;font-weight:600;font-size:clamp(34px,4.4vw,56px);letter-spacing:-.035em;color:var(--ink)}
 .app-id img{height:1em;width:auto}
 h1.quiet{font-size:clamp(40px,5.6vw,76px);max-width:none;margin-top:4px}
-
-/* mélange : structure aérée, mais les couleurs du logo Melody comme signature */
-.hero-shot::before{display:block;background:var(--tang);top:42%;bottom:-70px;border-radius:0}
-.hero-shot .shot{box-shadow:0 30px 60px rgba(60,20,0,.25)}
-.specs{margin-top:130px}
-.pillar .thumb{background:var(--amber)!important;padding:24px 24px 0;margin:0}
-.pillar:nth-child(2) .thumb{background:var(--tang)!important}
-.pillar:nth-child(3) .thumb{background:var(--ember)!important}
-.pillar:nth-child(4) .thumb{background:var(--bar4)!important}
-.pillar .thumb img{border-radius:10px 10px 0 0}
-.final{background:var(--amber)}
-.final .btn-ghost{color:var(--ink)}
-.final .eyebrow{color:var(--ink)}
-.eyebrow::before{content:"";width:18px;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--amber) 0 20%,var(--tang) 20% 40%,var(--ember) 40% 60%,var(--bar4) 60% 80%,var(--bar5) 80%)}
