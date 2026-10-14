@@ -577,3 +577,7 @@ main>section:last-child{padding-bottom:120px}
 :root:not([data-theme="dark"]){--ink-hover:#3a3a3c}
 .btn{transition:transform .25s cubic-bezier(.2,.7,.2,1),box-shadow .25s ease,background-color .2s ease,border-color .2s ease,color .2s ease;backface-visibility:hidden;-webkit-font-smoothing:antialiased}
 .btn-dark:hover{box-shadow:0 6px 16px rgba(0,0,0,.14)}
+
+/* texte du haut : un peu plus large, sans mot seul en fin de paragraphe */
+.hero-side{max-width:780px}
+.hero .lead{text-wrap:pretty}
