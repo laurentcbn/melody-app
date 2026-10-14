@@ -12,6 +12,14 @@
   function setOs(os) {
     document.documentElement.setAttribute("data-os", os);
     document.querySelectorAll("a.dl").forEach(function (a) { a.href = BASE + FILES[os]; a.setAttribute("data-umami-event-os", os); });
+    // « Aussi pour … » : les deux autres systèmes, reliés par « et »
+    var NAMES = { mac: "Mac", windows: "Windows", linux: "Linux" };
+    document.querySelectorAll(".other-os").forEach(function (p) {
+      var alts = Object.keys(FILES).filter(function (k) { return k !== os; }).map(function (k) {
+        return '<a class="alt" data-umami-event="Télécharger" data-umami-event-os="' + k + '" href="' + BASE + FILES[k] + '">' + NAMES[k] + "</a>";
+      });
+      p.innerHTML = "Aussi pour " + alts.join(" et ") + ' · <a href="telecharger.html">Installation pas à pas</a>';
+    });
   }
   setOs(detect());
   document.querySelectorAll("[data-os]:not(html)").forEach(function (b) {
