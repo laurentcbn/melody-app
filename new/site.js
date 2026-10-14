@@ -28,6 +28,35 @@
     b.addEventListener("click", function (e) { e.preventDefault(); setOs(b.getAttribute("data-os")); });
   });
 
+  // Nouveautés : les trois dernières versions publiées (le texte de secours reste si GitHub ne répond pas)
+  var list = document.querySelector('.news-list[data-lang="fr"]');
+  if (list && window.fetch) {
+    fetch("https://api.github.com/repos/laurentcbn/melody-app/releases?per_page=3")
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (rels) {
+        if (!rels || !rels.length) return;
+        var esc = function (t) { var d = document.createElement("div"); d.textContent = t; return d.innerHTML; };
+        list.innerHTML = rels.map(function (r) {
+          var items = (r.body || "").split("\n").filter(function (l) { return /^- /.test(l); }).map(function (l) { return l.slice(2); });
+          var date = new Date(r.published_at).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+          return '<article class="news-item"><span class="v">' + esc(r.tag_name) + "</span><time>" + date + "</time><p>" + esc(items.join(" ") || r.name || "") + "</p></article>";
+        }).join("");
+      })
+      .catch(function () {});
+  }
+
+  // Apparition douce des blocs quand ils entrent à l'écran
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { var t = e.target; t.classList.add("in"); io.unobserve(t); setTimeout(function () { t.style.transitionDelay = ""; t.classList.remove("reveal", "in"); }, 1000); } });
+    }, { rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll(".section-head,.pillar,.news-item,.platform,.levels>div,.starter .film,.chapter-head,.card,.doc-block").forEach(function (el, i) {
+      el.classList.add("reveal");
+      el.style.transitionDelay = (i % 4) * 60 + "ms";
+      io.observe(el);
+    });
+  }
+
   // Thème : clair par défaut, sombre au choix (mémorisé)
   var root = document.documentElement;
   document.querySelectorAll(".theme").forEach(function (btn) {
