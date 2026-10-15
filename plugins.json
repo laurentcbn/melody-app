@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T10:09:41Z",
+ "updated": "2026-10-15T09:52:37Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6915,
+   "stars": 6921,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -361,9 +361,9 @@
    "vendor": "DamRsn",
    "kind": "effect",
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
-   "url": "https://damrsn.github.io/NeuralNote/",
+   "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3121,
+   "stars": 3147,
    "license": "Apache-2.0",
    "version": "v2.1.0",
    "download": {
@@ -941,9 +941,9 @@
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64.zip",
-     "name": "ZL.Compressor-0.6.1-Linux-x86-64.zip",
-     "size": 8943456,
+     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
+     "size": 9412291,
      "type": "zip"
     },
     "mac": {
@@ -953,9 +953,9 @@
      "type": "dmg"
     },
     "windows": {
-     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64-AVX2.msi",
-     "name": "ZL.Compressor-0.6.1-Windows-x86-64-AVX2.msi",
-     "size": 11366400,
+     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Windows-x86-64.msi",
+     "name": "ZL.Compressor-0.6.1-Windows-x86-64.msi",
+     "size": 10944512,
      "type": "msi"
     }
    },
@@ -1752,7 +1752,7 @@
    "about": "Audio/signal visualizer plugin",
    "url": "https://jthorborg.com/index.html?ipage=signalizer",
    "repo": "jthorborg/signalizer",
-   "stars": 111,
+   "stars": 112,
    "license": null,
    "version": "v0.5.0",
    "download": {
@@ -2208,6 +2208,43 @@
    "source": "github"
   },
   {
+   "name": "Prism",
+   "vendor": "Boof2015",
+   "kind": "effect",
+   "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
+   "url": "https://astramusic.dev/prism",
+   "repo": "Boof2015/prism",
+   "stars": 78,
+   "license": "GPL-3.0",
+   "version": "v0.4.0-beta",
+   "download": {
+    "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism-0.4.0-beta-arm64.pkg",
+    "name": "Prism-0.4.0-beta-arm64.pkg",
+    "size": 172047319,
+    "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism-0.4.0-beta-arm64.pkg",
+     "name": "Prism-0.4.0-beta-arm64.pkg",
+     "size": 172047319,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism.Setup.0.4.0-beta.exe",
+     "name": "Prism.Setup.0.4.0-beta.exe",
+     "size": 132370968,
+     "type": "exe"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Nam Juce",
    "vendor": "Tr3m",
    "kind": "effect",
@@ -2243,50 +2280,13 @@
    "source": "github"
   },
   {
-   "name": "Prism",
-   "vendor": "Boof2015",
-   "kind": "effect",
-   "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
-   "url": "https://astramusic.dev/prism",
-   "repo": "Boof2015/prism",
-   "stars": 77,
-   "license": "GPL-3.0",
-   "version": "v0.4.0-beta",
-   "download": {
-    "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism-0.4.0-beta-arm64.pkg",
-    "name": "Prism-0.4.0-beta-arm64.pkg",
-    "size": 172047319,
-    "type": "pkg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism-0.4.0-beta-arm64.pkg",
-     "name": "Prism-0.4.0-beta-arm64.pkg",
-     "size": 172047319,
-     "type": "pkg"
-    },
-    "windows": {
-     "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism.Setup.0.4.0-beta.exe",
-     "name": "Prism.Setup.0.4.0-beta.exe",
-     "size": 132370968,
-     "type": "exe"
-    }
-   },
-   "formats": [
-    "VST3",
-    "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "ZLSpectrumEqualizer",
    "vendor": "ZL-Audio",
    "kind": "effect",
    "about": "dynamic spectrum equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlspeceq/",
    "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 75,
+   "stars": 76,
    "license": "AGPL-3.0",
    "version": "0.1.1",
    "download": {
@@ -2360,47 +2360,6 @@
    "formats": [
     "VST3",
     "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "WarpCore",
-   "vendor": "ManasWolrd",
-   "kind": "effect",
-   "about": "multiband spectral inversion plugin similar to PiWarp/Wormhole(The WARP part), making wried robotic voice tone or negative harmony for your melody, and dark amb",
-   "url": "https://manaswolrd.github.io/index.html#warpcore",
-   "repo": "ManasWolrd/WarpCore",
-   "stars": 72,
-   "license": "GPL-3.0",
-   "version": "v0.0.12",
-   "download": {
-    "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-macos-arm64-v0.0.12.zip",
-    "name": "WarpCore-macos-arm64-v0.0.12.zip",
-    "size": 3887318,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-linux-v0.0.12.zip",
-     "name": "WarpCore-linux-v0.0.12.zip",
-     "size": 6958178,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-macos-arm64-v0.0.12.zip",
-     "name": "WarpCore-macos-arm64-v0.0.12.zip",
-     "size": 3887318,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/ManasWolrd/WarpCore/releases/download/v0.0.12/WarpCore-win-v0.0.12.zip",
-     "name": "WarpCore-win-v0.0.12.zip",
-     "size": 3011636,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3"
    ],
    "source": "github"
   },
@@ -2620,37 +2579,13 @@
    "source": "github"
   },
   {
-   "name": "Ykchorus",
-   "vendor": "SpotlightKid",
-   "kind": "effect",
-   "about": "A chorus audio effect plugin based on DSP code by Togu Audio Line (TAL)",
-   "url": "https://github.com/SpotlightKid/ykchorus",
-   "repo": "SpotlightKid/ykchorus",
-   "stars": 58,
-   "license": null,
-   "version": "v0.2.4",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/SpotlightKid/ykchorus/releases/download/v0.2.4/ykchorus-0.2.4-bin-win64.zip",
-     "name": "ykchorus-0.2.4-bin-win64.zip",
-     "size": 2166789,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Overtonium",
    "vendor": "benjamindehli",
    "kind": "instrument",
    "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
    "url": "https://benjamindehli.github.io/overtonium/",
    "repo": "benjamindehli/overtonium",
-   "stars": 57,
+   "stars": 58,
    "license": "AGPL-3.0",
    "version": "v1.13.0",
    "download": {
@@ -2681,6 +2616,30 @@
    },
    "formats": [
     "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Ykchorus",
+   "vendor": "SpotlightKid",
+   "kind": "effect",
+   "about": "A chorus audio effect plugin based on DSP code by Togu Audio Line (TAL)",
+   "url": "https://github.com/SpotlightKid/ykchorus",
+   "repo": "SpotlightKid/ykchorus",
+   "stars": 58,
+   "license": null,
+   "version": "v0.2.4",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/SpotlightKid/ykchorus/releases/download/v0.2.4/ykchorus-0.2.4-bin-win64.zip",
+     "name": "ykchorus-0.2.4-bin-win64.zip",
+     "size": 2166789,
+     "type": "zip"
+    }
+   },
+   "formats": [
     "AU"
    ],
    "source": "github"
