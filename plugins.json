@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T09:52:37Z",
+ "updated": "2026-10-16T09:45:33Z",
  "plugins": [
   {
    "name": "Vital",
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3147,
+   "stars": 3183,
    "license": "Apache-2.0",
    "version": "v2.1.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1029,
+   "stars": 1030,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 652,
+   "stars": 653,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -697,7 +697,7 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 323,
+   "stars": 324,
    "license": "GPL-3.0",
    "version": "v0.17.0",
    "download": {
@@ -739,7 +739,7 @@
    "about": "Collection of LADSPA/LV2/VST/JACK audio plugins for high-quality processing",
    "url": "http://www.zamaudio.com/?p=976",
    "repo": "zamaudio/zam-plugins",
-   "stars": 322,
+   "stars": 323,
    "license": "GPL-2.0",
    "version": "4.5",
    "download": {
@@ -941,9 +941,9 @@
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
-     "name": "ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
-     "size": 9412291,
+     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64.zip",
+     "name": "ZL.Compressor-0.6.1-Linux-x86-64.zip",
+     "size": 8943456,
      "type": "zip"
     },
     "mac": {
@@ -1014,7 +1014,7 @@
    "about": "NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.",
    "url": "https://github.com/brummer10/NeuralRack",
    "repo": "brummer10/NeuralRack",
-   "stars": 218,
+   "stars": 219,
    "license": "BSD-3-Clause",
    "version": "v0.4.1",
    "download": null,
@@ -1164,6 +1164,30 @@
    "source": "github"
   },
   {
+   "name": "Kanban",
+   "vendor": "kanban-rs",
+   "kind": "effect",
+   "about": "Terminal based project management solution",
+   "url": "https://kanban.rs",
+   "repo": "kanban-rs/kanban",
+   "stars": 179,
+   "license": "Apache-2.0",
+   "version": "v0.11.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/kanban-rs/kanban/releases/download/v0.11.0/kanban-v0.11.0-x86_64-pc-windows-msvc.zip",
+     "name": "kanban-v0.11.0-x86_64-pc-windows-msvc.zip",
+     "size": 12996241,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Nrr",
    "vendor": "ryanccn",
    "kind": "effect",
@@ -1196,30 +1220,6 @@
      "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-x86_64-unknown-linux-musl.zip",
      "name": "nrr-x86_64-unknown-linux-musl.zip",
      "size": 788964,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Kanban",
-   "vendor": "kanban-rs",
-   "kind": "effect",
-   "about": "Terminal based project management solution",
-   "url": "https://kanban.rs",
-   "repo": "kanban-rs/kanban",
-   "stars": 177,
-   "license": "Apache-2.0",
-   "version": "v0.11.0",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/kanban-rs/kanban/releases/download/v0.11.0/kanban-v0.11.0-x86_64-pc-windows-msvc.zip",
-     "name": "kanban-v0.11.0-x86_64-pc-windows-msvc.zip",
-     "size": 12996241,
      "type": "zip"
     }
    },
@@ -2173,7 +2173,7 @@
    "about": "Nuked SC-55 CLAP audio plugin",
    "url": "https://github.com/johnnovak/Nuked-SC55-CLAP",
    "repo": "johnnovak/Nuked-SC55-CLAP",
-   "stars": 79,
+   "stars": 80,
    "license": "GPL-2.0",
    "version": "v0.12.0",
    "download": {
@@ -2214,7 +2214,7 @@
    "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
    "url": "https://astramusic.dev/prism",
    "repo": "Boof2015/prism",
-   "stars": 78,
+   "stars": 79,
    "license": "GPL-3.0",
    "version": "v0.4.0-beta",
    "download": {
@@ -2585,7 +2585,7 @@
    "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
    "url": "https://benjamindehli.github.io/overtonium/",
    "repo": "benjamindehli/overtonium",
-   "stars": 58,
+   "stars": 60,
    "license": "AGPL-3.0",
    "version": "v1.13.0",
    "download": {
@@ -2718,9 +2718,9 @@
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-linux-vst3-Release.zip",
-     "name": "FireflySynth2-linux-vst3-Release.zip",
-     "size": 10018243,
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-linux-clap-Release.zip",
+     "name": "FireflySynth2-linux-clap-Release.zip",
+     "size": 9984845,
      "type": "zip"
     },
     "mac": {
