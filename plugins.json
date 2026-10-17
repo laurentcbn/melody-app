@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T09:45:33Z",
+ "updated": "2026-10-17T09:19:06Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6921,
+   "stars": 6924,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3183,
+   "stars": 3206,
    "license": "Apache-2.0",
    "version": "v2.1.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1030,
+   "stars": 1031,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -409,9 +409,9 @@
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-x86-64-AVX2.zip",
-     "name": "ZL.Equalizer.2-1.4.1-Linux-x86-64-AVX2.zip",
-     "size": 11322441,
+     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-x86-64.zip",
+     "name": "ZL.Equalizer.2-1.4.1-Linux-x86-64.zip",
+     "size": 10850259,
      "type": "zip"
     },
     "mac": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 653,
+   "stars": 654,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -655,7 +655,7 @@
    "about": "Audio plugin for custom MP3 distortion and digital glitches",
    "url": "https://github.com/ArdenButterfield/Maim",
    "repo": "ArdenButterfield/Maim",
-   "stars": 381,
+   "stars": 382,
    "license": "GPL-3.0",
    "version": "v1.1.1",
    "download": {
@@ -697,7 +697,7 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 324,
+   "stars": 325,
    "license": "GPL-3.0",
    "version": "v0.17.0",
    "download": {
@@ -774,7 +774,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 297,
+   "stars": 298,
    "license": "GPL-3.0",
    "version": "v0.13.0",
    "download": {
@@ -972,7 +972,7 @@
    "about": "Just a Sample is a modern, open-source audio sampler",
    "url": "https://bobona.github.io/just-a-sample/",
    "repo": "BOBONA/Just-a-Sample",
-   "stars": 221,
+   "stars": 222,
    "license": "MIT",
    "version": "v1.3-latest",
    "download": {
@@ -1099,7 +1099,7 @@
    "about": "Linux, Osx & Windows JUCE port of Ultramaster Group's classic 2001 software synth",
    "url": "https://kayrock.org/kr106",
    "repo": "kayrockscreenprinting/ultramaster_kr106",
-   "stars": 194,
+   "stars": 195,
    "license": "GPL-3.0",
    "version": "v2.5.13",
    "download": {
@@ -1140,7 +1140,7 @@
    "about": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also uniq",
    "url": "https://quamplex.com/geonkick",
    "repo": "quamplex/geonkick",
-   "stars": 192,
+   "stars": 193,
    "license": "GPL-3.0",
    "version": "v3.9.0",
    "download": null,
@@ -1172,13 +1172,13 @@
    "repo": "kanban-rs/kanban",
    "stars": 179,
    "license": "Apache-2.0",
-   "version": "v0.11.0",
+   "version": "v0.12.0",
    "download": null,
    "downloads": {
     "windows": {
-     "url": "https://github.com/kanban-rs/kanban/releases/download/v0.11.0/kanban-v0.11.0-x86_64-pc-windows-msvc.zip",
-     "name": "kanban-v0.11.0-x86_64-pc-windows-msvc.zip",
-     "size": 12996241,
+     "url": "https://github.com/kanban-rs/kanban/releases/download/v0.12.0/kanban-v0.12.0-x86_64-pc-windows-msvc.zip",
+     "name": "kanban-v0.12.0-x86_64-pc-windows-msvc.zip",
+     "size": 13026181,
      "type": "zip"
     }
    },
@@ -1235,7 +1235,7 @@
    "about": "Envelope based filter modulator",
    "url": "https://github.com/tiagolr/filtr",
    "repo": "tiagolr/filtr",
-   "stars": 175,
+   "stars": 176,
    "license": "AGPL-3.0",
    "version": "v1.3.0",
    "download": {
@@ -1385,7 +1385,7 @@
    "about": "A Dual Delay with more features than it should",
    "url": "https://github.com/tiagolr/qdelay",
    "repo": "tiagolr/qdelay",
-   "stars": 160,
+   "stars": 161,
    "license": "GPL-3.0",
    "version": "v1.2.3",
    "download": {
@@ -1865,7 +1865,7 @@
    "about": "12-band equalizer designed for precise spectral shaping, mixing, mastering, and corrective audio processing.",
    "url": "https://github.com/brummer10/ToneShiftEQ",
    "repo": "brummer10/ToneShiftEQ",
-   "stars": 101,
+   "stars": 103,
    "license": "BSD-3-Clause",
    "version": "v1.3.0",
    "download": null,
@@ -2370,7 +2370,7 @@
    "about": "Modular sound glitcher / mangler",
    "url": "fx-mechanics.com",
    "repo": "odoare/Mango",
-   "stars": 66,
+   "stars": 67,
    "license": "AGPL-3.0",
    "version": "v0.2.0",
    "download": {
@@ -2483,36 +2483,6 @@
    "source": "github"
   },
   {
-   "name": "Even",
-   "vendor": "egor-sm",
-   "kind": "effect",
-   "about": "12-band parametric EQ",
-   "url": "https://github.com/egor-sm/even",
-   "repo": "egor-sm/even",
-   "stars": 63,
-   "license": "GPL-3.0",
-   "version": "v0.1.0",
-   "download": {
-    "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
-    "name": "Even-0.1.0.pkg",
-    "size": 12571296,
-    "type": "pkg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
-     "name": "Even-0.1.0.pkg",
-     "size": 12571296,
-     "type": "pkg"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "SoundObject binary",
    "vendor": "suzumushi0",
    "kind": "effect",
@@ -2579,6 +2549,36 @@
    "source": "github"
   },
   {
+   "name": "Even",
+   "vendor": "egor-sm",
+   "kind": "effect",
+   "about": "12-band parametric EQ",
+   "url": "https://github.com/egor-sm/even",
+   "repo": "egor-sm/even",
+   "stars": 62,
+   "license": "GPL-3.0",
+   "version": "v0.1.0",
+   "download": {
+    "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+    "name": "Even-0.1.0.pkg",
+    "size": 12571296,
+    "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+     "name": "Even-0.1.0.pkg",
+     "size": 12571296,
+     "type": "pkg"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Overtonium",
    "vendor": "benjamindehli",
    "kind": "instrument",
@@ -2587,30 +2587,30 @@
    "repo": "benjamindehli/overtonium",
    "stars": 60,
    "license": "AGPL-3.0",
-   "version": "v1.13.0",
+   "version": "v1.14.0",
    "download": {
-    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.13.0/Overtonium-v1.13.0-macOS.zip",
-    "name": "Overtonium-v1.13.0-macOS.zip",
-    "size": 17168285,
+    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.14.0/Overtonium-v1.14.0-macOS.zip",
+    "name": "Overtonium-v1.14.0-macOS.zip",
+    "size": 17317890,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.13.0/Overtonium-v1.13.0-Linux.zip",
-     "name": "Overtonium-v1.13.0-Linux.zip",
-     "size": 9758338,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.14.0/Overtonium-v1.14.0-Linux.zip",
+     "name": "Overtonium-v1.14.0-Linux.zip",
+     "size": 9850927,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.13.0/Overtonium-v1.13.0-macOS.zip",
-     "name": "Overtonium-v1.13.0-macOS.zip",
-     "size": 17168285,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.14.0/Overtonium-v1.14.0-macOS.zip",
+     "name": "Overtonium-v1.14.0-macOS.zip",
+     "size": 17317890,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.13.0/Overtonium-v1.13.0-Windows.zip",
-     "name": "Overtonium-v1.13.0-Windows.zip",
-     "size": 7767041,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.14.0/Overtonium-v1.14.0-Windows.zip",
+     "name": "Overtonium-v1.14.0-Windows.zip",
+     "size": 7841638,
      "type": "zip"
     }
    },
@@ -2651,7 +2651,7 @@
    "about": "A collection of virtual-analog filter multi-format audio plugins.",
    "url": "https://github.com/SpotlightKid/faustfilters",
    "repo": "SpotlightKid/faustfilters",
-   "stars": 50,
+   "stars": 51,
    "license": null,
    "version": "v0.4.0",
    "download": null,
