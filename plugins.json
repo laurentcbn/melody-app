@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T09:19:06Z",
+ "updated": "2026-10-18T09:33:19Z",
  "plugins": [
   {
    "name": "Vital",
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3206,
+   "stars": 3227,
    "license": "Apache-2.0",
    "version": "v2.1.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1031,
+   "stars": 1032,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -560,7 +560,7 @@
    "about": "⚡Rapid note management for the terminal.",
    "url": "https://github.com/shashwatah/jot",
    "repo": "shashwatah/jot",
-   "stars": 613,
+   "stars": 612,
    "license": "MIT",
    "version": "v0.1.2",
    "download": null,
@@ -584,7 +584,7 @@
    "about": "A JUCE plugin for broadband noise reduction",
    "url": "https://github.com/lucianodato/noise-repellent",
    "repo": "lucianodato/noise-repellent",
-   "stars": 564,
+   "stars": 565,
    "license": null,
    "version": "v0.4.1",
    "download": {
@@ -655,7 +655,7 @@
    "about": "Audio plugin for custom MP3 distortion and digital glitches",
    "url": "https://github.com/ArdenButterfield/Maim",
    "repo": "ArdenButterfield/Maim",
-   "stars": 382,
+   "stars": 383,
    "license": "GPL-3.0",
    "version": "v1.1.1",
    "download": {
@@ -816,7 +816,7 @@
    "about": "Convolution reverb with pre and post modulation",
    "url": "https://github.com/tiagolr/reevr",
    "repo": "tiagolr/reevr",
-   "stars": 291,
+   "stars": 292,
    "license": "GPL-3.0",
    "version": "v1.4.0",
    "download": {
@@ -1014,7 +1014,7 @@
    "about": "NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.",
    "url": "https://github.com/brummer10/NeuralRack",
    "repo": "brummer10/NeuralRack",
-   "stars": 219,
+   "stars": 218,
    "license": "BSD-3-Clause",
    "version": "v0.4.1",
    "download": null,
@@ -1069,30 +1069,6 @@
    "source": "github"
   },
   {
-   "name": "Ratatouille.lv2",
-   "vendor": "brummer10",
-   "kind": "effect",
-   "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
-   "url": "https://github.com/brummer10/Ratatouille.lv2",
-   "repo": "brummer10/Ratatouille.lv2",
-   "stars": 195,
-   "license": "BSD-3-Clause",
-   "version": "v0.9.11",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "size": 3038472,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Ultramaster Kr106",
    "vendor": "kayrockscreenprinting",
    "kind": "instrument",
@@ -1134,6 +1110,30 @@
    "source": "github"
   },
   {
+   "name": "Ratatouille.lv2",
+   "vendor": "brummer10",
+   "kind": "effect",
+   "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
+   "url": "https://github.com/brummer10/Ratatouille.lv2",
+   "repo": "brummer10/Ratatouille.lv2",
+   "stars": 194,
+   "license": "BSD-3-Clause",
+   "version": "v0.9.11",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
+     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
+     "size": 3038472,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Geonkick",
    "vendor": "quamplex",
    "kind": "instrument",
@@ -1167,18 +1167,18 @@
    "name": "Kanban",
    "vendor": "kanban-rs",
    "kind": "effect",
-   "about": "Terminal based project management solution",
+   "about": "Terminal based project management",
    "url": "https://kanban.rs",
    "repo": "kanban-rs/kanban",
-   "stars": 179,
+   "stars": 180,
    "license": "Apache-2.0",
-   "version": "v0.12.0",
+   "version": "v0.12.1",
    "download": null,
    "downloads": {
     "windows": {
-     "url": "https://github.com/kanban-rs/kanban/releases/download/v0.12.0/kanban-v0.12.0-x86_64-pc-windows-msvc.zip",
-     "name": "kanban-v0.12.0-x86_64-pc-windows-msvc.zip",
-     "size": 13026181,
+     "url": "https://github.com/kanban-rs/kanban/releases/download/v0.12.1/kanban-v0.12.1-x86_64-pc-windows-msvc.zip",
+     "name": "kanban-v0.12.1-x86_64-pc-windows-msvc.zip",
+     "size": 13020705,
      "type": "zip"
     }
    },
@@ -1211,9 +1211,9 @@
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-aarch64-pc-windows-msvc.zip",
-     "name": "nrr-aarch64-pc-windows-msvc.zip",
-     "size": 506583,
+     "url": "https://github.com/ryanccn/nrr/releases/download/v0.11.0/nrr-x86_64-pc-windows-msvc.zip",
+     "name": "nrr-x86_64-pc-windows-msvc.zip",
+     "size": 549700,
      "type": "zip"
     },
     "linux": {
@@ -1277,7 +1277,7 @@
    "about": "An unofficial Todoist command line client written in Rust",
    "url": "https://github.com/tod-org/tod",
    "repo": "tod-org/tod",
-   "stars": 174,
+   "stars": 173,
    "license": "MIT",
    "version": "v0.19.0",
    "download": null,
@@ -1486,7 +1486,7 @@
    "about": "algorithmic reverb plugin based on CloudSeed",
    "url": "https://github.com/xunil-cloud/CloudReverb",
    "repo": "xunil-cloud/CloudReverb",
-   "stars": 144,
+   "stars": 145,
    "license": "GPL-3.0",
    "version": "v0.5",
    "download": {
@@ -1925,7 +1925,7 @@
    "about": "Unique microtonal piano roll audio plugin 😎",
    "url": "https://github.com/Ankalot/XenRoll",
    "repo": "Ankalot/XenRoll",
-   "stars": 93,
+   "stars": 94,
    "license": "GPL-3.0",
    "version": "v0.4.3",
    "download": {
@@ -2064,6 +2064,42 @@
    "source": "github"
   },
   {
+   "name": "BlackBird",
+   "vendor": "khrykin",
+   "kind": "instrument",
+   "about": "AU/VST3 Synth built with JUCE",
+   "url": "https://github.com/khrykin/BlackBird",
+   "repo": "khrykin/BlackBird",
+   "stars": 81,
+   "license": "GPL-3.0",
+   "version": "v0.1.0",
+   "download": {
+    "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
+    "name": "BlackBird-0.1.0.pkg",
+    "size": 3578245,
+    "type": "pkg"
+   },
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0-windows-x64.exe",
+     "name": "BlackBird-0.1.0-windows-x64.exe",
+     "size": 4189654,
+     "type": "exe"
+    },
+    "mac": {
+     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
+     "name": "BlackBird-0.1.0.pkg",
+     "size": 3578245,
+     "type": "pkg"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Roboverb",
    "vendor": "kushview",
    "kind": "effect",
@@ -2096,42 +2132,6 @@
    "formats": [
     "VST3",
     "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "BlackBird",
-   "vendor": "khrykin",
-   "kind": "instrument",
-   "about": "AU/VST3 Synth built with JUCE",
-   "url": "https://github.com/khrykin/BlackBird",
-   "repo": "khrykin/BlackBird",
-   "stars": 81,
-   "license": "GPL-3.0",
-   "version": "v0.1.0",
-   "download": {
-    "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
-    "name": "BlackBird-0.1.0.pkg",
-    "size": 3578245,
-    "type": "pkg"
-   },
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0-windows-x64.exe",
-     "name": "BlackBird-0.1.0-windows-x64.exe",
-     "size": 4189654,
-     "type": "exe"
-    },
-    "mac": {
-     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
-     "name": "BlackBird-0.1.0.pkg",
-     "size": 3578245,
-     "type": "pkg"
-    }
-   },
-   "formats": [
-    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2370,7 +2370,7 @@
    "about": "Modular sound glitcher / mangler",
    "url": "fx-mechanics.com",
    "repo": "odoare/Mango",
-   "stars": 67,
+   "stars": 68,
    "license": "AGPL-3.0",
    "version": "v0.2.0",
    "download": {
@@ -2585,7 +2585,7 @@
    "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
    "url": "https://benjamindehli.github.io/overtonium/",
    "repo": "benjamindehli/overtonium",
-   "stars": 60,
+   "stars": 61,
    "license": "AGPL-3.0",
    "version": "v1.14.0",
    "download": {
