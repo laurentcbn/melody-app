@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T10:01:17Z",
+ "updated": "2026-10-21T10:05:54Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6926,
+   "stars": 6927,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3252,
+   "stars": 3261,
    "license": "Apache-2.0",
    "version": "v2.1.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1032,
+   "stars": 1034,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -584,7 +584,7 @@
    "about": "A JUCE plugin for broadband noise reduction",
    "url": "https://github.com/lucianodato/noise-repellent",
    "repo": "lucianodato/noise-repellent",
-   "stars": 566,
+   "stars": 565,
    "license": null,
    "version": "v0.4.1",
    "download": {
@@ -699,30 +699,30 @@
    "repo": "tucktuckg00se/INTERSECT",
    "stars": 327,
    "license": "GPL-3.0",
-   "version": "v0.17.0",
+   "version": "v0.17.1",
    "download": {
-    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.0/INTERSECT-v0.17.0-macOS-arm64.zip",
-    "name": "INTERSECT-v0.17.0-macOS-arm64.zip",
-    "size": 9398940,
+    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.1/INTERSECT-v0.17.1-macOS-arm64.zip",
+    "name": "INTERSECT-v0.17.1-macOS-arm64.zip",
+    "size": 9397884,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.0/INTERSECT-v0.17.0-Linux-x64.zip",
-     "name": "INTERSECT-v0.17.0-Linux-x64.zip",
-     "size": 9852119,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.1/INTERSECT-v0.17.1-Linux-x64.zip",
+     "name": "INTERSECT-v0.17.1-Linux-x64.zip",
+     "size": 9854806,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.0/INTERSECT-v0.17.0-macOS-arm64.zip",
-     "name": "INTERSECT-v0.17.0-macOS-arm64.zip",
-     "size": 9398940,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.1/INTERSECT-v0.17.1-macOS-arm64.zip",
+     "name": "INTERSECT-v0.17.1-macOS-arm64.zip",
+     "size": 9397884,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.0/INTERSECT-v0.17.0-Windows-x64.zip",
-     "name": "INTERSECT-v0.17.0-Windows-x64.zip",
-     "size": 7417920,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.1/INTERSECT-v0.17.1-Windows-x64.zip",
+     "name": "INTERSECT-v0.17.1-Windows-x64.zip",
+     "size": 7417758,
      "type": "zip"
     }
    },
@@ -1069,37 +1069,13 @@
    "source": "github"
   },
   {
-   "name": "Ratatouille.lv2",
-   "vendor": "brummer10",
-   "kind": "effect",
-   "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
-   "url": "https://github.com/brummer10/Ratatouille.lv2",
-   "repo": "brummer10/Ratatouille.lv2",
-   "stars": 195,
-   "license": "BSD-3-Clause",
-   "version": "v0.9.11",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "size": 3038472,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Ultramaster Kr106",
    "vendor": "kayrockscreenprinting",
    "kind": "instrument",
    "about": "Linux, Osx & Windows JUCE port of Ultramaster Group's classic 2001 software synth",
    "url": "https://kayrock.org/kr106",
    "repo": "kayrockscreenprinting/ultramaster_kr106",
-   "stars": 195,
+   "stars": 196,
    "license": "GPL-3.0",
    "version": "v2.5.13",
    "download": {
@@ -1134,13 +1110,37 @@
    "source": "github"
   },
   {
+   "name": "Ratatouille.lv2",
+   "vendor": "brummer10",
+   "kind": "effect",
+   "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
+   "url": "https://github.com/brummer10/Ratatouille.lv2",
+   "repo": "brummer10/Ratatouille.lv2",
+   "stars": 195,
+   "license": "BSD-3-Clause",
+   "version": "v0.9.11",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
+     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
+     "size": 3038472,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Geonkick",
    "vendor": "quamplex",
    "kind": "instrument",
    "about": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also uniq",
    "url": "https://quamplex.com/geonkick",
    "repo": "quamplex/geonkick",
-   "stars": 193,
+   "stars": 194,
    "license": "GPL-3.0",
    "version": "v3.9.0",
    "download": null,
@@ -1649,7 +1649,7 @@
    "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
    "url": "https://psemiletov.github.io/drumlabooh/",
    "repo": "psemiletov/drumlabooh",
-   "stars": 126,
+   "stars": 127,
    "license": "GPL-3.0",
    "version": "13.0.0",
    "download": null,
@@ -1752,7 +1752,7 @@
    "about": "Audio/signal visualizer plugin",
    "url": "https://jthorborg.com/index.html?ipage=signalizer",
    "repo": "jthorborg/signalizer",
-   "stars": 112,
+   "stars": 113,
    "license": null,
    "version": "v0.5.0",
    "download": {
@@ -2137,43 +2137,13 @@
    "source": "github"
   },
   {
-   "name": "Tumult",
-   "vendor": "consint",
-   "kind": "effect",
-   "about": "Noisemaker, texturizer, vintag maker audio effekt plugin",
-   "url": "https://www.consint.net",
-   "repo": "consint/Tumult",
-   "stars": 80,
-   "license": "GPL-3.0",
-   "version": "1.1.1",
-   "download": null,
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Linux_vst3.zip",
-     "name": "Tumult_1_1_1_Linux_vst3.zip",
-     "size": 242030776,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Win_vst3.zip",
-     "name": "Tumult_1_1_1_Win_vst3.zip",
-     "size": 239289360,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Prism",
    "vendor": "Boof2015",
    "kind": "effect",
    "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
    "url": "https://astramusic.dev/prism",
    "repo": "Boof2015/prism",
-   "stars": 80,
+   "stars": 81,
    "license": "GPL-3.0",
    "version": "v0.4.0-beta",
    "download": {
@@ -2200,6 +2170,36 @@
     "VST3",
     "CLAP",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Tumult",
+   "vendor": "consint",
+   "kind": "effect",
+   "about": "Noisemaker, texturizer, vintag maker audio effekt plugin",
+   "url": "https://www.consint.net",
+   "repo": "consint/Tumult",
+   "stars": 80,
+   "license": "GPL-3.0",
+   "version": "1.1.1",
+   "download": null,
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Linux_vst3.zip",
+     "name": "Tumult_1_1_1_Linux_vst3.zip",
+     "size": 242030776,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Win_vst3.zip",
+     "name": "Tumult_1_1_1_Win_vst3.zip",
+     "size": 239289360,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3"
    ],
    "source": "github"
   },
