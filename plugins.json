@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T10:08:42Z",
+ "updated": "2026-10-23T10:01:29Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6928,
+   "stars": 6932,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3267,
+   "stars": 3276,
    "license": "Apache-2.0",
    "version": "v2.1.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1035,
+   "stars": 1037,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 654,
+   "stars": 653,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -560,7 +560,7 @@
    "about": "⚡Rapid note management for the terminal.",
    "url": "https://github.com/shashwatah/jot",
    "repo": "shashwatah/jot",
-   "stars": 612,
+   "stars": 611,
    "license": "MIT",
    "version": "v0.1.2",
    "download": null,
@@ -774,7 +774,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 299,
+   "stars": 300,
    "license": "GPL-3.0",
    "version": "v0.13.0",
    "download": {
@@ -1039,7 +1039,7 @@
    "about": "Wavetable synth",
    "url": "https://socalabs.com/synths/wavetable/",
    "repo": "FigBug/Wavetable",
-   "stars": 217,
+   "stars": 216,
    "license": "BSD-3-Clause",
    "version": "v1.0.37",
    "download": {
@@ -1075,7 +1075,7 @@
    "about": "Linux, Osx & Windows JUCE port of Ultramaster Group's classic 2001 software synth",
    "url": "https://kayrock.org/kr106",
    "repo": "kayrockscreenprinting/ultramaster_kr106",
-   "stars": 196,
+   "stars": 197,
    "license": "GPL-3.0",
    "version": "v2.5.13",
    "download": {
@@ -1170,7 +1170,7 @@
    "about": "Terminal based project management",
    "url": "https://kanban.rs",
    "repo": "kanban-rs/kanban",
-   "stars": 181,
+   "stars": 182,
    "license": "Apache-2.0",
    "version": "v0.12.2",
    "download": null,
@@ -1343,7 +1343,7 @@
    "about": "splitter plugin",
    "url": "https://zl-audio.github.io/plugins/zlsplitter/",
    "repo": "ZL-Audio/ZLSplitter",
-   "stars": 168,
+   "stars": 167,
    "license": "AGPL-3.0",
    "version": "0.3.0",
    "download": {
@@ -1426,7 +1426,7 @@
    "about": "DSP Magnetic Tape Emulation",
    "url": "https://audiodev.blog/kiss-of-shame/",
    "repo": "hollance/TheKissOfShame",
-   "stars": 160,
+   "stars": 159,
    "license": "GPL-3.0",
    "version": "v1.0.2",
    "download": {
@@ -1710,7 +1710,7 @@
    "about": "OS-251 is a synthesizer plugin",
    "url": "https://onsenaudio.com/products/os251",
    "repo": "utokusa/OS-251",
-   "stars": 118,
+   "stars": 117,
    "license": "GPL-3.0",
    "version": "v1.3.0",
    "download": {
@@ -1793,7 +1793,7 @@
    "about": "Asymmetrical Distortion Audio Plugin for Windows, MacOS and Linux",
    "url": "https://dimethoxy.com",
    "repo": "Dimethoxy/Plasma",
-   "stars": 110,
+   "stars": 111,
    "license": "AGPL-3.0",
    "version": "v1.2.1",
    "download": {
@@ -1967,7 +1967,7 @@
    "about": "Phase Dispersion Audio Plugin for Windows, MacOS and Linux",
    "url": "https://dimethoxy.com",
    "repo": "Dimethoxy/Disflux",
-   "stars": 90,
+   "stars": 91,
    "license": "AGPL-3.0",
    "version": "v1.2.0",
    "download": {
@@ -2030,48 +2030,6 @@
    "formats": [
     "VST3",
     "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "PerceptoMap",
-   "vendor": "hqrrr",
-   "kind": "effect",
-   "about": "From frequencies to feeling",
-   "url": "https://github.com/hqrrr/PerceptoMap",
-   "repo": "hqrrr/PerceptoMap",
-   "stars": 82,
-   "license": "AGPL-3.0",
-   "version": "v0.18.2",
-   "download": {
-    "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
-    "name": "PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
-    "size": 1501920,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_linux_x64.zip",
-     "name": "PerceptoMap_vst3_v0.18.2_linux_x64.zip",
-     "size": 2104447,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
-     "name": "PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
-     "size": 1501920,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_windows_x64.zip",
-     "name": "PerceptoMap_vst3_v0.18.2_windows_x64.zip",
-     "size": 2717837,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2165,6 +2123,48 @@
      "name": "BlackBird-0.1.0.pkg",
      "size": 3578245,
      "type": "pkg"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "PerceptoMap",
+   "vendor": "hqrrr",
+   "kind": "effect",
+   "about": "From frequencies to feeling",
+   "url": "https://github.com/hqrrr/PerceptoMap",
+   "repo": "hqrrr/PerceptoMap",
+   "stars": 81,
+   "license": "AGPL-3.0",
+   "version": "v0.18.2",
+   "download": {
+    "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+    "name": "PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+    "size": 1501920,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_linux_x64.zip",
+     "name": "PerceptoMap_vst3_v0.18.2_linux_x64.zip",
+     "size": 2104447,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+     "name": "PerceptoMap_vst3_v0.18.2_macOS_arm.zip",
+     "size": 1501920,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/hqrrr/PerceptoMap/releases/download/v0.18.2/PerceptoMap_vst3_v0.18.2_windows_x64.zip",
+     "name": "PerceptoMap_vst3_v0.18.2_windows_x64.zip",
+     "size": 2717837,
+     "type": "zip"
     }
    },
    "formats": [
@@ -2442,47 +2442,6 @@
    "source": "github"
   },
   {
-   "name": "Repitch",
-   "vendor": "ellamenop",
-   "kind": "effect",
-   "about": "a MIDI-controlled audio harmonizer",
-   "url": "https://maxpollack.itch.io/repitch",
-   "repo": "ellamenop/repitch",
-   "stars": 63,
-   "license": null,
-   "version": "v1.0.2",
-   "download": {
-    "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-macOS.zip",
-    "name": "repitch-macOS.zip",
-    "size": 10568723,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-Linux.zip",
-     "name": "repitch-Linux.zip",
-     "size": 9272945,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-macOS.zip",
-     "name": "repitch-macOS.zip",
-     "size": 10568723,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-Windows.zip",
-     "name": "repitch-Windows.zip",
-     "size": 4197656,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Overtonium",
    "vendor": "benjamindehli",
    "kind": "instrument",
@@ -2586,6 +2545,47 @@
    },
    "formats": [
     "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Repitch",
+   "vendor": "ellamenop",
+   "kind": "effect",
+   "about": "a MIDI-controlled audio harmonizer",
+   "url": "https://maxpollack.itch.io/repitch",
+   "repo": "ellamenop/repitch",
+   "stars": 62,
+   "license": null,
+   "version": "v1.0.2",
+   "download": {
+    "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-macOS.zip",
+    "name": "repitch-macOS.zip",
+    "size": 10568723,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-Linux.zip",
+     "name": "repitch-Linux.zip",
+     "size": 9272945,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-macOS.zip",
+     "name": "repitch-macOS.zip",
+     "size": 10568723,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/ellamenop/repitch/releases/download/v1.0.2/repitch-Windows.zip",
+     "name": "repitch-Windows.zip",
+     "size": 4197656,
+     "type": "zip"
+    }
+   },
+   "formats": [
     "AU"
    ],
    "source": "github"
@@ -2804,6 +2804,31 @@
     }
    },
    "formats": [
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Niner",
+   "vendor": "hyperfocusdsp",
+   "kind": "instrument",
+   "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
+   "url": "https://github.com/hyperfocusdsp/niner",
+   "repo": "hyperfocusdsp/niner",
+   "stars": 40,
+   "license": "GPL-3.0",
+   "version": "v1.0.1",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
+     "name": "niner-windows-x86_64.zip",
+     "size": 22861704,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP",
     "AU"
    ],
    "source": "github"
