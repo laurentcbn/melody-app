@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T11:03:23Z",
+ "updated": "2026-10-27T10:31:27Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6941,
+   "stars": 6939,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3308,
+   "stars": 3314,
    "license": "Apache-2.0",
    "version": "v2.1.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1040,
+   "stars": 1039,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -584,7 +584,7 @@
    "about": "A JUCE plugin for broadband noise reduction",
    "url": "https://github.com/lucianodato/noise-repellent",
    "repo": "lucianodato/noise-repellent",
-   "stars": 569,
+   "stars": 570,
    "license": null,
    "version": "v0.4.1",
    "download": {
@@ -697,7 +697,7 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 331,
+   "stars": 332,
    "license": "GPL-3.0",
    "version": "v0.17.1",
    "download": {
@@ -857,7 +857,7 @@
    "about": "Waveshaper plugin with a spline-based graph editor (LV2, VST, and CLAP)",
    "url": "https://wolf-plugins.github.io/wolf-shaper/",
    "repo": "wolf-plugins/wolf-shaper",
-   "stars": 264,
+   "stars": 265,
    "license": "GPL-3.0",
    "version": "v1.0.2",
    "download": {
@@ -930,7 +930,7 @@
    "about": "dynamic range processor plugin",
    "url": "https://zl-audio.github.io/plugins/zlcompressor/",
    "repo": "ZL-Audio/ZLCompressor",
-   "stars": 224,
+   "stars": 223,
    "license": "AGPL-3.0",
    "version": "0.6.1",
    "download": {
@@ -1075,7 +1075,7 @@
    "about": "Linux, Osx & Windows JUCE port of Ultramaster Group's classic 2001 software synth",
    "url": "https://kayrock.org/kr106",
    "repo": "kayrockscreenprinting/ultramaster_kr106",
-   "stars": 199,
+   "stars": 200,
    "license": "GPL-3.0",
    "version": "v2.5.13",
    "download": {
@@ -1110,37 +1110,13 @@
    "source": "github"
   },
   {
-   "name": "Ratatouille.lv2",
-   "vendor": "brummer10",
-   "kind": "effect",
-   "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
-   "url": "https://github.com/brummer10/Ratatouille.lv2",
-   "repo": "brummer10/Ratatouille.lv2",
-   "stars": 196,
-   "license": "BSD-3-Clause",
-   "version": "v0.9.11",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "size": 3038472,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Geonkick",
    "vendor": "quamplex",
    "kind": "instrument",
    "about": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also uniq",
    "url": "https://quamplex.com/geonkick",
    "repo": "quamplex/geonkick",
-   "stars": 195,
+   "stars": 193,
    "license": "GPL-3.0",
    "version": "v3.9.0",
    "download": null,
@@ -1170,7 +1146,7 @@
    "about": "Terminal based project management",
    "url": "https://kanban.rs",
    "repo": "kanban-rs/kanban",
-   "stars": 185,
+   "stars": 186,
    "license": "Apache-2.0",
    "version": "v0.12.2",
    "download": null,
@@ -1528,7 +1504,7 @@
    "about": "A MIDI driven, performance oriented, versatile synthesizer.",
    "url": "https://attilammagyar.github.io/js80p/",
    "repo": "attilammagyar/js80p",
-   "stars": 142,
+   "stars": 143,
    "license": "GPL-3.0",
    "version": "v4.1.1",
    "download": {
@@ -1649,7 +1625,7 @@
    "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
    "url": "https://psemiletov.github.io/drumlabooh/",
    "repo": "psemiletov/drumlabooh",
-   "stars": 127,
+   "stars": 128,
    "license": "GPL-3.0",
    "version": "13.0.0",
    "download": null,
@@ -1674,7 +1650,7 @@
    "about": "VST delay plugin where the repeats degrade in resolution",
    "url": "https://www.igorski.nl/download/regrader",
    "repo": "igorski/regrader",
-   "stars": 120,
+   "stars": 121,
    "license": "MIT",
    "version": "1.0.5",
    "download": {
@@ -1829,7 +1805,7 @@
    "about": "12-band equalizer designed for precise spectral shaping, mixing, mastering, and corrective audio processing.",
    "url": "https://github.com/brummer10/ToneShiftEQ",
    "repo": "brummer10/ToneShiftEQ",
-   "stars": 110,
+   "stars": 109,
    "license": "BSD-3-Clause",
    "version": "v1.3.0",
    "download": null,
@@ -1890,7 +1866,7 @@
    "about": "open wav media browser",
    "url": "https://samplaman.github.io/owmb/",
    "repo": "samplaman/owmb",
-   "stars": 97,
+   "stars": 101,
    "license": null,
    "version": "1.0.0",
    "download": {
@@ -2004,7 +1980,7 @@
    "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
    "url": "https://astramusic.dev/prism",
    "repo": "Boof2015/prism",
-   "stars": 86,
+   "stars": 85,
    "license": "GPL-3.0",
    "version": "v0.4.0-beta",
    "download": {
@@ -2210,7 +2186,7 @@
    "about": "Nuked SC-55 CLAP audio plugin",
    "url": "https://github.com/johnnovak/Nuked-SC55-CLAP",
    "repo": "johnnovak/Nuked-SC55-CLAP",
-   "stars": 80,
+   "stars": 81,
    "license": "GPL-2.0",
    "version": "v0.12.0",
    "download": {
@@ -2322,48 +2298,6 @@
    "source": "github"
   },
   {
-   "name": "ZLSpectrumEqualizer",
-   "vendor": "ZL-Audio",
-   "kind": "effect",
-   "about": "dynamic spectrum equalizer plugin",
-   "url": "https://zl-audio.github.io/plugins/zlspeceq/",
-   "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 76,
-   "license": "AGPL-3.0",
-   "version": "0.1.1",
-   "download": {
-    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-    "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-    "size": 5615636,
-    "type": "dmg"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
-     "size": 6283843,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-     "size": 5615636,
-     "type": "dmg"
-    },
-    "windows": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
-     "size": 5996544,
-     "type": "msi"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Mango",
    "vendor": "odoare",
    "kind": "instrument",
@@ -2406,49 +2340,13 @@
    "source": "github"
   },
   {
-   "name": "Grisey",
-   "vendor": "ZhiyuAlexZhang",
-   "kind": "effect",
-   "about": "Free, open-source metering plugin for mixing and mastering: LUFS loudness (EBU R 128), true peak, spectrum, spectrogram and goniometer in one window. VST3 / AU ",
-   "url": "https://github.com/ZhiyuAlexZhang/Grisey",
-   "repo": "ZhiyuAlexZhang/Grisey",
-   "stars": 66,
-   "license": "GPL-3.0",
-   "version": "v2.0.0-beta.1",
-   "download": {
-    "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-macOS.zip",
-    "name": "Grisey-v2.0.0-beta.1-macOS.zip",
-    "size": 7814895,
-    "type": "zip"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-macOS.zip",
-     "name": "Grisey-v2.0.0-beta.1-macOS.zip",
-     "size": 7814895,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-Windows.zip",
-     "name": "Grisey-v2.0.0-beta.1-Windows.zip",
-     "size": 10318639,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Overtonium",
    "vendor": "benjamindehli",
    "kind": "instrument",
    "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
    "url": "https://benjamindehli.github.io/overtonium/",
    "repo": "benjamindehli/overtonium",
-   "stars": 66,
+   "stars": 67,
    "license": "AGPL-3.0",
    "version": "v1.15.0",
    "download": {
@@ -2490,7 +2388,7 @@
    "about": "Free real-time AI Noise Gate VST3/AU plugin. Removes coughs, sneezes, and other artifacts from your live streams, podcasts, and videos.",
    "url": "https://github.com/dan-k-k/vocal-gate",
    "repo": "dan-k-k/vocal-gate",
-   "stars": 64,
+   "stars": 65,
    "license": "GPL-3.0",
    "version": "v1.0.5",
    "download": {
@@ -2651,7 +2549,7 @@
    "about": "A collection of virtual-analog filter multi-format audio plugins.",
    "url": "https://github.com/SpotlightKid/faustfilters",
    "repo": "SpotlightKid/faustfilters",
-   "stars": 51,
+   "stars": 52,
    "license": null,
    "version": "v0.4.0",
    "download": null,
@@ -2667,36 +2565,6 @@
     "VST3",
     "CLAP",
     "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Birdhouse",
-   "vendor": "madskjeldgaard",
-   "kind": "effect",
-   "about": "An OSC to Midi Bridge. Cross-platform. VST, CLAP, Standalone.",
-   "url": "https://github.com/madskjeldgaard/Birdhouse",
-   "repo": "madskjeldgaard/Birdhouse",
-   "stars": 45,
-   "license": null,
-   "version": "v0.1.2",
-   "download": {
-    "url": "https://github.com/madskjeldgaard/Birdhouse/releases/download/v0.1.2/BirdHouse_MacARM.dmg",
-    "name": "BirdHouse_MacARM.dmg",
-    "size": 18785989,
-    "type": "dmg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/madskjeldgaard/Birdhouse/releases/download/v0.1.2/BirdHouse_MacARM.dmg",
-     "name": "BirdHouse_MacARM.dmg",
-     "size": 18785989,
-     "type": "dmg"
-    }
-   },
-   "formats": [
-    "VST3",
-    "CLAP"
    ],
    "source": "github"
   },
@@ -2815,7 +2683,7 @@
    "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
    "url": "https://github.com/hyperfocusdsp/niner",
    "repo": "hyperfocusdsp/niner",
-   "stars": 41,
+   "stars": 42,
    "license": "GPL-3.0",
    "version": "v1.0.1",
    "download": null,
