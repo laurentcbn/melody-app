@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T11:19:06Z",
+ "updated": "2026-10-29T11:30:59Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6943,
+   "stars": 6949,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3323,
+   "stars": 3330,
    "license": "Apache-2.0",
    "version": "v2.1.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1040,
+   "stars": 1041,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 655,
+   "stars": 656,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -584,7 +584,7 @@
    "about": "A JUCE plugin for broadband noise reduction",
    "url": "https://github.com/lucianodato/noise-repellent",
    "repo": "lucianodato/noise-repellent",
-   "stars": 570,
+   "stars": 571,
    "license": null,
    "version": "v0.4.1",
    "download": {
@@ -620,7 +620,7 @@
    "about": "Simple software synthesizer for Linux",
    "url": "https://github.com/amsynth/amsynth",
    "repo": "amsynth/amsynth",
-   "stars": 506,
+   "stars": 507,
    "license": "GPL-2.0",
    "version": "release-2.0.0",
    "download": {
@@ -1110,30 +1110,6 @@
    "source": "github"
   },
   {
-   "name": "Ratatouille.lv2",
-   "vendor": "brummer10",
-   "kind": "effect",
-   "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
-   "url": "https://github.com/brummer10/Ratatouille.lv2",
-   "repo": "brummer10/Ratatouille.lv2",
-   "stars": 195,
-   "license": "BSD-3-Clause",
-   "version": "v0.9.11",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "size": 3038472,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Geonkick",
    "vendor": "quamplex",
    "kind": "instrument",
@@ -1164,13 +1140,37 @@
    "source": "github"
   },
   {
+   "name": "Ratatouille.lv2",
+   "vendor": "brummer10",
+   "kind": "effect",
+   "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
+   "url": "https://github.com/brummer10/Ratatouille.lv2",
+   "repo": "brummer10/Ratatouille.lv2",
+   "stars": 194,
+   "license": "BSD-3-Clause",
+   "version": "v0.9.11",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
+     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
+     "size": 3038472,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Kanban",
    "vendor": "kanban-rs",
    "kind": "effect",
    "about": "Terminal based project management",
    "url": "https://kanban.rs",
    "repo": "kanban-rs/kanban",
-   "stars": 187,
+   "stars": 188,
    "license": "Apache-2.0",
    "version": "v0.12.2",
    "download": null,
@@ -1277,7 +1277,7 @@
    "about": "An unofficial Todoist command line client written in Rust",
    "url": "https://github.com/tod-org/tod",
    "repo": "tod-org/tod",
-   "stars": 173,
+   "stars": 174,
    "license": "MIT",
    "version": "v0.19.0",
    "download": null,
@@ -1426,7 +1426,7 @@
    "about": "DSP Magnetic Tape Emulation",
    "url": "https://audiodev.blog/kiss-of-shame/",
    "repo": "hollance/TheKissOfShame",
-   "stars": 161,
+   "stars": 162,
    "license": "GPL-3.0",
    "version": "v1.0.2",
    "download": {
@@ -2328,7 +2328,7 @@
    "about": "Modular sound glitcher / mangler",
    "url": "fx-mechanics.com",
    "repo": "odoare/Mango",
-   "stars": 68,
+   "stars": 69,
    "license": "AGPL-3.0",
    "version": "v0.2.0",
    "download": {
@@ -2659,6 +2659,47 @@
    "source": "github"
   },
   {
+   "name": "Castello",
+   "vendor": "lucianoiam",
+   "kind": "effect",
+   "about": "A small CLAP/VST reverb plugin based on Csound reverbsc",
+   "url": "https://github.com/lucianoiam/castello",
+   "repo": "lucianoiam/castello",
+   "stars": 45,
+   "license": "GPL-3.0",
+   "version": "v1.3.0",
+   "download": {
+    "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-macos-universal-1.3.0.zip",
+    "name": "castello-macos-universal-1.3.0.zip",
+    "size": 912342,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-linux-x64-1.3.0.zip",
+     "name": "castello-linux-x64-1.3.0.zip",
+     "size": 765043,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-macos-universal-1.3.0.zip",
+     "name": "castello-macos-universal-1.3.0.zip",
+     "size": 912342,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-windows-x64-1.3.0.zip",
+     "name": "castello-windows-x64-1.3.0.zip",
+     "size": 1957057,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Ssher Rs",
    "vendor": "poneding",
    "kind": "effect",
@@ -2721,47 +2762,6 @@
    "formats": [
     "VST3",
     "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Castello",
-   "vendor": "lucianoiam",
-   "kind": "effect",
-   "about": "A small CLAP/VST reverb plugin based on Csound reverbsc",
-   "url": "https://github.com/lucianoiam/castello",
-   "repo": "lucianoiam/castello",
-   "stars": 44,
-   "license": "GPL-3.0",
-   "version": "v1.3.0",
-   "download": {
-    "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-macos-universal-1.3.0.zip",
-    "name": "castello-macos-universal-1.3.0.zip",
-    "size": 912342,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-linux-x64-1.3.0.zip",
-     "name": "castello-linux-x64-1.3.0.zip",
-     "size": 765043,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-macos-universal-1.3.0.zip",
-     "name": "castello-macos-universal-1.3.0.zip",
-     "size": 912342,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-windows-x64-1.3.0.zip",
-     "name": "castello-windows-x64-1.3.0.zip",
-     "size": 1957057,
-     "type": "zip"
-    }
-   },
-   "formats": [
     "AU"
    ],
    "source": "github"
