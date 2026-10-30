@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T11:30:59Z",
+ "updated": "2026-10-30T11:22:06Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6949,
+   "stars": 6952,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3330,
+   "stars": 3337,
    "license": "Apache-2.0",
    "version": "v2.1.0",
    "download": {
@@ -440,7 +440,7 @@
    "about": "Frequency modulation synthesizer plugin (VST2, CLAP). Runs on macOS, Windows and Linux.",
    "url": "https://www.octasine.com/",
    "repo": "greatest-ape/OctaSine",
-   "stars": 821,
+   "stars": 822,
    "license": "AGPL-3.0",
    "version": "v0.9.1",
    "download": {
@@ -620,7 +620,7 @@
    "about": "Simple software synthesizer for Linux",
    "url": "https://github.com/amsynth/amsynth",
    "repo": "amsynth/amsynth",
-   "stars": 507,
+   "stars": 506,
    "license": "GPL-2.0",
    "version": "release-2.0.0",
    "download": {
@@ -697,32 +697,32 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 332,
+   "stars": 333,
    "license": "GPL-3.0",
-   "version": "v0.17.2",
+   "version": "v0.18.0",
    "download": {
-    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.2/INTERSECT-v0.17.2-macOS-arm64.zip",
-    "name": "INTERSECT-v0.17.2-macOS-arm64.zip",
-    "size": 9423602,
+    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.0/INTERSECT-v0.18.0-macOS-arm64.zip",
+    "name": "INTERSECT-v0.18.0-macOS-arm64.zip",
+    "size": 9582346,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.2/INTERSECT-v0.17.2-Linux-x64.zip",
-     "name": "INTERSECT-v0.17.2-Linux-x64.zip",
-     "size": 9947690,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.0/INTERSECT-v0.18.0-Linux-x64.zip",
+     "name": "INTERSECT-v0.18.0-Linux-x64.zip",
+     "size": 8789574,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.2/INTERSECT-v0.17.2-macOS-arm64.zip",
-     "name": "INTERSECT-v0.17.2-macOS-arm64.zip",
-     "size": 9423602,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.0/INTERSECT-v0.18.0-macOS-arm64.zip",
+     "name": "INTERSECT-v0.18.0-macOS-arm64.zip",
+     "size": 9582346,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.17.2/INTERSECT-v0.17.2-Windows-x64.zip",
-     "name": "INTERSECT-v0.17.2-Windows-x64.zip",
-     "size": 7446756,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.0/INTERSECT-v0.18.0-Windows-x64.zip",
+     "name": "INTERSECT-v0.18.0-Windows-x64.zip",
+     "size": 7543390,
      "type": "zip"
     }
    },
@@ -774,7 +774,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 303,
+   "stars": 304,
    "license": "GPL-3.0",
    "version": "v0.13.0",
    "download": {
@@ -930,7 +930,7 @@
    "about": "dynamic range processor plugin",
    "url": "https://zl-audio.github.io/plugins/zlcompressor/",
    "repo": "ZL-Audio/ZLCompressor",
-   "stars": 223,
+   "stars": 224,
    "license": "AGPL-3.0",
    "version": "0.6.1",
    "download": {
@@ -1343,7 +1343,7 @@
    "about": "splitter plugin",
    "url": "https://zl-audio.github.io/plugins/zlsplitter/",
    "repo": "ZL-Audio/ZLSplitter",
-   "stars": 167,
+   "stars": 168,
    "license": "AGPL-3.0",
    "version": "0.3.0",
    "download": {
@@ -1385,7 +1385,7 @@
    "about": "A Dual Delay with more features than it should",
    "url": "https://github.com/tiagolr/qdelay",
    "repo": "tiagolr/qdelay",
-   "stars": 162,
+   "stars": 163,
    "license": "GPL-3.0",
    "version": "v1.2.3",
    "download": {
@@ -1570,7 +1570,7 @@
    "about": "A lookahead compressor/limiter that's soft as a lamb.",
    "url": "https://github.com/magnetophon/lamb-rs",
    "repo": "magnetophon/lamb-rs",
-   "stars": 135,
+   "stars": 137,
    "license": "AGPL-3.0",
    "version": "v2.1.0",
    "download": {
@@ -1896,20 +1896,20 @@
    "download": {
     "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
     "name": "OWMB-macOS-Universal-Installer.dmg",
-    "size": 45453854,
+    "size": 45714293,
     "type": "dmg"
    },
    "downloads": {
     "windows": {
      "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-Windows-11-x64.zip",
      "name": "OWMB-Windows-11-x64.zip",
-     "size": 8008454,
+     "size": 8172550,
      "type": "zip"
     },
     "mac": {
      "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
      "name": "OWMB-macOS-Universal-Installer.dmg",
-     "size": 45453854,
+     "size": 45714293,
      "type": "dmg"
     }
    },
@@ -2322,6 +2322,48 @@
    "source": "github"
   },
   {
+   "name": "ZLSpectrumEqualizer",
+   "vendor": "ZL-Audio",
+   "kind": "effect",
+   "about": "dynamic spectrum equalizer plugin",
+   "url": "https://zl-audio.github.io/plugins/zlspeceq/",
+   "repo": "ZL-Audio/ZLSpectrumEqualizer",
+   "stars": 77,
+   "license": "AGPL-3.0",
+   "version": "0.1.1",
+   "download": {
+    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+    "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+    "size": 5615636,
+    "type": "dmg"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
+     "size": 6283843,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+     "size": 5615636,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
+     "size": 5996544,
+     "type": "msi"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Mango",
    "vendor": "odoare",
    "kind": "instrument",
@@ -2370,7 +2412,7 @@
    "about": "Free, open-source metering plugin for mixing and mastering: LUFS loudness (EBU R 128), true peak, spectrum, spectrogram and goniometer in one window. VST3 / AU ",
    "url": "https://github.com/ZhiyuAlexZhang/Grisey",
    "repo": "ZhiyuAlexZhang/Grisey",
-   "stars": 67,
+   "stars": 68,
    "license": "GPL-3.0",
    "version": "v2.0.0-beta.1",
    "download": {
@@ -2395,6 +2437,48 @@
    },
    "formats": [
     "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Vocal Gate",
+   "vendor": "dan-k-k",
+   "kind": "effect",
+   "about": "Free real-time AI Noise Gate VST3/AU plugin. Removes coughs, sneezes, and other artifacts from your live streams, podcasts, and videos.",
+   "url": "https://github.com/dan-k-k/vocal-gate",
+   "repo": "dan-k-k/vocal-gate",
+   "stars": 67,
+   "license": "GPL-3.0",
+   "version": "v1.0.5",
+   "download": {
+    "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Mac_Installer.pkg",
+    "name": "VocalGate_Mac_Installer.pkg",
+    "size": 22596370,
+    "type": "pkg"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Linux.zip",
+     "name": "VocalGate_Linux.zip",
+     "size": 10131783,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Mac_Installer.pkg",
+     "name": "VocalGate_Mac_Installer.pkg",
+     "size": 22596370,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Windows_Installer.exe",
+     "name": "VocalGate_Windows_Installer.exe",
+     "size": 31330154,
+     "type": "exe"
+    }
+   },
+   "formats": [
+    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2433,48 +2517,6 @@
      "name": "Overtonium-v1.15.0-Windows.zip",
      "size": 7863288,
      "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Vocal Gate",
-   "vendor": "dan-k-k",
-   "kind": "effect",
-   "about": "Free real-time AI Noise Gate VST3/AU plugin. Removes coughs, sneezes, and other artifacts from your live streams, podcasts, and videos.",
-   "url": "https://github.com/dan-k-k/vocal-gate",
-   "repo": "dan-k-k/vocal-gate",
-   "stars": 66,
-   "license": "GPL-3.0",
-   "version": "v1.0.5",
-   "download": {
-    "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Mac_Installer.pkg",
-    "name": "VocalGate_Mac_Installer.pkg",
-    "size": 22596370,
-    "type": "pkg"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Linux.zip",
-     "name": "VocalGate_Linux.zip",
-     "size": 10131783,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Mac_Installer.pkg",
-     "name": "VocalGate_Mac_Installer.pkg",
-     "size": 22596370,
-     "type": "pkg"
-    },
-    "windows": {
-     "url": "https://github.com/dan-k-k/vocal-gate/releases/download/v1.0.5/VocalGate_Windows_Installer.exe",
-     "name": "VocalGate_Windows_Installer.exe",
-     "size": 31330154,
-     "type": "exe"
     }
    },
    "formats": [
