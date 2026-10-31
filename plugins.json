@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T11:22:06Z",
+ "updated": "2026-10-31T10:54:48Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6952,
+   "stars": 6956,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3337,
+   "stars": 3344,
    "license": "Apache-2.0",
    "version": "v2.1.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1041,
+   "stars": 1046,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 656,
+   "stars": 657,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -584,7 +584,7 @@
    "about": "A JUCE plugin for broadband noise reduction",
    "url": "https://github.com/lucianodato/noise-repellent",
    "repo": "lucianodato/noise-repellent",
-   "stars": 571,
+   "stars": 572,
    "license": null,
    "version": "v0.4.1",
    "download": {
@@ -774,7 +774,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 304,
+   "stars": 305,
    "license": "GPL-3.0",
    "version": "v0.13.0",
    "download": {
@@ -900,7 +900,7 @@
    "about": "VSTi  8-bit Sampler inspired by the sound of the famous Commodore Amiga for Windows/MacOS/Linux using VST3/AU/LV2",
    "url": "https://github.com/astriiddev/Ami-Sampler-VST",
    "repo": "astriiddev/Ami-Sampler-VST",
-   "stars": 237,
+   "stars": 236,
    "license": "GPL-3.0",
    "version": "v0.7.2",
    "download": {
@@ -930,7 +930,7 @@
    "about": "dynamic range processor plugin",
    "url": "https://zl-audio.github.io/plugins/zlcompressor/",
    "repo": "ZL-Audio/ZLCompressor",
-   "stars": 224,
+   "stars": 226,
    "license": "AGPL-3.0",
    "version": "0.6.1",
    "download": {
@@ -1075,7 +1075,7 @@
    "about": "Linux, Osx & Windows JUCE port of Ultramaster Group's classic 2001 software synth",
    "url": "https://kayrock.org/kr106",
    "repo": "kayrockscreenprinting/ultramaster_kr106",
-   "stars": 200,
+   "stars": 201,
    "license": "GPL-3.0",
    "version": "v2.5.13",
    "download": {
@@ -1116,7 +1116,7 @@
    "about": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also uniq",
    "url": "https://quamplex.com/geonkick",
    "repo": "quamplex/geonkick",
-   "stars": 194,
+   "stars": 195,
    "license": "GPL-3.0",
    "version": "v3.9.0",
    "download": null,
@@ -1710,7 +1710,7 @@
    "about": "OS-251 is a synthesizer plugin",
    "url": "https://onsenaudio.com/products/os251",
    "repo": "utokusa/OS-251",
-   "stars": 117,
+   "stars": 118,
    "license": "GPL-3.0",
    "version": "v1.3.0",
    "download": {
@@ -1752,7 +1752,7 @@
    "about": "Audio/signal visualizer plugin",
    "url": "https://jthorborg.com/index.html?ipage=signalizer",
    "repo": "jthorborg/signalizer",
-   "stars": 114,
+   "stars": 115,
    "license": null,
    "version": "v0.5.0",
    "download": {
@@ -2245,6 +2245,48 @@
    "source": "github"
   },
   {
+   "name": "ZLSpectrumEqualizer",
+   "vendor": "ZL-Audio",
+   "kind": "effect",
+   "about": "dynamic spectrum equalizer plugin",
+   "url": "https://zl-audio.github.io/plugins/zlspeceq/",
+   "repo": "ZL-Audio/ZLSpectrumEqualizer",
+   "stars": 80,
+   "license": "AGPL-3.0",
+   "version": "0.1.1",
+   "download": {
+    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+    "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+    "size": 5615636,
+    "type": "dmg"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
+     "size": 6283843,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+     "size": 5615636,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
+     "size": 5996544,
+     "type": "msi"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "RSAlgorithmicVerb",
    "vendor": "reillypascal",
    "kind": "effect",
@@ -2318,48 +2360,6 @@
    },
    "formats": [
     "VST3"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "ZLSpectrumEqualizer",
-   "vendor": "ZL-Audio",
-   "kind": "effect",
-   "about": "dynamic spectrum equalizer plugin",
-   "url": "https://zl-audio.github.io/plugins/zlspeceq/",
-   "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 77,
-   "license": "AGPL-3.0",
-   "version": "0.1.1",
-   "download": {
-    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-    "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-    "size": 5615636,
-    "type": "dmg"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
-     "size": 6283843,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-     "size": 5615636,
-     "type": "dmg"
-    },
-    "windows": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
-     "size": 5996544,
-     "type": "msi"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
    ],
    "source": "github"
   },
@@ -2442,6 +2442,48 @@
    "source": "github"
   },
   {
+   "name": "Overtonium",
+   "vendor": "benjamindehli",
+   "kind": "instrument",
+   "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
+   "url": "https://benjamindehli.github.io/overtonium/",
+   "repo": "benjamindehli/overtonium",
+   "stars": 68,
+   "license": "AGPL-3.0",
+   "version": "v1.15.0",
+   "download": {
+    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.15.0/Overtonium-v1.15.0-macOS.zip",
+    "name": "Overtonium-v1.15.0-macOS.zip",
+    "size": 17376689,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.15.0/Overtonium-v1.15.0-Linux.zip",
+     "name": "Overtonium-v1.15.0-Linux.zip",
+     "size": 9890022,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.15.0/Overtonium-v1.15.0-macOS.zip",
+     "name": "Overtonium-v1.15.0-macOS.zip",
+     "size": 17376689,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.15.0/Overtonium-v1.15.0-Windows.zip",
+     "name": "Overtonium-v1.15.0-Windows.zip",
+     "size": 7863288,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Vocal Gate",
    "vendor": "dan-k-k",
    "kind": "effect",
@@ -2475,48 +2517,6 @@
      "name": "VocalGate_Windows_Installer.exe",
      "size": 31330154,
      "type": "exe"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Overtonium",
-   "vendor": "benjamindehli",
-   "kind": "instrument",
-   "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
-   "url": "https://benjamindehli.github.io/overtonium/",
-   "repo": "benjamindehli/overtonium",
-   "stars": 67,
-   "license": "AGPL-3.0",
-   "version": "v1.15.0",
-   "download": {
-    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.15.0/Overtonium-v1.15.0-macOS.zip",
-    "name": "Overtonium-v1.15.0-macOS.zip",
-    "size": 17376689,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.15.0/Overtonium-v1.15.0-Linux.zip",
-     "name": "Overtonium-v1.15.0-Linux.zip",
-     "size": 9890022,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.15.0/Overtonium-v1.15.0-macOS.zip",
-     "name": "Overtonium-v1.15.0-macOS.zip",
-     "size": 17376689,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.15.0/Overtonium-v1.15.0-Windows.zip",
-     "name": "Overtonium-v1.15.0-Windows.zip",
-     "size": 7863288,
-     "type": "zip"
     }
    },
    "formats": [
