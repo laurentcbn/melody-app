@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T13:27:49Z",
+ "updated": "2026-11-03T12:45:35Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6961,
+   "stars": 6964,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3368,
+   "stars": 3381,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 659,
+   "stars": 658,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -699,30 +699,30 @@
    "repo": "tucktuckg00se/INTERSECT",
    "stars": 333,
    "license": "GPL-3.0",
-   "version": "v0.18.0",
+   "version": "v0.18.1",
    "download": {
-    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.0/INTERSECT-v0.18.0-macOS-arm64.zip",
-    "name": "INTERSECT-v0.18.0-macOS-arm64.zip",
-    "size": 9582346,
+    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-macOS-x64.zip",
+    "name": "INTERSECT-v0.18.1-macOS-x64.zip",
+    "size": 10440771,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.0/INTERSECT-v0.18.0-Linux-x64.zip",
-     "name": "INTERSECT-v0.18.0-Linux-x64.zip",
-     "size": 8789574,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-Linux-x64.zip",
+     "name": "INTERSECT-v0.18.1-Linux-x64.zip",
+     "size": 8804894,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.0/INTERSECT-v0.18.0-macOS-arm64.zip",
-     "name": "INTERSECT-v0.18.0-macOS-arm64.zip",
-     "size": 9582346,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-macOS-x64.zip",
+     "name": "INTERSECT-v0.18.1-macOS-x64.zip",
+     "size": 10440771,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.0/INTERSECT-v0.18.0-Windows-x64.zip",
-     "name": "INTERSECT-v0.18.0-Windows-x64.zip",
-     "size": 7543390,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-Windows-x64.zip",
+     "name": "INTERSECT-v0.18.1-Windows-x64.zip",
+     "size": 7552206,
      "type": "zip"
     }
    },
@@ -774,7 +774,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 307,
+   "stars": 308,
    "license": "GPL-3.0",
    "version": "v0.13.0",
    "download": {
@@ -816,7 +816,7 @@
    "about": "Convolution reverb with pre and post modulation",
    "url": "https://github.com/tiagolr/reevr",
    "repo": "tiagolr/reevr",
-   "stars": 296,
+   "stars": 297,
    "license": "GPL-3.0",
    "version": "v1.4.0",
    "download": {
@@ -900,7 +900,7 @@
    "about": "VSTi  8-bit Sampler inspired by the sound of the famous Commodore Amiga for Windows/MacOS/Linux using VST3/AU/LV2",
    "url": "https://github.com/astriiddev/Ami-Sampler-VST",
    "repo": "astriiddev/Ami-Sampler-VST",
-   "stars": 236,
+   "stars": 235,
    "license": "GPL-3.0",
    "version": "v0.7.2",
    "download": {
@@ -972,7 +972,7 @@
    "about": "Just a Sample is a modern, open-source audio sampler",
    "url": "https://bobona.github.io/just-a-sample/",
    "repo": "BOBONA/Just-a-Sample",
-   "stars": 223,
+   "stars": 224,
    "license": "MIT",
    "version": "v1.3-latest",
    "download": {
@@ -1014,7 +1014,7 @@
    "about": "NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.",
    "url": "https://github.com/brummer10/NeuralRack",
    "repo": "brummer10/NeuralRack",
-   "stars": 219,
+   "stars": 220,
    "license": "BSD-3-Clause",
    "version": "v0.4.1",
    "download": null,
@@ -1146,7 +1146,7 @@
    "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
    "url": "https://github.com/brummer10/Ratatouille.lv2",
    "repo": "brummer10/Ratatouille.lv2",
-   "stars": 194,
+   "stars": 195,
    "license": "BSD-3-Clause",
    "version": "v0.9.11",
    "download": null,
@@ -1385,7 +1385,7 @@
    "about": "A Dual Delay with more features than it should",
    "url": "https://github.com/tiagolr/qdelay",
    "repo": "tiagolr/qdelay",
-   "stars": 164,
+   "stars": 163,
    "license": "GPL-3.0",
    "version": "v1.2.3",
    "download": {
@@ -1528,7 +1528,7 @@
    "about": "A MIDI driven, performance oriented, versatile synthesizer.",
    "url": "https://attilammagyar.github.io/js80p/",
    "repo": "attilammagyar/js80p",
-   "stars": 143,
+   "stars": 144,
    "license": "GPL-3.0",
    "version": "v4.1.1",
    "download": {
@@ -1752,7 +1752,7 @@
    "about": "Audio/signal visualizer plugin",
    "url": "https://jthorborg.com/index.html?ipage=signalizer",
    "repo": "jthorborg/signalizer",
-   "stars": 115,
+   "stars": 114,
    "license": null,
    "version": "v0.5.0",
    "download": {
@@ -1829,7 +1829,7 @@
    "about": "12-band equalizer designed for precise spectral shaping, mixing, mastering, and corrective audio processing.",
    "url": "https://github.com/brummer10/ToneShiftEQ",
    "repo": "brummer10/ToneShiftEQ",
-   "stars": 109,
+   "stars": 108,
    "license": "BSD-3-Clause",
    "version": "v1.3.0",
    "download": null,
@@ -1890,7 +1890,7 @@
    "about": "open wav media browser",
    "url": "https://samplaman.github.io/owmb/",
    "repo": "samplaman/owmb",
-   "stars": 105,
+   "stars": 106,
    "license": null,
    "version": "1.0.0",
    "download": {
@@ -2184,6 +2184,42 @@
    "source": "github"
   },
   {
+   "name": "BlackBird",
+   "vendor": "khrykin",
+   "kind": "instrument",
+   "about": "AU/VST3 Synth built with JUCE",
+   "url": "https://github.com/khrykin/BlackBird",
+   "repo": "khrykin/BlackBird",
+   "stars": 81,
+   "license": "GPL-3.0",
+   "version": "v0.1.0",
+   "download": {
+    "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
+    "name": "BlackBird-0.1.0.pkg",
+    "size": 3578245,
+    "type": "pkg"
+   },
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0-windows-x64.exe",
+     "name": "BlackBird-0.1.0-windows-x64.exe",
+     "size": 4189654,
+     "type": "exe"
+    },
+    "mac": {
+     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
+     "name": "BlackBird-0.1.0.pkg",
+     "size": 3578245,
+     "type": "pkg"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Roboverb",
    "vendor": "kushview",
    "kind": "effect",
@@ -2216,42 +2252,6 @@
    "formats": [
     "VST3",
     "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "BlackBird",
-   "vendor": "khrykin",
-   "kind": "instrument",
-   "about": "AU/VST3 Synth built with JUCE",
-   "url": "https://github.com/khrykin/BlackBird",
-   "repo": "khrykin/BlackBird",
-   "stars": 81,
-   "license": "GPL-3.0",
-   "version": "v0.1.0",
-   "download": {
-    "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
-    "name": "BlackBird-0.1.0.pkg",
-    "size": 3578245,
-    "type": "pkg"
-   },
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0-windows-x64.exe",
-     "name": "BlackBird-0.1.0-windows-x64.exe",
-     "size": 4189654,
-     "type": "exe"
-    },
-    "mac": {
-     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
-     "name": "BlackBird-0.1.0.pkg",
-     "size": 3578245,
-     "type": "pkg"
-    }
-   },
-   "formats": [
-    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2325,41 +2325,6 @@
    "formats": [
     "VST3",
     "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Nam Juce",
-   "vendor": "Tr3m",
-   "kind": "effect",
-   "about": "A JUCE implementation of the Neural Amp Modeler Plugin",
-   "url": "https://github.com/Tr3m/nam-juce",
-   "repo": "Tr3m/nam-juce",
-   "stars": 78,
-   "license": "GPL-3.0",
-   "version": "v0.5.0",
-   "download": {
-    "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.5.0/nam-juce-v0.5.0-apple-silicon.dmg",
-    "name": "nam-juce-v0.5.0-apple-silicon.dmg",
-    "size": 17393607,
-    "type": "dmg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.5.0/nam-juce-v0.5.0-apple-silicon.dmg",
-     "name": "nam-juce-v0.5.0-apple-silicon.dmg",
-     "size": 17393607,
-     "type": "dmg"
-    },
-    "windows": {
-     "url": "https://github.com/Tr3m/nam-juce/releases/download/v0.5.0/nam-juce-v0.5.0-win.zip",
-     "name": "nam-juce-v0.5.0-win.zip",
-     "size": 12741752,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3"
    ],
    "source": "github"
   },
@@ -2490,7 +2455,7 @@
    "about": "Free real-time AI Noise Gate VST3/AU plugin. Removes coughs, sneezes, and other artifacts from your live streams, podcasts, and videos.",
    "url": "https://github.com/dan-k-k/vocal-gate",
    "repo": "dan-k-k/vocal-gate",
-   "stars": 67,
+   "stars": 66,
    "license": "GPL-3.0",
    "version": "v1.0.5",
    "download": {
@@ -2829,6 +2794,31 @@
    },
    "formats": [
     "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Vfd Plugin Suite",
+   "vendor": "vividfeverdreams",
+   "kind": "effect",
+   "about": "Six free, open-source bass-music audio plug-ins (VST3/AU, Mac + Windows) by Vivid Fever Dreams, built with JUCE",
+   "url": "https://www.vividfeverdreams.xyz",
+   "repo": "vividfeverdreams/vfd-plugin-suite",
+   "stars": 40,
+   "license": "AGPL-3.0",
+   "version": "v1.6.3",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/vividfeverdreams/vfd-plugin-suite/releases/download/v1.6.3/Vivid-Fever-Dreams-Suite-v1.6.3-Beta-Windows-VST3.zip",
+     "name": "Vivid-Fever-Dreams-Suite-v1.6.3-Beta-Windows-VST3.zip",
+     "size": 37496795,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
     "AU"
    ],
    "source": "github"
