@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T12:45:35Z",
+ "updated": "2026-11-04T12:58:18Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6964,
+   "stars": 6965,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3381,
+   "stars": 3393,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -701,9 +701,9 @@
    "license": "GPL-3.0",
    "version": "v0.18.1",
    "download": {
-    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-macOS-x64.zip",
-    "name": "INTERSECT-v0.18.1-macOS-x64.zip",
-    "size": 10440771,
+    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-macOS-arm64.zip",
+    "name": "INTERSECT-v0.18.1-macOS-arm64.zip",
+    "size": 9596898,
     "type": "zip"
    },
    "downloads": {
@@ -714,9 +714,9 @@
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-macOS-x64.zip",
-     "name": "INTERSECT-v0.18.1-macOS-x64.zip",
-     "size": 10440771,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-macOS-arm64.zip",
+     "name": "INTERSECT-v0.18.1-macOS-arm64.zip",
+     "size": 9596898,
      "type": "zip"
     },
     "windows": {
@@ -900,7 +900,7 @@
    "about": "VSTi  8-bit Sampler inspired by the sound of the famous Commodore Amiga for Windows/MacOS/Linux using VST3/AU/LV2",
    "url": "https://github.com/astriiddev/Ami-Sampler-VST",
    "repo": "astriiddev/Ami-Sampler-VST",
-   "stars": 235,
+   "stars": 237,
    "license": "GPL-3.0",
    "version": "v0.7.2",
    "download": {
@@ -930,7 +930,7 @@
    "about": "dynamic range processor plugin",
    "url": "https://zl-audio.github.io/plugins/zlcompressor/",
    "repo": "ZL-Audio/ZLCompressor",
-   "stars": 228,
+   "stars": 229,
    "license": "AGPL-3.0",
    "version": "0.6.1",
    "download": {
@@ -1075,7 +1075,7 @@
    "about": "Linux, Osx & Windows JUCE port of Ultramaster Group's classic 2001 software synth",
    "url": "https://kayrock.org/kr106",
    "repo": "kayrockscreenprinting/ultramaster_kr106",
-   "stars": 202,
+   "stars": 203,
    "license": "GPL-3.0",
    "version": "v2.5.13",
    "download": {
@@ -1462,7 +1462,7 @@
    "about": "Real-time 2D spectrogram plugin (LV2, VST and Jack)",
    "url": "https://github.com/wolf-plugins/wolf-spectrum",
    "repo": "wolf-plugins/wolf-spectrum",
-   "stars": 154,
+   "stars": 155,
    "license": "GPL-3.0",
    "version": "v1.0.0",
    "download": null,
@@ -1486,7 +1486,7 @@
    "about": "algorithmic reverb plugin based on CloudSeed",
    "url": "https://github.com/xunil-cloud/CloudReverb",
    "repo": "xunil-cloud/CloudReverb",
-   "stars": 145,
+   "stars": 146,
    "license": "GPL-3.0",
    "version": "v0.5",
    "download": {
@@ -1528,7 +1528,7 @@
    "about": "A MIDI driven, performance oriented, versatile synthesizer.",
    "url": "https://attilammagyar.github.io/js80p/",
    "repo": "attilammagyar/js80p",
-   "stars": 144,
+   "stars": 145,
    "license": "GPL-3.0",
    "version": "v4.1.1",
    "download": {
@@ -1649,7 +1649,7 @@
    "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
    "url": "https://psemiletov.github.io/drumlabooh/",
    "repo": "psemiletov/drumlabooh",
-   "stars": 128,
+   "stars": 129,
    "license": "GPL-3.0",
    "version": "13.0.0",
    "download": null,
@@ -1829,7 +1829,7 @@
    "about": "12-band equalizer designed for precise spectral shaping, mixing, mastering, and corrective audio processing.",
    "url": "https://github.com/brummer10/ToneShiftEQ",
    "repo": "brummer10/ToneShiftEQ",
-   "stars": 108,
+   "stars": 109,
    "license": "BSD-3-Clause",
    "version": "v1.3.0",
    "download": null,
@@ -1890,7 +1890,7 @@
    "about": "open wav media browser",
    "url": "https://samplaman.github.io/owmb/",
    "repo": "samplaman/owmb",
-   "stars": 106,
+   "stars": 107,
    "license": null,
    "version": "1.0.0",
    "download": {
@@ -2004,7 +2004,7 @@
    "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
    "url": "https://astramusic.dev/prism",
    "repo": "Boof2015/prism",
-   "stars": 85,
+   "stars": 86,
    "license": "GPL-3.0",
    "version": "v0.4.0-beta",
    "download": {
@@ -2030,6 +2030,48 @@
    "formats": [
     "VST3",
     "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "ZLSpectrumEqualizer",
+   "vendor": "ZL-Audio",
+   "kind": "effect",
+   "about": "dynamic spectrum equalizer plugin",
+   "url": "https://zl-audio.github.io/plugins/zlspeceq/",
+   "repo": "ZL-Audio/ZLSpectrumEqualizer",
+   "stars": 82,
+   "license": "AGPL-3.0",
+   "version": "0.1.1",
+   "download": {
+    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+    "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+    "size": 5615636,
+    "type": "dmg"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
+     "size": 6283843,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
+     "size": 5615636,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
+     "name": "ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
+     "size": 5996544,
+     "type": "msi"
+    }
+   },
+   "formats": [
+    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2077,47 +2119,6 @@
    "source": "github"
   },
   {
-   "name": "Nuked SC55 CLAP",
-   "vendor": "johnnovak",
-   "kind": "effect",
-   "about": "Nuked SC-55 CLAP audio plugin",
-   "url": "https://github.com/johnnovak/Nuked-SC55-CLAP",
-   "repo": "johnnovak/Nuked-SC55-CLAP",
-   "stars": 82,
-   "license": "GPL-2.0",
-   "version": "v0.12.0",
-   "download": {
-    "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-macos-v0.12.0.zip",
-    "name": "Nuked-SC55-CLAP-macos-v0.12.0.zip",
-    "size": 177055,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-linux-x86_64-v0.12.0.zip",
-     "name": "Nuked-SC55-CLAP-linux-x86_64-v0.12.0.zip",
-     "size": 95848,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-macos-v0.12.0.zip",
-     "name": "Nuked-SC55-CLAP-macos-v0.12.0.zip",
-     "size": 177055,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-windows-x64-v0.12.0.zip",
-     "name": "Nuked-SC55-CLAP-windows-x64-v0.12.0.zip",
-     "size": 85439,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Cli",
    "vendor": "hopinc",
    "kind": "effect",
@@ -2138,48 +2139,6 @@
    },
    "formats": [
     "CLAP"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "ZLSpectrumEqualizer",
-   "vendor": "ZL-Audio",
-   "kind": "effect",
-   "about": "dynamic spectrum equalizer plugin",
-   "url": "https://zl-audio.github.io/plugins/zlspeceq/",
-   "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 81,
-   "license": "AGPL-3.0",
-   "version": "0.1.1",
-   "download": {
-    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-    "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-    "size": 5615636,
-    "type": "dmg"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
-     "size": 6283843,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-     "size": 5615636,
-     "type": "dmg"
-    },
-    "windows": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
-     "size": 5996544,
-     "type": "msi"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
    ],
    "source": "github"
   },
@@ -2287,6 +2246,47 @@
    "source": "github"
   },
   {
+   "name": "Nuked SC55 CLAP",
+   "vendor": "johnnovak",
+   "kind": "effect",
+   "about": "Nuked SC-55 CLAP audio plugin",
+   "url": "https://github.com/johnnovak/Nuked-SC55-CLAP",
+   "repo": "johnnovak/Nuked-SC55-CLAP",
+   "stars": 81,
+   "license": "GPL-2.0",
+   "version": "v0.12.0",
+   "download": {
+    "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-macos-v0.12.0.zip",
+    "name": "Nuked-SC55-CLAP-macos-v0.12.0.zip",
+    "size": 177055,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-linux-x86_64-v0.12.0.zip",
+     "name": "Nuked-SC55-CLAP-linux-x86_64-v0.12.0.zip",
+     "size": 95848,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-macos-v0.12.0.zip",
+     "name": "Nuked-SC55-CLAP-macos-v0.12.0.zip",
+     "size": 177055,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/johnnovak/Nuked-SC55-CLAP/releases/download/v0.12.0/Nuked-SC55-CLAP-windows-x64-v0.12.0.zip",
+     "name": "Nuked-SC55-CLAP-windows-x64-v0.12.0.zip",
+     "size": 85439,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
+   ],
+   "source": "github"
+  },
+  {
    "name": "RSAlgorithmicVerb",
    "vendor": "reillypascal",
    "kind": "effect",
@@ -2371,6 +2371,48 @@
    "source": "github"
   },
   {
+   "name": "Overtonium",
+   "vendor": "benjamindehli",
+   "kind": "instrument",
+   "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
+   "url": "https://benjamindehli.github.io/overtonium/",
+   "repo": "benjamindehli/overtonium",
+   "stars": 69,
+   "license": "AGPL-3.0",
+   "version": "v1.16.0",
+   "download": {
+    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-macOS.zip",
+    "name": "Overtonium-v1.16.0-macOS.zip",
+    "size": 17599069,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-Linux.zip",
+     "name": "Overtonium-v1.16.0-Linux.zip",
+     "size": 10005282,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-macOS.zip",
+     "name": "Overtonium-v1.16.0-macOS.zip",
+     "size": 17599069,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-Windows.zip",
+     "name": "Overtonium-v1.16.0-Windows.zip",
+     "size": 8019409,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Grisey",
    "vendor": "ZhiyuAlexZhang",
    "kind": "effect",
@@ -2402,48 +2444,6 @@
    },
    "formats": [
     "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Overtonium",
-   "vendor": "benjamindehli",
-   "kind": "instrument",
-   "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
-   "url": "https://benjamindehli.github.io/overtonium/",
-   "repo": "benjamindehli/overtonium",
-   "stars": 68,
-   "license": "AGPL-3.0",
-   "version": "v1.16.0",
-   "download": {
-    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-macOS.zip",
-    "name": "Overtonium-v1.16.0-macOS.zip",
-    "size": 17599069,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-Linux.zip",
-     "name": "Overtonium-v1.16.0-Linux.zip",
-     "size": 10005282,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-macOS.zip",
-     "name": "Overtonium-v1.16.0-macOS.zip",
-     "size": 17599069,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-Windows.zip",
-     "name": "Overtonium-v1.16.0-Windows.zip",
-     "size": 8019409,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2666,6 +2666,49 @@
    "source": "github"
   },
   {
+   "name": "Firefly Synth 2",
+   "vendor": "sjoerdvankreel",
+   "kind": "instrument",
+   "about": "Semi-modular synthesizer and FX plugin for Windows, Linux and Mac, VST3 and CLAP.",
+   "url": "https://firefly-synth.com/",
+   "repo": "sjoerdvankreel/firefly-synth-2",
+   "stars": 45,
+   "license": "MIT",
+   "version": "v2.1.6",
+   "download": {
+    "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-mac-vst3-Release.zip",
+    "name": "FireflySynth2-mac-vst3-Release.zip",
+    "size": 13267257,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-linux-vst3-Release.zip",
+     "name": "FireflySynth2-linux-vst3-Release.zip",
+     "size": 10018243,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-mac-vst3-Release.zip",
+     "name": "FireflySynth2-mac-vst3-Release.zip",
+     "size": 13267257,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-windows-vst3-Release.zip",
+     "name": "FireflySynth2-windows-vst3-Release.zip",
+     "size": 9486339,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Castello",
    "vendor": "lucianoiam",
    "kind": "effect",
@@ -2727,49 +2770,6 @@
    },
    "formats": [
     "CLAP"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Firefly Synth 2",
-   "vendor": "sjoerdvankreel",
-   "kind": "instrument",
-   "about": "Semi-modular synthesizer and FX plugin for Windows, Linux and Mac, VST3 and CLAP.",
-   "url": "https://firefly-synth.com/",
-   "repo": "sjoerdvankreel/firefly-synth-2",
-   "stars": 44,
-   "license": "MIT",
-   "version": "v2.1.6",
-   "download": {
-    "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-mac-vst3-Release.zip",
-    "name": "FireflySynth2-mac-vst3-Release.zip",
-    "size": 13267257,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-linux-vst3-Release.zip",
-     "name": "FireflySynth2-linux-vst3-Release.zip",
-     "size": 10018243,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-mac-vst3-Release.zip",
-     "name": "FireflySynth2-mac-vst3-Release.zip",
-     "size": 13267257,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-windows-vst3-Release.zip",
-     "name": "FireflySynth2-windows-vst3-Release.zip",
-     "size": 9486339,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "CLAP",
-    "AU"
    ],
    "source": "github"
   },
