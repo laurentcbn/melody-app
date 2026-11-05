@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T12:58:18Z",
+ "updated": "2026-11-05T13:09:48Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6965,
+   "stars": 6966,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3393,
+   "stars": 3404,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -584,7 +584,7 @@
    "about": "A JUCE plugin for broadband noise reduction",
    "url": "https://github.com/lucianodato/noise-repellent",
    "repo": "lucianodato/noise-repellent",
-   "stars": 572,
+   "stars": 573,
    "license": null,
    "version": "v0.4.1",
    "download": {
@@ -697,32 +697,32 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 333,
+   "stars": 334,
    "license": "GPL-3.0",
-   "version": "v0.18.1",
+   "version": "v0.18.2",
    "download": {
-    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-macOS-arm64.zip",
-    "name": "INTERSECT-v0.18.1-macOS-arm64.zip",
-    "size": 9596898,
+    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.2/INTERSECT-v0.18.2-macOS-arm64.zip",
+    "name": "INTERSECT-v0.18.2-macOS-arm64.zip",
+    "size": 9631866,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-Linux-x64.zip",
-     "name": "INTERSECT-v0.18.1-Linux-x64.zip",
-     "size": 8804894,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.2/INTERSECT-v0.18.2-Linux-x64.zip",
+     "name": "INTERSECT-v0.18.2-Linux-x64.zip",
+     "size": 8823824,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-macOS-arm64.zip",
-     "name": "INTERSECT-v0.18.1-macOS-arm64.zip",
-     "size": 9596898,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.2/INTERSECT-v0.18.2-macOS-arm64.zip",
+     "name": "INTERSECT-v0.18.2-macOS-arm64.zip",
+     "size": 9631866,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.1/INTERSECT-v0.18.1-Windows-x64.zip",
-     "name": "INTERSECT-v0.18.1-Windows-x64.zip",
-     "size": 7552206,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.2/INTERSECT-v0.18.2-Windows-x64.zip",
+     "name": "INTERSECT-v0.18.2-Windows-x64.zip",
+     "size": 7576976,
      "type": "zip"
     }
    },
@@ -972,7 +972,7 @@
    "about": "Just a Sample is a modern, open-source audio sampler",
    "url": "https://bobona.github.io/just-a-sample/",
    "repo": "BOBONA/Just-a-Sample",
-   "stars": 224,
+   "stars": 223,
    "license": "MIT",
    "version": "v1.3-latest",
    "download": {
@@ -1075,7 +1075,7 @@
    "about": "Linux, Osx & Windows JUCE port of Ultramaster Group's classic 2001 software synth",
    "url": "https://kayrock.org/kr106",
    "repo": "kayrockscreenprinting/ultramaster_kr106",
-   "stars": 203,
+   "stars": 204,
    "license": "GPL-3.0",
    "version": "v2.5.13",
    "download": {
@@ -1426,7 +1426,7 @@
    "about": "DSP Magnetic Tape Emulation",
    "url": "https://audiodev.blog/kiss-of-shame/",
    "repo": "hollance/TheKissOfShame",
-   "stars": 162,
+   "stars": 163,
    "license": "GPL-3.0",
    "version": "v1.0.2",
    "download": {
@@ -2041,7 +2041,7 @@
    "about": "dynamic spectrum equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlspeceq/",
    "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 82,
+   "stars": 83,
    "license": "AGPL-3.0",
    "version": "0.1.1",
    "download": {
@@ -2143,42 +2143,6 @@
    "source": "github"
   },
   {
-   "name": "BlackBird",
-   "vendor": "khrykin",
-   "kind": "instrument",
-   "about": "AU/VST3 Synth built with JUCE",
-   "url": "https://github.com/khrykin/BlackBird",
-   "repo": "khrykin/BlackBird",
-   "stars": 81,
-   "license": "GPL-3.0",
-   "version": "v0.1.0",
-   "download": {
-    "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
-    "name": "BlackBird-0.1.0.pkg",
-    "size": 3578245,
-    "type": "pkg"
-   },
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0-windows-x64.exe",
-     "name": "BlackBird-0.1.0-windows-x64.exe",
-     "size": 4189654,
-     "type": "exe"
-    },
-    "mac": {
-     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
-     "name": "BlackBird-0.1.0.pkg",
-     "size": 3578245,
-     "type": "pkg"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Roboverb",
    "vendor": "kushview",
    "kind": "effect",
@@ -2211,6 +2175,42 @@
    "formats": [
     "VST3",
     "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "BlackBird",
+   "vendor": "khrykin",
+   "kind": "instrument",
+   "about": "AU/VST3 Synth built with JUCE",
+   "url": "https://github.com/khrykin/BlackBird",
+   "repo": "khrykin/BlackBird",
+   "stars": 81,
+   "license": "GPL-3.0",
+   "version": "v0.1.0",
+   "download": {
+    "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
+    "name": "BlackBird-0.1.0.pkg",
+    "size": 3578245,
+    "type": "pkg"
+   },
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0-windows-x64.exe",
+     "name": "BlackBird-0.1.0-windows-x64.exe",
+     "size": 4189654,
+     "type": "exe"
+    },
+    "mac": {
+     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
+     "name": "BlackBird-0.1.0.pkg",
+     "size": 3578245,
+     "type": "pkg"
+    }
+   },
+   "formats": [
+    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2283,48 +2283,6 @@
    },
    "formats": [
     "CLAP"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "RSAlgorithmicVerb",
-   "vendor": "reillypascal",
-   "kind": "effect",
-   "about": "Retro algorithmic reverb plugin in JUCE with multiple algorithms (including emulations of classic hardware) and more to come.",
-   "url": "https://github.com/reillypascal/RSAlgorithmicVerb",
-   "repo": "reillypascal/RSAlgorithmicVerb",
-   "stars": 78,
-   "license": "GPL-3.0",
-   "version": "v0.5.5",
-   "download": {
-    "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-macOS.zip",
-    "name": "RSAlgorithmicVerb-v0.5.5-macOS.zip",
-    "size": 12638320,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-Linux.zip",
-     "name": "RSAlgorithmicVerb-v0.5.5-Linux.zip",
-     "size": 2105359,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-macOS.zip",
-     "name": "RSAlgorithmicVerb-v0.5.5-macOS.zip",
-     "size": 12638320,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/reillypascal/RSAlgorithmicVerb/releases/download/v0.5.5/RSAlgorithmicVerb-v0.5.5-Windows.zip",
-     "name": "RSAlgorithmicVerb-v0.5.5-Windows.zip",
-     "size": 2715682,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
    ],
    "source": "github"
   },
@@ -2636,6 +2594,47 @@
    "source": "github"
   },
   {
+   "name": "Castello",
+   "vendor": "lucianoiam",
+   "kind": "effect",
+   "about": "A small CLAP/VST reverb plugin based on Csound reverbsc",
+   "url": "https://github.com/lucianoiam/castello",
+   "repo": "lucianoiam/castello",
+   "stars": 46,
+   "license": "GPL-3.0",
+   "version": "v1.3.0",
+   "download": {
+    "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-macos-universal-1.3.0.zip",
+    "name": "castello-macos-universal-1.3.0.zip",
+    "size": 912342,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-linux-x64-1.3.0.zip",
+     "name": "castello-linux-x64-1.3.0.zip",
+     "size": 765043,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-macos-universal-1.3.0.zip",
+     "name": "castello-macos-universal-1.3.0.zip",
+     "size": 912342,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-windows-x64-1.3.0.zip",
+     "name": "castello-windows-x64-1.3.0.zip",
+     "size": 1957057,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Birdhouse",
    "vendor": "madskjeldgaard",
    "kind": "effect",
@@ -2704,47 +2703,6 @@
    "formats": [
     "VST3",
     "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Castello",
-   "vendor": "lucianoiam",
-   "kind": "effect",
-   "about": "A small CLAP/VST reverb plugin based on Csound reverbsc",
-   "url": "https://github.com/lucianoiam/castello",
-   "repo": "lucianoiam/castello",
-   "stars": 45,
-   "license": "GPL-3.0",
-   "version": "v1.3.0",
-   "download": {
-    "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-macos-universal-1.3.0.zip",
-    "name": "castello-macos-universal-1.3.0.zip",
-    "size": 912342,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-linux-x64-1.3.0.zip",
-     "name": "castello-linux-x64-1.3.0.zip",
-     "size": 765043,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-macos-universal-1.3.0.zip",
-     "name": "castello-macos-universal-1.3.0.zip",
-     "size": 912342,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/lucianoiam/castello/releases/download/v1.3.0/castello-windows-x64-1.3.0.zip",
-     "name": "castello-windows-x64-1.3.0.zip",
-     "size": 1957057,
-     "type": "zip"
-    }
-   },
-   "formats": [
     "AU"
    ],
    "source": "github"
