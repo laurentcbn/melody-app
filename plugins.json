@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:09:48Z",
+ "updated": "2026-11-06T12:55:54Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6966,
+   "stars": 6972,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3404,
+   "stars": 3410,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -482,7 +482,7 @@
    "about": "automatic mastering plugin for live streaming, podcasts and internet radio.",
    "url": "https://github.com/trummerschlunk/master_me",
    "repo": "trummerschlunk/master_me",
-   "stars": 759,
+   "stars": 760,
    "license": "GPL-3.0",
    "version": "1.3.1",
    "download": {
@@ -972,7 +972,7 @@
    "about": "Just a Sample is a modern, open-source audio sampler",
    "url": "https://bobona.github.io/just-a-sample/",
    "repo": "BOBONA/Just-a-Sample",
-   "stars": 223,
+   "stars": 224,
    "license": "MIT",
    "version": "v1.3-latest",
    "download": {
@@ -1116,7 +1116,7 @@
    "about": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also uniq",
    "url": "https://quamplex.com/geonkick",
    "repo": "quamplex/geonkick",
-   "stars": 195,
+   "stars": 196,
    "license": "GPL-3.0",
    "version": "v3.9.0",
    "download": null,
@@ -2041,7 +2041,7 @@
    "about": "dynamic spectrum equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlspeceq/",
    "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 83,
+   "stars": 84,
    "license": "AGPL-3.0",
    "version": "0.1.1",
    "download": {
@@ -2413,7 +2413,7 @@
    "about": "Free real-time AI Noise Gate VST3/AU plugin. Removes coughs, sneezes, and other artifacts from your live streams, podcasts, and videos.",
    "url": "https://github.com/dan-k-k/vocal-gate",
    "repo": "dan-k-k/vocal-gate",
-   "stars": 66,
+   "stars": 67,
    "license": "GPL-3.0",
    "version": "v1.0.5",
    "download": {
@@ -2738,7 +2738,7 @@
    "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
    "url": "https://github.com/hyperfocusdsp/niner",
    "repo": "hyperfocusdsp/niner",
-   "stars": 42,
+   "stars": 43,
    "license": "GPL-3.0",
    "version": "v1.0.1",
    "download": null,
