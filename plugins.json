@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T12:55:54Z",
+ "updated": "2026-11-07T11:42:38Z",
  "plugins": [
   {
    "name": "Vital",
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3410,
+   "stars": 3415,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1048,
+   "stars": 1049,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 658,
+   "stars": 659,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -697,7 +697,7 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 334,
+   "stars": 336,
    "license": "GPL-3.0",
    "version": "v0.18.2",
    "download": {
@@ -1039,7 +1039,7 @@
    "about": "Wavetable synth",
    "url": "https://socalabs.com/synths/wavetable/",
    "repo": "FigBug/Wavetable",
-   "stars": 217,
+   "stars": 219,
    "license": "BSD-3-Clause",
    "version": "v1.0.37",
    "download": {
@@ -1752,7 +1752,7 @@
    "about": "Audio/signal visualizer plugin",
    "url": "https://jthorborg.com/index.html?ipage=signalizer",
    "repo": "jthorborg/signalizer",
-   "stars": 114,
+   "stars": 115,
    "license": null,
    "version": "v0.5.0",
    "download": {
@@ -1793,7 +1793,7 @@
    "about": "Asymmetrical Distortion Audio Plugin for Windows, MacOS and Linux",
    "url": "https://dimethoxy.com",
    "repo": "Dimethoxy/Plasma",
-   "stars": 113,
+   "stars": 114,
    "license": "AGPL-3.0",
    "version": "v1.2.1",
    "download": {
@@ -2077,6 +2077,43 @@
    "source": "github"
   },
   {
+   "name": "Roboverb",
+   "vendor": "kushview",
+   "kind": "effect",
+   "about": "A VST / VST3 / AU / LV2 / CLAP Reverb Plugin",
+   "url": "https://kushview.net/plugins/roboverb",
+   "repo": "kushview/roboverb",
+   "stars": 82,
+   "license": "GPL-3.0",
+   "version": "1.1.0",
+   "download": {
+    "url": "https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-osx-1.1.0.zip",
+    "name": "roboverb-osx-1.1.0.zip",
+    "size": 11243905,
+    "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-osx-1.1.0.zip",
+     "name": "roboverb-osx-1.1.0.zip",
+     "size": 11243905,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-windows-1.1.0.zip",
+     "name": "roboverb-windows-1.1.0.zip",
+     "size": 16299114,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "PerceptoMap",
    "vendor": "hqrrr",
    "kind": "effect",
@@ -2139,43 +2176,6 @@
    },
    "formats": [
     "CLAP"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Roboverb",
-   "vendor": "kushview",
-   "kind": "effect",
-   "about": "A VST / VST3 / AU / LV2 / CLAP Reverb Plugin",
-   "url": "https://kushview.net/plugins/roboverb",
-   "repo": "kushview/roboverb",
-   "stars": 81,
-   "license": "GPL-3.0",
-   "version": "1.1.0",
-   "download": {
-    "url": "https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-osx-1.1.0.zip",
-    "name": "roboverb-osx-1.1.0.zip",
-    "size": 11243905,
-    "type": "zip"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-osx-1.1.0.zip",
-     "name": "roboverb-osx-1.1.0.zip",
-     "size": 11243905,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/kushview/roboverb/releases/download/1.1.0/roboverb-windows-1.1.0.zip",
-     "name": "roboverb-windows-1.1.0.zip",
-     "size": 16299114,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "CLAP",
-    "AU"
    ],
    "source": "github"
   },
@@ -2293,7 +2293,7 @@
    "about": "Modular sound glitcher / mangler",
    "url": "fx-mechanics.com",
    "repo": "odoare/Mango",
-   "stars": 69,
+   "stars": 70,
    "license": "AGPL-3.0",
    "version": "v0.2.0",
    "download": {
@@ -2594,6 +2594,36 @@
    "source": "github"
   },
   {
+   "name": "Birdhouse",
+   "vendor": "madskjeldgaard",
+   "kind": "effect",
+   "about": "An OSC to Midi Bridge. Cross-platform. VST, CLAP, Standalone.",
+   "url": "https://github.com/madskjeldgaard/Birdhouse",
+   "repo": "madskjeldgaard/Birdhouse",
+   "stars": 46,
+   "license": null,
+   "version": "v0.1.2",
+   "download": {
+    "url": "https://github.com/madskjeldgaard/Birdhouse/releases/download/v0.1.2/BirdHouse_MacARM.dmg",
+    "name": "BirdHouse_MacARM.dmg",
+    "size": 18785989,
+    "type": "dmg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/madskjeldgaard/Birdhouse/releases/download/v0.1.2/BirdHouse_MacARM.dmg",
+     "name": "BirdHouse_MacARM.dmg",
+     "size": 18785989,
+     "type": "dmg"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Castello",
    "vendor": "lucianoiam",
    "kind": "effect",
@@ -2635,36 +2665,6 @@
    "source": "github"
   },
   {
-   "name": "Birdhouse",
-   "vendor": "madskjeldgaard",
-   "kind": "effect",
-   "about": "An OSC to Midi Bridge. Cross-platform. VST, CLAP, Standalone.",
-   "url": "https://github.com/madskjeldgaard/Birdhouse",
-   "repo": "madskjeldgaard/Birdhouse",
-   "stars": 45,
-   "license": null,
-   "version": "v0.1.2",
-   "download": {
-    "url": "https://github.com/madskjeldgaard/Birdhouse/releases/download/v0.1.2/BirdHouse_MacARM.dmg",
-    "name": "BirdHouse_MacARM.dmg",
-    "size": 18785989,
-    "type": "dmg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/madskjeldgaard/Birdhouse/releases/download/v0.1.2/BirdHouse_MacARM.dmg",
-     "name": "BirdHouse_MacARM.dmg",
-     "size": 18785989,
-     "type": "dmg"
-    }
-   },
-   "formats": [
-    "VST3",
-    "CLAP"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Firefly Synth 2",
    "vendor": "sjoerdvankreel",
    "kind": "instrument",
@@ -2673,30 +2673,30 @@
    "repo": "sjoerdvankreel/firefly-synth-2",
    "stars": 45,
    "license": "MIT",
-   "version": "v2.1.6",
+   "version": "v2.1.7",
    "download": {
-    "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-mac-vst3-Release.zip",
-    "name": "FireflySynth2-mac-vst3-Release.zip",
-    "size": 13267257,
+    "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-clap-Release.zip",
+    "name": "FireflySynth2-mac-clap-Release.zip",
+    "size": 15695983,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-linux-vst3-Release.zip",
-     "name": "FireflySynth2-linux-vst3-Release.zip",
-     "size": 10018243,
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-linux-clap-Release.zip",
+     "name": "FireflySynth2-linux-clap-Release.zip",
+     "size": 12050095,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-mac-vst3-Release.zip",
-     "name": "FireflySynth2-mac-vst3-Release.zip",
-     "size": 13267257,
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-clap-Release.zip",
+     "name": "FireflySynth2-mac-clap-Release.zip",
+     "size": 15695983,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.6/FireflySynth2-windows-vst3-Release.zip",
-     "name": "FireflySynth2-windows-vst3-Release.zip",
-     "size": 9486339,
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2FX-windows-vst3-Release.zip",
+     "name": "FireflySynth2FX-windows-vst3-Release.zip",
+     "size": 11495211,
      "type": "zip"
     }
    },
@@ -2738,7 +2738,7 @@
    "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
    "url": "https://github.com/hyperfocusdsp/niner",
    "repo": "hyperfocusdsp/niner",
-   "stars": 43,
+   "stars": 44,
    "license": "GPL-3.0",
    "version": "v1.0.1",
    "download": null,
