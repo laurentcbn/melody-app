@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:42:38Z",
+ "updated": "2026-11-08T11:54:49Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6972,
+   "stars": 6975,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3415,
+   "stars": 3420,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1049,
+   "stars": 1050,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -655,7 +655,7 @@
    "about": "Audio plugin for custom MP3 distortion and digital glitches",
    "url": "https://github.com/ArdenButterfield/Maim",
    "repo": "ArdenButterfield/Maim",
-   "stars": 387,
+   "stars": 388,
    "license": "GPL-3.0",
    "version": "v1.1.1",
    "download": {
@@ -697,32 +697,32 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 336,
+   "stars": 337,
    "license": "GPL-3.0",
-   "version": "v0.18.2",
+   "version": "v0.19.0",
    "download": {
-    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.2/INTERSECT-v0.18.2-macOS-arm64.zip",
-    "name": "INTERSECT-v0.18.2-macOS-arm64.zip",
-    "size": 9631866,
+    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.0/INTERSECT-v0.19.0-macOS-arm64.zip",
+    "name": "INTERSECT-v0.19.0-macOS-arm64.zip",
+    "size": 9861631,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.2/INTERSECT-v0.18.2-Linux-x64.zip",
-     "name": "INTERSECT-v0.18.2-Linux-x64.zip",
-     "size": 8823824,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.0/INTERSECT-v0.19.0-Linux-x64.zip",
+     "name": "INTERSECT-v0.19.0-Linux-x64.zip",
+     "size": 8977429,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.2/INTERSECT-v0.18.2-macOS-arm64.zip",
-     "name": "INTERSECT-v0.18.2-macOS-arm64.zip",
-     "size": 9631866,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.0/INTERSECT-v0.19.0-macOS-arm64.zip",
+     "name": "INTERSECT-v0.19.0-macOS-arm64.zip",
+     "size": 9861631,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.18.2/INTERSECT-v0.18.2-Windows-x64.zip",
-     "name": "INTERSECT-v0.18.2-Windows-x64.zip",
-     "size": 7576976,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.0/INTERSECT-v0.19.0-Windows-x64.zip",
+     "name": "INTERSECT-v0.19.0-Windows-x64.zip",
+     "size": 7691415,
      "type": "zip"
     }
    },
@@ -1014,7 +1014,7 @@
    "about": "NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.",
    "url": "https://github.com/brummer10/NeuralRack",
    "repo": "brummer10/NeuralRack",
-   "stars": 220,
+   "stars": 221,
    "license": "BSD-3-Clause",
    "version": "v0.4.1",
    "download": null,
@@ -1110,6 +1110,30 @@
    "source": "github"
   },
   {
+   "name": "Ratatouille.lv2",
+   "vendor": "brummer10",
+   "kind": "effect",
+   "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
+   "url": "https://github.com/brummer10/Ratatouille.lv2",
+   "repo": "brummer10/Ratatouille.lv2",
+   "stars": 197,
+   "license": "BSD-3-Clause",
+   "version": "v0.9.11",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
+     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
+     "size": 3038472,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Geonkick",
    "vendor": "quamplex",
    "kind": "instrument",
@@ -1136,30 +1160,6 @@
    },
    "formats": [
     "VST3"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Ratatouille.lv2",
-   "vendor": "brummer10",
-   "kind": "effect",
-   "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
-   "url": "https://github.com/brummer10/Ratatouille.lv2",
-   "repo": "brummer10/Ratatouille.lv2",
-   "stars": 195,
-   "license": "BSD-3-Clause",
-   "version": "v0.9.11",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "size": 3038472,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP"
    ],
    "source": "github"
   },
@@ -1345,31 +1345,67 @@
    "repo": "ZL-Audio/ZLSplitter",
    "stars": 168,
    "license": "AGPL-3.0",
-   "version": "0.3.0",
+   "version": "0.4.0",
    "download": {
-    "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg",
-    "name": "ZL.Splitter-0.3.0-macOS-arm.dmg",
-    "size": 5201749,
+    "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-arm64.dmg",
+    "name": "ZL.Splitter-0.4.0-macOS-arm64.dmg",
+    "size": 5260634,
     "type": "dmg"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Linux-x86.zip",
-     "name": "ZL.Splitter-0.3.0-Linux-x86.zip",
-     "size": 8851204,
+     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Splitter-0.4.0-Linux-x86-64-AVX2.zip",
+     "size": 5848894,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-macOS-arm.dmg",
-     "name": "ZL.Splitter-0.3.0-macOS-arm.dmg",
-     "size": 5201749,
+     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-macOS-arm64.dmg",
+     "name": "ZL.Splitter-0.4.0-macOS-arm64.dmg",
+     "size": 5260634,
      "type": "dmg"
     },
     "windows": {
-     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.3.0/ZL.Splitter-0.3.0-Windows-x86.msi",
-     "name": "ZL.Splitter-0.3.0-Windows-x86.msi",
-     "size": 5566464,
+     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi",
+     "name": "ZL.Splitter-0.4.0-Windows-x86-64.msi",
+     "size": 5685248,
      "type": "msi"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "TheKissOfShame",
+   "vendor": "hollance",
+   "kind": "effect",
+   "about": "DSP Magnetic Tape Emulation",
+   "url": "https://audiodev.blog/kiss-of-shame/",
+   "repo": "hollance/TheKissOfShame",
+   "stars": 163,
+   "license": "GPL-3.0",
+   "version": "v1.0.2",
+   "download": {
+    "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Mac-v1.0.2.zip",
+    "name": "KissOfShame-Mac-v1.0.2.zip",
+    "size": 191811319,
+    "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Mac-v1.0.2.zip",
+     "name": "KissOfShame-Mac-v1.0.2.zip",
+     "size": 191811319,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Windows-v1.0.2.zip",
+     "name": "KissOfShame-Windows-v1.0.2.zip",
+     "size": 49212561,
+     "type": "zip"
     }
    },
    "formats": [
@@ -1416,42 +1452,6 @@
    },
    "formats": [
     "VST3"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "TheKissOfShame",
-   "vendor": "hollance",
-   "kind": "effect",
-   "about": "DSP Magnetic Tape Emulation",
-   "url": "https://audiodev.blog/kiss-of-shame/",
-   "repo": "hollance/TheKissOfShame",
-   "stars": 163,
-   "license": "GPL-3.0",
-   "version": "v1.0.2",
-   "download": {
-    "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Mac-v1.0.2.zip",
-    "name": "KissOfShame-Mac-v1.0.2.zip",
-    "size": 191811319,
-    "type": "zip"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Mac-v1.0.2.zip",
-     "name": "KissOfShame-Mac-v1.0.2.zip",
-     "size": 191811319,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Windows-v1.0.2.zip",
-     "name": "KissOfShame-Windows-v1.0.2.zip",
-     "size": 49212561,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
    ],
    "source": "github"
   },
@@ -1746,6 +1746,42 @@
    "source": "github"
   },
   {
+   "name": "Plasma",
+   "vendor": "Dimethoxy",
+   "kind": "effect",
+   "about": "Asymmetrical Distortion Audio Plugin for Windows, MacOS and Linux",
+   "url": "https://dimethoxy.com",
+   "repo": "Dimethoxy/Plasma",
+   "stars": 115,
+   "license": "AGPL-3.0",
+   "version": "v1.2.1",
+   "download": {
+    "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg",
+    "name": "plasma-v1.2.1-macos.pkg",
+    "size": 11398049,
+    "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg",
+     "name": "plasma-v1.2.1-macos.pkg",
+     "size": 11398049,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-windows.exe",
+     "name": "plasma-v1.2.1-windows.exe",
+     "size": 3991791,
+     "type": "exe"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Signalizer",
    "vendor": "jthorborg",
    "kind": "effect",
@@ -1782,42 +1818,6 @@
     }
    },
    "formats": [
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Plasma",
-   "vendor": "Dimethoxy",
-   "kind": "effect",
-   "about": "Asymmetrical Distortion Audio Plugin for Windows, MacOS and Linux",
-   "url": "https://dimethoxy.com",
-   "repo": "Dimethoxy/Plasma",
-   "stars": 114,
-   "license": "AGPL-3.0",
-   "version": "v1.2.1",
-   "download": {
-    "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg",
-    "name": "plasma-v1.2.1-macos.pkg",
-    "size": 11398049,
-    "type": "pkg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg",
-     "name": "plasma-v1.2.1-macos.pkg",
-     "size": 11398049,
-     "type": "pkg"
-    },
-    "windows": {
-     "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-windows.exe",
-     "name": "plasma-v1.2.1-windows.exe",
-     "size": 3991791,
-     "type": "exe"
-    }
-   },
-   "formats": [
-    "VST3",
     "AU"
    ],
    "source": "github"
@@ -1967,7 +1967,7 @@
    "about": "Phase Dispersion Audio Plugin for Windows, MacOS and Linux",
    "url": "https://dimethoxy.com",
    "repo": "Dimethoxy/Disflux",
-   "stars": 91,
+   "stars": 92,
    "license": "AGPL-3.0",
    "version": "v1.2.0",
    "download": {
@@ -2675,22 +2675,22 @@
    "license": "MIT",
    "version": "v2.1.7",
    "download": {
-    "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-clap-Release.zip",
-    "name": "FireflySynth2-mac-clap-Release.zip",
-    "size": 15695983,
+    "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-vst3-Release.zip",
+    "name": "FireflySynth2-mac-vst3-Release.zip",
+    "size": 15727660,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-linux-clap-Release.zip",
-     "name": "FireflySynth2-linux-clap-Release.zip",
-     "size": 12050095,
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-linux-vst3-Release.zip",
+     "name": "FireflySynth2-linux-vst3-Release.zip",
+     "size": 12086846,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-clap-Release.zip",
-     "name": "FireflySynth2-mac-clap-Release.zip",
-     "size": 15695983,
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-vst3-Release.zip",
+     "name": "FireflySynth2-mac-vst3-Release.zip",
+     "size": 15727660,
      "type": "zip"
     },
     "windows": {
