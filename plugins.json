@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T13:51:21Z",
+ "updated": "2026-11-10T13:26:51Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6974,
+   "stars": 6976,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3435,
+   "stars": 3446,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1050,
+   "stars": 1052,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -440,7 +440,7 @@
    "about": "Frequency modulation synthesizer plugin (VST2, CLAP). Runs on macOS, Windows and Linux.",
    "url": "https://www.octasine.com/",
    "repo": "greatest-ape/OctaSine",
-   "stars": 822,
+   "stars": 823,
    "license": "AGPL-3.0",
    "version": "v0.9.1",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 659,
+   "stars": 660,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -560,7 +560,7 @@
    "about": "⚡Rapid note management for the terminal.",
    "url": "https://github.com/shashwatah/jot",
    "repo": "shashwatah/jot",
-   "stars": 611,
+   "stars": 612,
    "license": "MIT",
    "version": "v0.1.2",
    "download": null,
@@ -649,6 +649,43 @@
    "source": "github"
   },
   {
+   "name": "Polyphone",
+   "vendor": "davy7125",
+   "kind": "instrument",
+   "about": "A soundfont editor for quickly designing musical instruments.",
+   "url": "https://www.polyphone.io",
+   "repo": "davy7125/polyphone",
+   "stars": 484,
+   "license": "GPL-3.0",
+   "version": "2.6.0",
+   "download": {
+    "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-macOS_12.dmg",
+    "name": "Polyphone_2.6.0-macOS_12.dmg",
+    "size": 31438016,
+    "type": "dmg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-macOS_12.dmg",
+     "name": "Polyphone_2.6.0-macOS_12.dmg",
+     "size": 31438016,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-windows_x64-portable.zip",
+     "name": "Polyphone_2.6.0-windows_x64-portable.zip",
+     "size": 20587137,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Maim",
    "vendor": "ArdenButterfield",
    "kind": "effect",
@@ -699,30 +736,30 @@
    "repo": "tucktuckg00se/INTERSECT",
    "stars": 338,
    "license": "GPL-3.0",
-   "version": "v0.19.0",
+   "version": "v0.19.1",
    "download": {
-    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.0/INTERSECT-v0.19.0-macOS-arm64.zip",
-    "name": "INTERSECT-v0.19.0-macOS-arm64.zip",
-    "size": 9861631,
+    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.1/INTERSECT-v0.19.1-macOS-arm64.zip",
+    "name": "INTERSECT-v0.19.1-macOS-arm64.zip",
+    "size": 10143045,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.0/INTERSECT-v0.19.0-Linux-x64.zip",
-     "name": "INTERSECT-v0.19.0-Linux-x64.zip",
-     "size": 8977429,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.1/INTERSECT-v0.19.1-Linux-x64.zip",
+     "name": "INTERSECT-v0.19.1-Linux-x64.zip",
+     "size": 9161544,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.0/INTERSECT-v0.19.0-macOS-arm64.zip",
-     "name": "INTERSECT-v0.19.0-macOS-arm64.zip",
-     "size": 9861631,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.1/INTERSECT-v0.19.1-macOS-arm64.zip",
+     "name": "INTERSECT-v0.19.1-macOS-arm64.zip",
+     "size": 10143045,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.0/INTERSECT-v0.19.0-Windows-x64.zip",
-     "name": "INTERSECT-v0.19.0-Windows-x64.zip",
-     "size": 7691415,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.1/INTERSECT-v0.19.1-Windows-x64.zip",
+     "name": "INTERSECT-v0.19.1-Windows-x64.zip",
+     "size": 7873152,
      "type": "zip"
     }
    },
@@ -739,7 +776,7 @@
    "about": "Collection of LADSPA/LV2/VST/JACK audio plugins for high-quality processing",
    "url": "http://www.zamaudio.com/?p=976",
    "repo": "zamaudio/zam-plugins",
-   "stars": 324,
+   "stars": 325,
    "license": "GPL-2.0",
    "version": "4.5",
    "download": {
@@ -816,7 +853,7 @@
    "about": "Convolution reverb with pre and post modulation",
    "url": "https://github.com/tiagolr/reevr",
    "repo": "tiagolr/reevr",
-   "stars": 297,
+   "stars": 298,
    "license": "GPL-3.0",
    "version": "v1.4.0",
    "download": {
@@ -972,7 +1009,7 @@
    "about": "Just a Sample is a modern, open-source audio sampler",
    "url": "https://bobona.github.io/just-a-sample/",
    "repo": "BOBONA/Just-a-Sample",
-   "stars": 224,
+   "stars": 227,
    "license": "MIT",
    "version": "v1.3-latest",
    "download": {
@@ -1014,7 +1051,7 @@
    "about": "NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.",
    "url": "https://github.com/brummer10/NeuralRack",
    "repo": "brummer10/NeuralRack",
-   "stars": 221,
+   "stars": 222,
    "license": "BSD-3-Clause",
    "version": "v0.4.1",
    "download": null,
@@ -1194,7 +1231,7 @@
    "about": "Envelope based filter modulator",
    "url": "https://github.com/tiagolr/filtr",
    "repo": "tiagolr/filtr",
-   "stars": 178,
+   "stars": 179,
    "license": "AGPL-3.0",
    "version": "v1.3.0",
    "download": {
@@ -1385,7 +1422,7 @@
    "about": "A Dual Delay with more features than it should",
    "url": "https://github.com/tiagolr/qdelay",
    "repo": "tiagolr/qdelay",
-   "stars": 163,
+   "stars": 164,
    "license": "GPL-3.0",
    "version": "v1.2.3",
    "download": {
@@ -1649,7 +1686,7 @@
    "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
    "url": "https://psemiletov.github.io/drumlabooh/",
    "repo": "psemiletov/drumlabooh",
-   "stars": 129,
+   "stars": 130,
    "license": "GPL-3.0",
    "version": "13.0.0",
    "download": null,
@@ -1854,7 +1891,7 @@
    "about": "open wav media browser",
    "url": "https://samplaman.github.io/owmb/",
    "repo": "samplaman/owmb",
-   "stars": 108,
+   "stars": 109,
    "license": null,
    "version": "1.0.0",
    "download": {
@@ -2004,7 +2041,7 @@
    "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
    "url": "https://astramusic.dev/prism",
    "repo": "Boof2015/prism",
-   "stars": 86,
+   "stars": 87,
    "license": "GPL-3.0",
    "version": "v0.4.0-beta",
    "download": {
@@ -2041,7 +2078,7 @@
    "about": "dynamic spectrum equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlspeceq/",
    "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 84,
+   "stars": 85,
    "license": "AGPL-3.0",
    "version": "0.1.1",
    "download": {
@@ -2337,30 +2374,30 @@
    "repo": "benjamindehli/overtonium",
    "stars": 70,
    "license": "AGPL-3.0",
-   "version": "v1.16.0",
+   "version": "v1.17.0",
    "download": {
-    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-macOS.zip",
-    "name": "Overtonium-v1.16.0-macOS.zip",
-    "size": 17599069,
+    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-macOS.zip",
+    "name": "Overtonium-v1.17.0-macOS.zip",
+    "size": 18160110,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-Linux.zip",
-     "name": "Overtonium-v1.16.0-Linux.zip",
-     "size": 10005282,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-Linux.zip",
+     "name": "Overtonium-v1.17.0-Linux.zip",
+     "size": 14234078,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-macOS.zip",
-     "name": "Overtonium-v1.16.0-macOS.zip",
-     "size": 17599069,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-macOS.zip",
+     "name": "Overtonium-v1.17.0-macOS.zip",
+     "size": 18160110,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.16.0/Overtonium-v1.16.0-Windows.zip",
-     "name": "Overtonium-v1.16.0-Windows.zip",
-     "size": 8019409,
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-Windows.zip",
+     "name": "Overtonium-v1.17.0-Windows.zip",
+     "size": 8274798,
      "type": "zip"
     }
    },
@@ -2765,13 +2802,13 @@
    "repo": "vividfeverdreams/vfd-plugin-suite",
    "stars": 40,
    "license": "AGPL-3.0",
-   "version": "v1.6.3",
+   "version": "v1.6.4",
    "download": null,
    "downloads": {
     "windows": {
-     "url": "https://github.com/vividfeverdreams/vfd-plugin-suite/releases/download/v1.6.3/Vivid-Fever-Dreams-Suite-v1.6.3-Beta-Windows-VST3.zip",
-     "name": "Vivid-Fever-Dreams-Suite-v1.6.3-Beta-Windows-VST3.zip",
-     "size": 37496795,
+     "url": "https://github.com/vividfeverdreams/vfd-plugin-suite/releases/download/v1.6.4/Vivid-Fever-Dreams-Suite-v1.6.4-Beta-Windows-VST3.zip",
+     "name": "Vivid-Fever-Dreams-Suite-v1.6.4-Beta-Windows-VST3.zip",
+     "size": 37544285,
      "type": "zip"
     }
    },
