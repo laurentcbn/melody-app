@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T13:26:51Z",
+ "updated": "2026-11-11T12:41:22Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6976,
+   "stars": 6977,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3446,
+   "stars": 3455,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1052,
+   "stars": 1053,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -692,7 +692,7 @@
    "about": "Audio plugin for custom MP3 distortion and digital glitches",
    "url": "https://github.com/ArdenButterfield/Maim",
    "repo": "ArdenButterfield/Maim",
-   "stars": 389,
+   "stars": 390,
    "license": "GPL-3.0",
    "version": "v1.1.1",
    "download": {
@@ -734,7 +734,7 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 338,
+   "stars": 340,
    "license": "GPL-3.0",
    "version": "v0.19.1",
    "download": {
@@ -888,49 +888,6 @@
    "source": "github"
   },
   {
-   "name": "Wolf Shaper",
-   "vendor": "wolf-plugins",
-   "kind": "effect",
-   "about": "Waveshaper plugin with a spline-based graph editor (LV2, VST, and CLAP)",
-   "url": "https://wolf-plugins.github.io/wolf-shaper/",
-   "repo": "wolf-plugins/wolf-shaper",
-   "stars": 265,
-   "license": "GPL-3.0",
-   "version": "v1.0.2",
-   "download": {
-    "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip",
-    "name": "wolf-shaper-v1.0.2-macos-universal.zip",
-    "size": 5980398,
-    "type": "zip"
-   },
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2%2B20230515144200-windows-x64.zip",
-     "name": "wolf-shaper-v1.0.2+20230515144200-windows-x64.zip",
-     "size": 5481008,
-     "type": "zip"
-    },
-    "linux": {
-     "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-linux-x64.zip",
-     "name": "wolf-shaper-v1.0.2-linux-x64.zip",
-     "size": 5089663,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip",
-     "name": "wolf-shaper-v1.0.2-macos-universal.zip",
-     "size": 5980398,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Ami Sampler VST",
    "vendor": "astriiddev",
    "kind": "instrument",
@@ -1076,7 +1033,7 @@
    "about": "Wavetable synth",
    "url": "https://socalabs.com/synths/wavetable/",
    "repo": "FigBug/Wavetable",
-   "stars": 219,
+   "stars": 220,
    "license": "BSD-3-Clause",
    "version": "v1.0.37",
    "download": {
@@ -1711,7 +1668,7 @@
    "about": "VST delay plugin where the repeats degrade in resolution",
    "url": "https://www.igorski.nl/download/regrader",
    "repo": "igorski/regrader",
-   "stars": 121,
+   "stars": 122,
    "license": "MIT",
    "version": "1.0.5",
    "download": {
@@ -2041,7 +1998,7 @@
    "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
    "url": "https://astramusic.dev/prism",
    "repo": "Boof2015/prism",
-   "stars": 87,
+   "stars": 89,
    "license": "GPL-3.0",
    "version": "v0.4.0-beta",
    "download": {
@@ -2253,36 +2210,6 @@
    "source": "github"
   },
   {
-   "name": "Tumult",
-   "vendor": "consint",
-   "kind": "effect",
-   "about": "Noisemaker, texturizer, vintag maker audio effekt plugin",
-   "url": "https://www.consint.net",
-   "repo": "consint/Tumult",
-   "stars": 81,
-   "license": "GPL-3.0",
-   "version": "1.1.1",
-   "download": null,
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Linux_vst3.zip",
-     "name": "Tumult_1_1_1_Linux_vst3.zip",
-     "size": 242030776,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Win_vst3.zip",
-     "name": "Tumult_1_1_1_Win_vst3.zip",
-     "size": 239289360,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Nuked SC55 CLAP",
    "vendor": "johnnovak",
    "kind": "effect",
@@ -2320,6 +2247,42 @@
    },
    "formats": [
     "CLAP"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Grisey",
+   "vendor": "ZhiyuAlexZhang",
+   "kind": "effect",
+   "about": "Free, open-source metering plugin for mixing and mastering: LUFS loudness (EBU R 128), true peak, spectrum, spectrogram and goniometer in one window. VST3 / AU ",
+   "url": "https://github.com/ZhiyuAlexZhang/Grisey",
+   "repo": "ZhiyuAlexZhang/Grisey",
+   "stars": 70,
+   "license": "GPL-3.0",
+   "version": "v2.0.0-beta.1",
+   "download": {
+    "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-macOS.zip",
+    "name": "Grisey-v2.0.0-beta.1-macOS.zip",
+    "size": 7814895,
+    "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-macOS.zip",
+     "name": "Grisey-v2.0.0-beta.1-macOS.zip",
+     "size": 7814895,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-Windows.zip",
+     "name": "Grisey-v2.0.0-beta.1-Windows.zip",
+     "size": 10318639,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP",
+    "AU"
    ],
    "source": "github"
   },
@@ -2403,42 +2366,6 @@
    },
    "formats": [
     "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Grisey",
-   "vendor": "ZhiyuAlexZhang",
-   "kind": "effect",
-   "about": "Free, open-source metering plugin for mixing and mastering: LUFS loudness (EBU R 128), true peak, spectrum, spectrogram and goniometer in one window. VST3 / AU ",
-   "url": "https://github.com/ZhiyuAlexZhang/Grisey",
-   "repo": "ZhiyuAlexZhang/Grisey",
-   "stars": 68,
-   "license": "GPL-3.0",
-   "version": "v2.0.0-beta.1",
-   "download": {
-    "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-macOS.zip",
-    "name": "Grisey-v2.0.0-beta.1-macOS.zip",
-    "size": 7814895,
-    "type": "zip"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-macOS.zip",
-     "name": "Grisey-v2.0.0-beta.1-macOS.zip",
-     "size": 7814895,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/ZhiyuAlexZhang/Grisey/releases/download/v2.0.0-beta.1/Grisey-v2.0.0-beta.1-Windows.zip",
-     "name": "Grisey-v2.0.0-beta.1-Windows.zip",
-     "size": 10318639,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP",
     "AU"
    ],
    "source": "github"
