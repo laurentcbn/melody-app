@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T12:41:22Z",
+ "updated": "2026-11-12T13:44:11Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6977,
+   "stars": 6979,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3455,
+   "stars": 3462,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1053,
+   "stars": 1054,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -692,7 +692,7 @@
    "about": "Audio plugin for custom MP3 distortion and digital glitches",
    "url": "https://github.com/ArdenButterfield/Maim",
    "repo": "ArdenButterfield/Maim",
-   "stars": 390,
+   "stars": 391,
    "license": "GPL-3.0",
    "version": "v1.1.1",
    "download": {
@@ -811,7 +811,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 308,
+   "stars": 309,
    "license": "GPL-3.0",
    "version": "v0.13.0",
    "download": {
@@ -1360,9 +1360,9 @@
      "type": "dmg"
     },
     "windows": {
-     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
-     "name": "ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
-     "size": 5980160,
+     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi",
+     "name": "ZL.Splitter-0.4.0-Windows-x86-64.msi",
+     "size": 5685248,
      "type": "msi"
     }
    },
@@ -1998,7 +1998,7 @@
    "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
    "url": "https://astramusic.dev/prism",
    "repo": "Boof2015/prism",
-   "stars": 89,
+   "stars": 91,
    "license": "GPL-3.0",
    "version": "v0.4.0-beta",
    "download": {
@@ -2257,7 +2257,7 @@
    "about": "Free, open-source metering plugin for mixing and mastering: LUFS loudness (EBU R 128), true peak, spectrum, spectrogram and goniometer in one window. VST3 / AU ",
    "url": "https://github.com/ZhiyuAlexZhang/Grisey",
    "repo": "ZhiyuAlexZhang/Grisey",
-   "stars": 70,
+   "stars": 71,
    "license": "GPL-3.0",
    "version": "v2.0.0-beta.1",
    "download": {
@@ -2558,6 +2558,31 @@
    "source": "github"
   },
   {
+   "name": "Niner",
+   "vendor": "hyperfocusdsp",
+   "kind": "instrument",
+   "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
+   "url": "https://github.com/hyperfocusdsp/niner",
+   "repo": "hyperfocusdsp/niner",
+   "stars": 46,
+   "license": "GPL-3.0",
+   "version": "v1.0.1",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
+     "name": "niner-windows-x86_64.zip",
+     "size": 22861704,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Birdhouse",
    "vendor": "madskjeldgaard",
    "kind": "effect",
@@ -2696,26 +2721,26 @@
    "source": "github"
   },
   {
-   "name": "Niner",
-   "vendor": "hyperfocusdsp",
-   "kind": "instrument",
-   "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
-   "url": "https://github.com/hyperfocusdsp/niner",
-   "repo": "hyperfocusdsp/niner",
-   "stars": 44,
+   "name": "MicVST",
+   "vendor": "philipz794",
+   "kind": "effect",
+   "about": "Lightweight Windows Mic tray app: route a microphone through a VST3 plugin chain into a virtual audio cable, usable as a mic in any app.",
+   "url": "https://github.com/philipz794/MicVST",
+   "repo": "philipz794/MicVST",
+   "stars": 40,
    "license": "GPL-3.0",
-   "version": "v1.0.1",
+   "version": "v1.2.0",
    "download": null,
    "downloads": {
     "windows": {
-     "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
-     "name": "niner-windows-x86_64.zip",
-     "size": 22861704,
-     "type": "zip"
+     "url": "https://github.com/philipz794/MicVST/releases/download/v1.2.0/MicVST.exe",
+     "name": "MicVST.exe",
+     "size": 9134592,
+     "type": "exe"
     }
    },
    "formats": [
-    "CLAP",
+    "VST3",
     "AU"
    ],
    "source": "github"
