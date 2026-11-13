@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T13:44:11Z",
+ "updated": "2026-11-13T13:04:19Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6979,
+   "stars": 6981,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3462,
+   "stars": 3468,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1054,
+   "stars": 1055,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 660,
+   "stars": 661,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -655,7 +655,7 @@
    "about": "A soundfont editor for quickly designing musical instruments.",
    "url": "https://www.polyphone.io",
    "repo": "davy7125/polyphone",
-   "stars": 484,
+   "stars": 485,
    "license": "GPL-3.0",
    "version": "2.6.0",
    "download": {
@@ -734,7 +734,7 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 340,
+   "stars": 341,
    "license": "GPL-3.0",
    "version": "v0.19.1",
    "download": {
@@ -811,7 +811,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 309,
+   "stars": 310,
    "license": "GPL-3.0",
    "version": "v0.13.0",
    "download": {
@@ -853,7 +853,7 @@
    "about": "Convolution reverb with pre and post modulation",
    "url": "https://github.com/tiagolr/reevr",
    "repo": "tiagolr/reevr",
-   "stars": 298,
+   "stars": 299,
    "license": "GPL-3.0",
    "version": "v1.4.0",
    "download": {
@@ -1110,7 +1110,7 @@
    "about": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also uniq",
    "url": "https://quamplex.com/geonkick",
    "repo": "quamplex/geonkick",
-   "stars": 197,
+   "stars": 198,
    "license": "GPL-3.0",
    "version": "v3.9.0",
    "download": null,
@@ -1817,38 +1817,13 @@
    "source": "github"
   },
   {
-   "name": "ToneShiftEQ",
-   "vendor": "brummer10",
-   "kind": "effect",
-   "about": "12-band equalizer designed for precise spectral shaping, mixing, mastering, and corrective audio processing.",
-   "url": "https://github.com/brummer10/ToneShiftEQ",
-   "repo": "brummer10/ToneShiftEQ",
-   "stars": 109,
-   "license": "BSD-3-Clause",
-   "version": "v1.3.0",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/brummer10/ToneShiftEQ/releases/download/v1.3.0/ToneShiftEQ-v1.3.0-vst3-win64.zip",
-     "name": "ToneShiftEQ-v1.3.0-vst3-win64.zip",
-     "size": 2702366,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "CLAP"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Owmb",
    "vendor": "samplaman",
    "kind": "effect",
    "about": "open wav media browser",
    "url": "https://samplaman.github.io/owmb/",
    "repo": "samplaman/owmb",
-   "stars": 109,
+   "stars": 111,
    "license": null,
    "version": "1.0.0",
    "download": {
@@ -1873,6 +1848,31 @@
    },
    "formats": [
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "ToneShiftEQ",
+   "vendor": "brummer10",
+   "kind": "effect",
+   "about": "12-band equalizer designed for precise spectral shaping, mixing, mastering, and corrective audio processing.",
+   "url": "https://github.com/brummer10/ToneShiftEQ",
+   "repo": "brummer10/ToneShiftEQ",
+   "stars": 109,
+   "license": "BSD-3-Clause",
+   "version": "v1.3.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/brummer10/ToneShiftEQ/releases/download/v1.3.0/ToneShiftEQ-v1.3.0-vst3-win64.zip",
+     "name": "ToneShiftEQ-v1.3.0-vst3-win64.zip",
+     "size": 2702366,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP"
    ],
    "source": "github"
   },
@@ -2206,6 +2206,36 @@
    "formats": [
     "VST3",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Tumult",
+   "vendor": "consint",
+   "kind": "effect",
+   "about": "Noisemaker, texturizer, vintag maker audio effekt plugin",
+   "url": "https://www.consint.net",
+   "repo": "consint/Tumult",
+   "stars": 81,
+   "license": "GPL-3.0",
+   "version": "1.1.1",
+   "download": null,
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Linux_vst3.zip",
+     "name": "Tumult_1_1_1_Linux_vst3.zip",
+     "size": 242030776,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Win_vst3.zip",
+     "name": "Tumult_1_1_1_Win_vst3.zip",
+     "size": 239289360,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3"
    ],
    "source": "github"
   },
