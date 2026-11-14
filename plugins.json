@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T13:04:19Z",
+ "updated": "2026-11-14T12:08:42Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6981,
+   "stars": 6986,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3468,
+   "stars": 3473,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1055,
+   "stars": 1057,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -1164,7 +1164,7 @@
    "about": "Terminal based project management",
    "url": "https://kanban.rs",
    "repo": "kanban-rs/kanban",
-   "stars": 189,
+   "stars": 190,
    "license": "Apache-2.0",
    "version": "v0.12.2",
    "download": null,
@@ -1360,9 +1360,9 @@
      "type": "dmg"
     },
     "windows": {
-     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi",
-     "name": "ZL.Splitter-0.4.0-Windows-x86-64.msi",
-     "size": 5685248,
+     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
+     "name": "ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
+     "size": 5980160,
      "type": "msi"
     }
    },
@@ -1379,7 +1379,7 @@
    "about": "A Dual Delay with more features than it should",
    "url": "https://github.com/tiagolr/qdelay",
    "repo": "tiagolr/qdelay",
-   "stars": 164,
+   "stars": 165,
    "license": "GPL-3.0",
    "version": "v1.2.3",
    "download": {
@@ -1522,7 +1522,7 @@
    "about": "A MIDI driven, performance oriented, versatile synthesizer.",
    "url": "https://attilammagyar.github.io/js80p/",
    "repo": "attilammagyar/js80p",
-   "stars": 145,
+   "stars": 146,
    "license": "GPL-3.0",
    "version": "v4.1.1",
    "download": {
@@ -1607,7 +1607,7 @@
    "about": "A VST reverb effect in which the reflections can be frozen, filtered, pitch shifted and ultimately disintegrated.",
    "url": "https://www.igorski.nl/download/fogpad",
    "repo": "igorski/fogpad",
-   "stars": 130,
+   "stars": 131,
    "license": "MIT",
    "version": "1.0.3",
    "download": {
@@ -1829,20 +1829,20 @@
    "download": {
     "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
     "name": "OWMB-macOS-Universal-Installer.dmg",
-    "size": 45714293,
+    "size": 47844353,
     "type": "dmg"
    },
    "downloads": {
     "windows": {
      "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-Windows-11-x64.zip",
      "name": "OWMB-Windows-11-x64.zip",
-     "size": 8172550,
+     "size": 8566018,
      "type": "zip"
     },
     "mac": {
      "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
      "name": "OWMB-macOS-Universal-Installer.dmg",
-     "size": 45714293,
+     "size": 47844353,
      "type": "dmg"
     }
    },
@@ -2210,36 +2210,6 @@
    "source": "github"
   },
   {
-   "name": "Tumult",
-   "vendor": "consint",
-   "kind": "effect",
-   "about": "Noisemaker, texturizer, vintag maker audio effekt plugin",
-   "url": "https://www.consint.net",
-   "repo": "consint/Tumult",
-   "stars": 81,
-   "license": "GPL-3.0",
-   "version": "1.1.1",
-   "download": null,
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Linux_vst3.zip",
-     "name": "Tumult_1_1_1_Linux_vst3.zip",
-     "size": 242030776,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/consint/Tumult/releases/download/1.1.1/Tumult_1_1_1_Win_vst3.zip",
-     "name": "Tumult_1_1_1_Win_vst3.zip",
-     "size": 239289360,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Nuked SC55 CLAP",
    "vendor": "johnnovak",
    "kind": "effect",
@@ -2407,7 +2377,7 @@
    "about": "Free real-time AI Noise Gate VST3/AU plugin. Removes coughs, sneezes, and other artifacts from your live streams, podcasts, and videos.",
    "url": "https://github.com/dan-k-k/vocal-gate",
    "repo": "dan-k-k/vocal-gate",
-   "stars": 67,
+   "stars": 68,
    "license": "GPL-3.0",
    "version": "v1.0.5",
    "download": {
@@ -2449,7 +2419,7 @@
    "about": "SoundObject binary distribution.",
    "url": "https://suzumushi0.hatenablog.com/entry/SOv1/SO_EN",
    "repo": "suzumushi0/SoundObject_binary",
-   "stars": 63,
+   "stars": 64,
    "license": null,
    "version": "4.2.0",
    "download": null,
@@ -2643,6 +2613,49 @@
    "source": "github"
   },
   {
+   "name": "Firefly Synth 2",
+   "vendor": "sjoerdvankreel",
+   "kind": "instrument",
+   "about": "Semi-modular synthesizer and FX plugin for Windows, Linux and Mac, VST3 and CLAP.",
+   "url": "https://firefly-synth.com/",
+   "repo": "sjoerdvankreel/firefly-synth-2",
+   "stars": 46,
+   "license": "MIT",
+   "version": "v2.1.7",
+   "download": {
+    "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-vst3-Release.zip",
+    "name": "FireflySynth2-mac-vst3-Release.zip",
+    "size": 15727660,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-linux-vst3-Release.zip",
+     "name": "FireflySynth2-linux-vst3-Release.zip",
+     "size": 12086846,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-vst3-Release.zip",
+     "name": "FireflySynth2-mac-vst3-Release.zip",
+     "size": 15727660,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-windows-vst3-Release.zip",
+     "name": "FireflySynth2-windows-vst3-Release.zip",
+     "size": 11493978,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Castello",
    "vendor": "lucianoiam",
    "kind": "effect",
@@ -2679,49 +2692,6 @@
     }
    },
    "formats": [
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Firefly Synth 2",
-   "vendor": "sjoerdvankreel",
-   "kind": "instrument",
-   "about": "Semi-modular synthesizer and FX plugin for Windows, Linux and Mac, VST3 and CLAP.",
-   "url": "https://firefly-synth.com/",
-   "repo": "sjoerdvankreel/firefly-synth-2",
-   "stars": 45,
-   "license": "MIT",
-   "version": "v2.1.7",
-   "download": {
-    "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-vst3-Release.zip",
-    "name": "FireflySynth2-mac-vst3-Release.zip",
-    "size": 15727660,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-linux-vst3-Release.zip",
-     "name": "FireflySynth2-linux-vst3-Release.zip",
-     "size": 12086846,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-vst3-Release.zip",
-     "name": "FireflySynth2-mac-vst3-Release.zip",
-     "size": 15727660,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-windows-vst3-Release.zip",
-     "name": "FireflySynth2-windows-vst3-Release.zip",
-     "size": 11493978,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "CLAP",
     "AU"
    ],
    "source": "github"
