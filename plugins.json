@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T12:08:42Z",
+ "updated": "2026-11-15T12:42:30Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6986,
+   "stars": 6987,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3473,
+   "stars": 3475,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1057,
+   "stars": 1062,
    "license": "AGPL-3.0",
    "version": "1.4.1",
    "download": {
@@ -482,7 +482,7 @@
    "about": "automatic mastering plugin for live streaming, podcasts and internet radio.",
    "url": "https://github.com/trummerschlunk/master_me",
    "repo": "trummerschlunk/master_me",
-   "stars": 760,
+   "stars": 761,
    "license": "GPL-3.0",
    "version": "1.3.1",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 661,
+   "stars": 662,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -584,7 +584,7 @@
    "about": "A JUCE plugin for broadband noise reduction",
    "url": "https://github.com/lucianodato/noise-repellent",
    "repo": "lucianodato/noise-repellent",
-   "stars": 573,
+   "stars": 574,
    "license": null,
    "version": "v0.4.1",
    "download": {
@@ -734,7 +734,7 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 341,
+   "stars": 343,
    "license": "GPL-3.0",
    "version": "v0.19.1",
    "download": {
@@ -813,30 +813,30 @@
    "repo": "midilab/jc303",
    "stars": 310,
    "license": "GPL-3.0",
-   "version": "v0.13.0",
+   "version": "v0.14.0",
    "download": {
-    "url": "https://github.com/midilab/jc303/releases/download/v0.13.0/jc303-0.13.0-macos_universal-plugins.zip",
-    "name": "jc303-0.13.0-macos_universal-plugins.zip",
-    "size": 66016857,
+    "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-macos_universal-plugins.zip",
+    "name": "jc303-0.14.0-macos_universal-plugins.zip",
+    "size": 69267408,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/midilab/jc303/releases/download/v0.13.0/jc303-0.13.0-linux_x64-plugins.zip",
-     "name": "jc303-0.13.0-linux_x64-plugins.zip",
-     "size": 27277969,
+     "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-linux_x64-plugins.zip",
+     "name": "jc303-0.14.0-linux_x64-plugins.zip",
+     "size": 28669450,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/midilab/jc303/releases/download/v0.13.0/jc303-0.13.0-macos_universal-plugins.zip",
-     "name": "jc303-0.13.0-macos_universal-plugins.zip",
-     "size": 66016857,
+     "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-macos_universal-plugins.zip",
+     "name": "jc303-0.14.0-macos_universal-plugins.zip",
+     "size": 69267408,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/midilab/jc303/releases/download/v0.13.0/jc303-0.13.0-windows_x64-plugins.zip",
-     "name": "jc303-0.13.0-windows_x64-plugins.zip",
-     "size": 25976598,
+     "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-windows_x64-plugins.zip",
+     "name": "jc303-0.14.0-windows_x64-plugins.zip",
+     "size": 27444816,
      "type": "zip"
     }
    },
@@ -894,7 +894,7 @@
    "about": "VSTi  8-bit Sampler inspired by the sound of the famous Commodore Amiga for Windows/MacOS/Linux using VST3/AU/LV2",
    "url": "https://github.com/astriiddev/Ami-Sampler-VST",
    "repo": "astriiddev/Ami-Sampler-VST",
-   "stars": 237,
+   "stars": 236,
    "license": "GPL-3.0",
    "version": "v0.7.2",
    "download": {
@@ -1008,7 +1008,7 @@
    "about": "NeuralRack is a Neural Model and Impulse Response File loader for Linux/Windows.",
    "url": "https://github.com/brummer10/NeuralRack",
    "repo": "brummer10/NeuralRack",
-   "stars": 222,
+   "stars": 223,
    "license": "BSD-3-Clause",
    "version": "v0.4.1",
    "download": null,
@@ -1069,7 +1069,7 @@
    "about": "Linux, Osx & Windows JUCE port of Ultramaster Group's classic 2001 software synth",
    "url": "https://kayrock.org/kr106",
    "repo": "kayrockscreenprinting/ultramaster_kr106",
-   "stars": 204,
+   "stars": 205,
    "license": "GPL-3.0",
    "version": "v2.5.13",
    "download": {
@@ -1112,19 +1112,19 @@
    "repo": "quamplex/geonkick",
    "stars": 198,
    "license": "GPL-3.0",
-   "version": "v3.9.0",
+   "version": "v3.9.1",
    "download": null,
    "downloads": {
     "windows": {
-     "url": "https://github.com/quamplex/geonkick/releases/download/v3.9.0/GeonkickWindowsInstaller-v3.9.0-x86_64_basic.exe",
-     "name": "GeonkickWindowsInstaller-v3.9.0-x86_64_basic.exe",
-     "size": 15240737,
+     "url": "https://github.com/quamplex/geonkick/releases/download/v3.9.1/GeonkickWindowsInstaller-v3.9.1-x86_64_basic.exe",
+     "name": "GeonkickWindowsInstaller-v3.9.1-x86_64_basic.exe",
+     "size": 15471105,
      "type": "exe"
     },
     "linux": {
-     "url": "https://github.com/quamplex/geonkick/releases/download/v3.9.0/GNULinux_binaries_v3.9.0_basic.zip",
-     "name": "GNULinux_binaries_v3.9.0_basic.zip",
-     "size": 3767094,
+     "url": "https://github.com/quamplex/geonkick/releases/download/v3.9.1/GNULinux_binaries_v3.9.1_basic.zip",
+     "name": "GNULinux_binaries_v3.9.1_basic.zip",
+     "size": 3557134,
      "type": "zip"
     }
    },
@@ -1142,13 +1142,13 @@
    "repo": "brummer10/Ratatouille.lv2",
    "stars": 197,
    "license": "BSD-3-Clause",
-   "version": "v0.9.11",
+   "version": "v0.9.12",
    "download": null,
    "downloads": {
     "windows": {
-     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.11/Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "name": "Ratatouille.lv2-v3-v0.9.11-win64.zip",
-     "size": 3038472,
+     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.12/Ratatouille.lv2-app-v0.9.12-win64.zip",
+     "name": "Ratatouille.lv2-app-v0.9.12-win64.zip",
+     "size": 3084391,
      "type": "zip"
     }
    },
@@ -1373,6 +1373,42 @@
    "source": "github"
   },
   {
+   "name": "TheKissOfShame",
+   "vendor": "hollance",
+   "kind": "effect",
+   "about": "DSP Magnetic Tape Emulation",
+   "url": "https://audiodev.blog/kiss-of-shame/",
+   "repo": "hollance/TheKissOfShame",
+   "stars": 165,
+   "license": "GPL-3.0",
+   "version": "v1.0.2",
+   "download": {
+    "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Mac-v1.0.2.zip",
+    "name": "KissOfShame-Mac-v1.0.2.zip",
+    "size": 191811319,
+    "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Mac-v1.0.2.zip",
+     "name": "KissOfShame-Mac-v1.0.2.zip",
+     "size": 191811319,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Windows-v1.0.2.zip",
+     "name": "KissOfShame-Windows-v1.0.2.zip",
+     "size": 49212561,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Qdelay",
    "vendor": "tiagolr",
    "kind": "effect",
@@ -1410,42 +1446,6 @@
    },
    "formats": [
     "VST3"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "TheKissOfShame",
-   "vendor": "hollance",
-   "kind": "effect",
-   "about": "DSP Magnetic Tape Emulation",
-   "url": "https://audiodev.blog/kiss-of-shame/",
-   "repo": "hollance/TheKissOfShame",
-   "stars": 163,
-   "license": "GPL-3.0",
-   "version": "v1.0.2",
-   "download": {
-    "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Mac-v1.0.2.zip",
-    "name": "KissOfShame-Mac-v1.0.2.zip",
-    "size": 191811319,
-    "type": "zip"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Mac-v1.0.2.zip",
-     "name": "KissOfShame-Mac-v1.0.2.zip",
-     "size": 191811319,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/hollance/TheKissOfShame/releases/download/v1.0.2/KissOfShame-Windows-v1.0.2.zip",
-     "name": "KissOfShame-Windows-v1.0.2.zip",
-     "size": 49212561,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
    ],
    "source": "github"
   },
@@ -1668,7 +1668,7 @@
    "about": "VST delay plugin where the repeats degrade in resolution",
    "url": "https://www.igorski.nl/download/regrader",
    "repo": "igorski/regrader",
-   "stars": 122,
+   "stars": 123,
    "license": "MIT",
    "version": "1.0.5",
    "download": {
@@ -1740,6 +1740,47 @@
    "source": "github"
   },
   {
+   "name": "Signalizer",
+   "vendor": "jthorborg",
+   "kind": "effect",
+   "about": "Audio/signal visualizer plugin",
+   "url": "https://jthorborg.com/index.html?ipage=signalizer",
+   "repo": "jthorborg/signalizer",
+   "stars": 116,
+   "license": null,
+   "version": "v0.5.0",
+   "download": {
+    "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_MacOS_0.5.0.zip",
+    "name": "Signalizer_MacOS_0.5.0.zip",
+    "size": 20892696,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_Linux_VST_0.5.0.zip",
+     "name": "Signalizer_Linux_VST_0.5.0.zip",
+     "size": 17499169,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_MacOS_0.5.0.zip",
+     "name": "Signalizer_MacOS_0.5.0.zip",
+     "size": 20892696,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_Windows_VST_0.5.0.zip",
+     "name": "Signalizer_Windows_VST_0.5.0.zip",
+     "size": 10634019,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Plasma",
    "vendor": "Dimethoxy",
    "kind": "effect",
@@ -1776,47 +1817,6 @@
    "source": "github"
   },
   {
-   "name": "Signalizer",
-   "vendor": "jthorborg",
-   "kind": "effect",
-   "about": "Audio/signal visualizer plugin",
-   "url": "https://jthorborg.com/index.html?ipage=signalizer",
-   "repo": "jthorborg/signalizer",
-   "stars": 115,
-   "license": null,
-   "version": "v0.5.0",
-   "download": {
-    "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_MacOS_0.5.0.zip",
-    "name": "Signalizer_MacOS_0.5.0.zip",
-    "size": 20892696,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_Linux_VST_0.5.0.zip",
-     "name": "Signalizer_Linux_VST_0.5.0.zip",
-     "size": 17499169,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_MacOS_0.5.0.zip",
-     "name": "Signalizer_MacOS_0.5.0.zip",
-     "size": 20892696,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/jthorborg/signalizer/releases/download/v0.5.0/Signalizer_Windows_VST_0.5.0.zip",
-     "name": "Signalizer_Windows_VST_0.5.0.zip",
-     "size": 10634019,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Owmb",
    "vendor": "samplaman",
    "kind": "effect",
@@ -1829,20 +1829,20 @@
    "download": {
     "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
     "name": "OWMB-macOS-Universal-Installer.dmg",
-    "size": 47844353,
+    "size": 47859769,
     "type": "dmg"
    },
    "downloads": {
     "windows": {
      "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-Windows-11-x64.zip",
      "name": "OWMB-Windows-11-x64.zip",
-     "size": 8566018,
+     "size": 8585208,
      "type": "zip"
     },
     "mac": {
      "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
      "name": "OWMB-macOS-Universal-Installer.dmg",
-     "size": 47844353,
+     "size": 47859769,
      "type": "dmg"
     }
    },
@@ -2035,7 +2035,7 @@
    "about": "dynamic spectrum equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlspeceq/",
    "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 85,
+   "stars": 87,
    "license": "AGPL-3.0",
    "version": "0.1.1",
    "download": {
@@ -2257,7 +2257,7 @@
    "about": "Free, open-source metering plugin for mixing and mastering: LUFS loudness (EBU R 128), true peak, spectrum, spectrogram and goniometer in one window. VST3 / AU ",
    "url": "https://github.com/ZhiyuAlexZhang/Grisey",
    "repo": "ZhiyuAlexZhang/Grisey",
-   "stars": 71,
+   "stars": 72,
    "license": "GPL-3.0",
    "version": "v2.0.0-beta.1",
    "download": {
@@ -2282,6 +2282,48 @@
    },
    "formats": [
     "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Overtonium",
+   "vendor": "benjamindehli",
+   "kind": "instrument",
+   "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
+   "url": "https://benjamindehli.github.io/overtonium/",
+   "repo": "benjamindehli/overtonium",
+   "stars": 72,
+   "license": "AGPL-3.0",
+   "version": "v1.17.0",
+   "download": {
+    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-macOS.zip",
+    "name": "Overtonium-v1.17.0-macOS.zip",
+    "size": 18160110,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-Linux.zip",
+     "name": "Overtonium-v1.17.0-Linux.zip",
+     "size": 14234078,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-macOS.zip",
+     "name": "Overtonium-v1.17.0-macOS.zip",
+     "size": 18160110,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-Windows.zip",
+     "name": "Overtonium-v1.17.0-Windows.zip",
+     "size": 8274798,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2329,55 +2371,13 @@
    "source": "github"
   },
   {
-   "name": "Overtonium",
-   "vendor": "benjamindehli",
-   "kind": "instrument",
-   "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
-   "url": "https://benjamindehli.github.io/overtonium/",
-   "repo": "benjamindehli/overtonium",
-   "stars": 70,
-   "license": "AGPL-3.0",
-   "version": "v1.17.0",
-   "download": {
-    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-macOS.zip",
-    "name": "Overtonium-v1.17.0-macOS.zip",
-    "size": 18160110,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-Linux.zip",
-     "name": "Overtonium-v1.17.0-Linux.zip",
-     "size": 14234078,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-macOS.zip",
-     "name": "Overtonium-v1.17.0-macOS.zip",
-     "size": 18160110,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-Windows.zip",
-     "name": "Overtonium-v1.17.0-Windows.zip",
-     "size": 8274798,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Vocal Gate",
    "vendor": "dan-k-k",
    "kind": "effect",
    "about": "Free real-time AI Noise Gate VST3/AU plugin. Removes coughs, sneezes, and other artifacts from your live streams, podcasts, and videos.",
    "url": "https://github.com/dan-k-k/vocal-gate",
    "repo": "dan-k-k/vocal-gate",
-   "stars": 68,
+   "stars": 69,
    "license": "GPL-3.0",
    "version": "v1.0.5",
    "download": {
@@ -2514,7 +2514,7 @@
    "about": "A chorus audio effect plugin based on DSP code by Togu Audio Line (TAL)",
    "url": "https://github.com/SpotlightKid/ykchorus",
    "repo": "SpotlightKid/ykchorus",
-   "stars": 59,
+   "stars": 60,
    "license": null,
    "version": "v0.2.4",
    "download": null,
@@ -2552,31 +2552,6 @@
    },
    "formats": [
     "VST3",
-    "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Niner",
-   "vendor": "hyperfocusdsp",
-   "kind": "instrument",
-   "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
-   "url": "https://github.com/hyperfocusdsp/niner",
-   "repo": "hyperfocusdsp/niner",
-   "stars": 46,
-   "license": "GPL-3.0",
-   "version": "v1.0.1",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
-     "name": "niner-windows-x86_64.zip",
-     "size": 22861704,
-     "type": "zip"
-    }
-   },
-   "formats": [
     "CLAP",
     "AU"
    ],
@@ -2650,6 +2625,31 @@
    },
    "formats": [
     "VST3",
+    "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Niner",
+   "vendor": "hyperfocusdsp",
+   "kind": "instrument",
+   "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
+   "url": "https://github.com/hyperfocusdsp/niner",
+   "repo": "hyperfocusdsp/niner",
+   "stars": 46,
+   "license": "GPL-3.0",
+   "version": "v1.0.1",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
+     "name": "niner-windows-x86_64.zip",
+     "size": 22861704,
+     "type": "zip"
+    }
+   },
+   "formats": [
     "CLAP",
     "AU"
    ],
