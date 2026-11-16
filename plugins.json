@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:42:30Z",
+ "updated": "2026-11-16T13:35:31Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6987,
+   "stars": 6992,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3475,
+   "stars": 3478,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,32 +398,32 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1062,
+   "stars": 1066,
    "license": "AGPL-3.0",
-   "version": "1.4.1",
+   "version": "1.4.2",
    "download": {
-    "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
-    "name": "ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
-    "size": 11194539,
+    "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.2/ZL.Equalizer.2-1.4.2-macOS-arm64.dmg",
+    "name": "ZL.Equalizer.2-1.4.2-macOS-arm64.dmg",
+    "size": 11413507,
     "type": "dmg"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Linux-x86-64.zip",
-     "name": "ZL.Equalizer.2-1.4.1-Linux-x86-64.zip",
-     "size": 10850259,
+     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.2/ZL.Equalizer.2-1.4.2-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Equalizer.2-1.4.2-Linux-x86-64-AVX2.zip",
+     "size": 11317401,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
-     "name": "ZL.Equalizer.2-1.4.1-macOS-arm64.dmg",
-     "size": 11194539,
+     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.2/ZL.Equalizer.2-1.4.2-macOS-arm64.dmg",
+     "name": "ZL.Equalizer.2-1.4.2-macOS-arm64.dmg",
+     "size": 11413507,
      "type": "dmg"
     },
     "windows": {
-     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.1/ZL.Equalizer.2-1.4.1-Windows-x86-64.msi",
-     "name": "ZL.Equalizer.2-1.4.1-Windows-x86-64.msi",
-     "size": 9961472,
+     "url": "https://github.com/ZL-Audio/ZLEqualizer/releases/download/1.4.2/ZL.Equalizer.2-1.4.2-Windows-x86-64.msi",
+     "name": "ZL.Equalizer.2-1.4.2-Windows-x86-64.msi",
+     "size": 10375168,
      "type": "msi"
     }
    },
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 662,
+   "stars": 663,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -620,7 +620,7 @@
    "about": "Simple software synthesizer for Linux",
    "url": "https://github.com/amsynth/amsynth",
    "repo": "amsynth/amsynth",
-   "stars": 506,
+   "stars": 507,
    "license": "GPL-2.0",
    "version": "release-2.0.0",
    "download": {
@@ -655,7 +655,7 @@
    "about": "A soundfont editor for quickly designing musical instruments.",
    "url": "https://www.polyphone.io",
    "repo": "davy7125/polyphone",
-   "stars": 485,
+   "stars": 486,
    "license": "GPL-3.0",
    "version": "2.6.0",
    "download": {
@@ -734,32 +734,32 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 343,
+   "stars": 344,
    "license": "GPL-3.0",
-   "version": "v0.19.1",
+   "version": "v0.20.0",
    "download": {
-    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.1/INTERSECT-v0.19.1-macOS-arm64.zip",
-    "name": "INTERSECT-v0.19.1-macOS-arm64.zip",
-    "size": 10143045,
+    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-macOS-arm64.zip",
+    "name": "INTERSECT-v0.20.0-macOS-arm64.zip",
+    "size": 10734483,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.1/INTERSECT-v0.19.1-Linux-x64.zip",
-     "name": "INTERSECT-v0.19.1-Linux-x64.zip",
-     "size": 9161544,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-Linux-x64.zip",
+     "name": "INTERSECT-v0.20.0-Linux-x64.zip",
+     "size": 9546747,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.1/INTERSECT-v0.19.1-macOS-arm64.zip",
-     "name": "INTERSECT-v0.19.1-macOS-arm64.zip",
-     "size": 10143045,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-macOS-arm64.zip",
+     "name": "INTERSECT-v0.20.0-macOS-arm64.zip",
+     "size": 10734483,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.19.1/INTERSECT-v0.19.1-Windows-x64.zip",
-     "name": "INTERSECT-v0.19.1-Windows-x64.zip",
-     "size": 7873152,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-Windows-x64.zip",
+     "name": "INTERSECT-v0.20.0-Windows-x64.zip",
+     "size": 8168503,
      "type": "zip"
     }
    },
@@ -776,7 +776,7 @@
    "about": "Collection of LADSPA/LV2/VST/JACK audio plugins for high-quality processing",
    "url": "http://www.zamaudio.com/?p=976",
    "repo": "zamaudio/zam-plugins",
-   "stars": 325,
+   "stars": 326,
    "license": "GPL-2.0",
    "version": "4.5",
    "download": {
@@ -811,7 +811,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 310,
+   "stars": 311,
    "license": "GPL-3.0",
    "version": "v0.14.0",
    "download": {
@@ -924,7 +924,7 @@
    "about": "dynamic range processor plugin",
    "url": "https://zl-audio.github.io/plugins/zlcompressor/",
    "repo": "ZL-Audio/ZLCompressor",
-   "stars": 229,
+   "stars": 230,
    "license": "AGPL-3.0",
    "version": "0.6.1",
    "download": {
@@ -1110,7 +1110,7 @@
    "about": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also uniq",
    "url": "https://quamplex.com/geonkick",
    "repo": "quamplex/geonkick",
-   "stars": 198,
+   "stars": 199,
    "license": "GPL-3.0",
    "version": "v3.9.1",
    "download": null,
@@ -1140,15 +1140,15 @@
    "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
    "url": "https://github.com/brummer10/Ratatouille.lv2",
    "repo": "brummer10/Ratatouille.lv2",
-   "stars": 197,
+   "stars": 198,
    "license": "BSD-3-Clause",
    "version": "v0.9.12",
    "download": null,
    "downloads": {
     "windows": {
-     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.12/Ratatouille.lv2-app-v0.9.12-win64.zip",
-     "name": "Ratatouille.lv2-app-v0.9.12-win64.zip",
-     "size": 3084391,
+     "url": "https://github.com/brummer10/Ratatouille.lv2/releases/download/v0.9.12/Ratatouille.lv2-vst2-v0.9.12-win64.zip",
+     "name": "Ratatouille.lv2-vst2-v0.9.12-win64.zip",
+     "size": 2955966,
      "type": "zip"
     }
    },
@@ -1360,15 +1360,56 @@
      "type": "dmg"
     },
     "windows": {
-     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
-     "name": "ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
-     "size": 5980160,
+     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi",
+     "name": "ZL.Splitter-0.4.0-Windows-x86-64.msi",
+     "size": 5685248,
      "type": "msi"
     }
    },
    "formats": [
     "VST3",
     "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Qdelay",
+   "vendor": "tiagolr",
+   "kind": "effect",
+   "about": "A Dual Delay with more features than it should",
+   "url": "https://github.com/tiagolr/qdelay",
+   "repo": "tiagolr/qdelay",
+   "stars": 166,
+   "license": "GPL-3.0",
+   "version": "v1.2.3",
+   "download": {
+    "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-macos-v1.2.3.zip",
+    "name": "qdelay-macos-v1.2.3.zip",
+    "size": 8877154,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-linux-v1.2.3.zip",
+     "name": "qdelay-linux-v1.2.3.zip",
+     "size": 5462344,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-macos-v1.2.3.zip",
+     "name": "qdelay-macos-v1.2.3.zip",
+     "size": 8877154,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-win-v1.2.3.zip",
+     "name": "qdelay-win-v1.2.3.zip",
+     "size": 3346241,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3"
    ],
    "source": "github"
   },
@@ -1405,47 +1446,6 @@
    "formats": [
     "VST3",
     "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Qdelay",
-   "vendor": "tiagolr",
-   "kind": "effect",
-   "about": "A Dual Delay with more features than it should",
-   "url": "https://github.com/tiagolr/qdelay",
-   "repo": "tiagolr/qdelay",
-   "stars": 165,
-   "license": "GPL-3.0",
-   "version": "v1.2.3",
-   "download": {
-    "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-macos-v1.2.3.zip",
-    "name": "qdelay-macos-v1.2.3.zip",
-    "size": 8877154,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-linux-v1.2.3.zip",
-     "name": "qdelay-linux-v1.2.3.zip",
-     "size": 5462344,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-macos-v1.2.3.zip",
-     "name": "qdelay-macos-v1.2.3.zip",
-     "size": 8877154,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/tiagolr/qdelay/releases/download/v1.2.3/qdelay-win-v1.2.3.zip",
-     "name": "qdelay-win-v1.2.3.zip",
-     "size": 3346241,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3"
    ],
    "source": "github"
   },
@@ -1564,7 +1564,7 @@
    "about": "A lookahead compressor/limiter that's soft as a lamb.",
    "url": "https://github.com/magnetophon/lamb-rs",
    "repo": "magnetophon/lamb-rs",
-   "stars": 137,
+   "stars": 138,
    "license": "AGPL-3.0",
    "version": "v2.1.0",
    "download": {
@@ -1596,6 +1596,31 @@
    "formats": [
     "VST3",
     "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Drumlabooh",
+   "vendor": "psemiletov",
+   "kind": "instrument",
+   "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
+   "url": "https://psemiletov.github.io/drumlabooh/",
+   "repo": "psemiletov/drumlabooh",
+   "stars": 133,
+   "license": "GPL-3.0",
+   "version": "14.0.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/psemiletov/drumlabooh/releases/download/14.0.0/drumlabooh-installer.exe",
+     "name": "drumlabooh-installer.exe",
+     "size": 188654369,
+     "type": "exe"
+    }
+   },
+   "formats": [
+    "VST3",
     "AU"
    ],
    "source": "github"
@@ -1637,38 +1662,13 @@
    "source": "github"
   },
   {
-   "name": "Drumlabooh",
-   "vendor": "psemiletov",
-   "kind": "instrument",
-   "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
-   "url": "https://psemiletov.github.io/drumlabooh/",
-   "repo": "psemiletov/drumlabooh",
-   "stars": 130,
-   "license": "GPL-3.0",
-   "version": "13.0.0",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/psemiletov/drumlabooh/releases/download/13.0.0/drumlabooh-installer.exe",
-     "name": "drumlabooh-installer.exe",
-     "size": 124204952,
-     "type": "exe"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Regrader",
    "vendor": "igorski",
    "kind": "effect",
    "about": "VST delay plugin where the repeats degrade in resolution",
    "url": "https://www.igorski.nl/download/regrader",
    "repo": "igorski/regrader",
-   "stars": 123,
+   "stars": 124,
    "license": "MIT",
    "version": "1.0.5",
    "download": {
@@ -1858,7 +1858,7 @@
    "about": "12-band equalizer designed for precise spectral shaping, mixing, mastering, and corrective audio processing.",
    "url": "https://github.com/brummer10/ToneShiftEQ",
    "repo": "brummer10/ToneShiftEQ",
-   "stars": 109,
+   "stars": 110,
    "license": "BSD-3-Clause",
    "version": "v1.3.0",
    "download": null,
@@ -2035,32 +2035,32 @@
    "about": "dynamic spectrum equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlspeceq/",
    "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 87,
+   "stars": 89,
    "license": "AGPL-3.0",
-   "version": "0.1.1",
+   "version": "0.1.2",
    "download": {
-    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-    "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-    "size": 5615636,
+    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
+    "name": "ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
+    "size": 5808458,
     "type": "dmg"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-Linux-x86-64-AVX2.zip",
-     "size": 6283843,
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Spectrum.Equalizer-0.1.2-Linux-x86-64-AVX2.zip",
+     "size": 6294913,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-macOS-arm64.dmg",
-     "size": 5615636,
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
+     "name": "ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
+     "size": 5808458,
      "type": "dmg"
     },
     "windows": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.1/ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
-     "name": "ZL.Spectrum.Equalizer-0.1.1-Windows-x86-64-AVX2.msi",
-     "size": 5996544,
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-Windows-x86-64-AVX2.msi",
+     "name": "ZL.Spectrum.Equalizer-0.1.2-Windows-x86-64-AVX2.msi",
+     "size": 6299648,
      "type": "msi"
     }
    },
@@ -2170,42 +2170,6 @@
    },
    "formats": [
     "CLAP"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "BlackBird",
-   "vendor": "khrykin",
-   "kind": "instrument",
-   "about": "AU/VST3 Synth built with JUCE",
-   "url": "https://github.com/khrykin/BlackBird",
-   "repo": "khrykin/BlackBird",
-   "stars": 81,
-   "license": "GPL-3.0",
-   "version": "v0.1.0",
-   "download": {
-    "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
-    "name": "BlackBird-0.1.0.pkg",
-    "size": 3578245,
-    "type": "pkg"
-   },
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0-windows-x64.exe",
-     "name": "BlackBird-0.1.0-windows-x64.exe",
-     "size": 4189654,
-     "type": "exe"
-    },
-    "mac": {
-     "url": "https://github.com/khrykin/BlackBird/releases/download/v0.1.0/BlackBird-0.1.0.pkg",
-     "name": "BlackBird-0.1.0.pkg",
-     "size": 3578245,
-     "type": "pkg"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
    ],
    "source": "github"
   },
@@ -2335,7 +2299,7 @@
    "about": "Modular sound glitcher / mangler",
    "url": "fx-mechanics.com",
    "repo": "odoare/Mango",
-   "stars": 70,
+   "stars": 71,
    "license": "AGPL-3.0",
    "version": "v0.2.0",
    "download": {
@@ -2721,6 +2685,42 @@
    "source": "github"
   },
   {
+   "name": "Vfd Plugin Suite",
+   "vendor": "vividfeverdreams",
+   "kind": "effect",
+   "about": "Six free, open-source bass-music audio plug-ins (VST3/AU, Mac + Windows) by Vivid Fever Dreams, built with JUCE",
+   "url": "https://www.vividfeverdreams.xyz",
+   "repo": "vividfeverdreams/vfd-plugin-suite",
+   "stars": 41,
+   "license": "AGPL-3.0",
+   "version": "v1.6.5",
+   "download": {
+    "url": "https://github.com/vividfeverdreams/vfd-plugin-suite/releases/download/v1.6.5/Vivid-Fever-Dreams-Suite-v1.6.5-Beta-Intel-Mac.zip",
+    "name": "Vivid-Fever-Dreams-Suite-v1.6.5-Beta-Intel-Mac.zip",
+    "size": 105612276,
+    "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/vividfeverdreams/vfd-plugin-suite/releases/download/v1.6.5/Vivid-Fever-Dreams-Suite-v1.6.5-Beta-Intel-Mac.zip",
+     "name": "Vivid-Fever-Dreams-Suite-v1.6.5-Beta-Intel-Mac.zip",
+     "size": 105612276,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/vividfeverdreams/vfd-plugin-suite/releases/download/v1.6.5/Vivid-Fever-Dreams-Suite-v1.6.5-Beta-Windows-VST3.zip",
+     "name": "Vivid-Fever-Dreams-Suite-v1.6.5-Beta-Windows-VST3.zip",
+     "size": 37514655,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "MicVST",
    "vendor": "philipz794",
    "kind": "effect",
@@ -2737,31 +2737,6 @@
      "name": "MicVST.exe",
      "size": 9134592,
      "type": "exe"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Vfd Plugin Suite",
-   "vendor": "vividfeverdreams",
-   "kind": "effect",
-   "about": "Six free, open-source bass-music audio plug-ins (VST3/AU, Mac + Windows) by Vivid Fever Dreams, built with JUCE",
-   "url": "https://www.vividfeverdreams.xyz",
-   "repo": "vividfeverdreams/vfd-plugin-suite",
-   "stars": 40,
-   "license": "AGPL-3.0",
-   "version": "v1.6.4",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/vividfeverdreams/vfd-plugin-suite/releases/download/v1.6.4/Vivid-Fever-Dreams-Suite-v1.6.4-Beta-Windows-VST3.zip",
-     "name": "Vivid-Fever-Dreams-Suite-v1.6.4-Beta-Windows-VST3.zip",
-     "size": 37544285,
-     "type": "zip"
     }
    },
    "formats": [
