@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:20:29Z",
+ "updated": "2026-11-18T13:54:50Z",
  "plugins": [
   {
    "name": "Vital",
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3484,
+   "stars": 3495,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1067,
+   "stars": 1070,
    "license": "AGPL-3.0",
    "version": "1.4.2",
    "download": {
@@ -734,7 +734,7 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 345,
+   "stars": 346,
    "license": "GPL-3.0",
    "version": "v0.20.0",
    "download": {
@@ -1271,7 +1271,7 @@
    "about": "An unofficial Todoist command line client written in Rust",
    "url": "https://github.com/tod-org/tod",
    "repo": "tod-org/tod",
-   "stars": 174,
+   "stars": 173,
    "license": "MIT",
    "version": "v0.19.0",
    "download": null,
@@ -1295,7 +1295,7 @@
    "about": "Pipe organ synthesizer (VST plugin)",
    "url": "https://archie3d.github.io/aeolus_plugin/",
    "repo": "Archie3d/aeolus_plugin",
-   "stars": 171,
+   "stars": 172,
    "license": "GPL-3.0",
    "version": "v0.3.0",
    "download": {
@@ -1360,9 +1360,9 @@
      "type": "dmg"
     },
     "windows": {
-     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64.msi",
-     "name": "ZL.Splitter-0.4.0-Windows-x86-64.msi",
-     "size": 5685248,
+     "url": "https://github.com/ZL-Audio/ZLSplitter/releases/download/0.4.0/ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
+     "name": "ZL.Splitter-0.4.0-Windows-x86-64-AVX2.msi",
+     "size": 5980160,
      "type": "msi"
     }
    },
@@ -1823,26 +1823,26 @@
    "about": "open wav media browser",
    "url": "https://samplaman.github.io/owmb/",
    "repo": "samplaman/owmb",
-   "stars": 111,
+   "stars": 113,
    "license": null,
    "version": "1.0.0",
    "download": {
     "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
     "name": "OWMB-macOS-Universal-Installer.dmg",
-    "size": 48371550,
+    "size": 48997449,
     "type": "dmg"
    },
    "downloads": {
     "windows": {
      "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-Windows-11-x64.zip",
      "name": "OWMB-Windows-11-x64.zip",
-     "size": 8741018,
+     "size": 8887894,
      "type": "zip"
     },
     "mac": {
      "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
      "name": "OWMB-macOS-Universal-Installer.dmg",
-     "size": 48371550,
+     "size": 48997449,
      "type": "dmg"
     }
    },
@@ -1883,7 +1883,7 @@
    "about": "VST plugin version of the WebSID Commodore 64 synthesizer",
    "url": "https://www.igorski.nl/download/vstsid",
    "repo": "igorski/VSTSID",
-   "stars": 107,
+   "stars": 108,
    "license": "MIT",
    "version": "v1.1.2",
    "download": {
@@ -2215,6 +2215,48 @@
    "source": "github"
   },
   {
+   "name": "Overtonium",
+   "vendor": "benjamindehli",
+   "kind": "instrument",
+   "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
+   "url": "https://benjamindehli.github.io/overtonium/",
+   "repo": "benjamindehli/overtonium",
+   "stars": 76,
+   "license": "AGPL-3.0",
+   "version": "v1.18.0",
+   "download": {
+    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.18.0/Overtonium-v1.18.0-macOS.zip",
+    "name": "Overtonium-v1.18.0-macOS.zip",
+    "size": 18272447,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.18.0/Overtonium-v1.18.0-Linux.zip",
+     "name": "Overtonium-v1.18.0-Linux.zip",
+     "size": 14324038,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.18.0/Overtonium-v1.18.0-macOS.zip",
+     "name": "Overtonium-v1.18.0-macOS.zip",
+     "size": 18272447,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.18.0/Overtonium-v1.18.0-Windows.zip",
+     "name": "Overtonium-v1.18.0-Windows.zip",
+     "size": 8329650,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Grisey",
    "vendor": "ZhiyuAlexZhang",
    "kind": "effect",
@@ -2246,48 +2288,6 @@
    },
    "formats": [
     "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Overtonium",
-   "vendor": "benjamindehli",
-   "kind": "instrument",
-   "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
-   "url": "https://benjamindehli.github.io/overtonium/",
-   "repo": "benjamindehli/overtonium",
-   "stars": 72,
-   "license": "AGPL-3.0",
-   "version": "v1.17.0",
-   "download": {
-    "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-macOS.zip",
-    "name": "Overtonium-v1.17.0-macOS.zip",
-    "size": 18160110,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-Linux.zip",
-     "name": "Overtonium-v1.17.0-Linux.zip",
-     "size": 14234078,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-macOS.zip",
-     "name": "Overtonium-v1.17.0-macOS.zip",
-     "size": 18160110,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/benjamindehli/overtonium/releases/download/v1.17.0/Overtonium-v1.17.0-Windows.zip",
-     "name": "Overtonium-v1.17.0-Windows.zip",
-     "size": 8274798,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2522,6 +2522,31 @@
    "source": "github"
   },
   {
+   "name": "Niner",
+   "vendor": "hyperfocusdsp",
+   "kind": "instrument",
+   "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
+   "url": "https://github.com/hyperfocusdsp/niner",
+   "repo": "hyperfocusdsp/niner",
+   "stars": 46,
+   "license": "GPL-3.0",
+   "version": "v1.0.1",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
+     "name": "niner-windows-x86_64.zip",
+     "size": 22861704,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Birdhouse",
    "vendor": "madskjeldgaard",
    "kind": "effect",
@@ -2589,31 +2614,6 @@
    },
    "formats": [
     "VST3",
-    "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Niner",
-   "vendor": "hyperfocusdsp",
-   "kind": "instrument",
-   "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
-   "url": "https://github.com/hyperfocusdsp/niner",
-   "repo": "hyperfocusdsp/niner",
-   "stars": 46,
-   "license": "GPL-3.0",
-   "version": "v1.0.1",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
-     "name": "niner-windows-x86_64.zip",
-     "size": 22861704,
-     "type": "zip"
-    }
-   },
-   "formats": [
     "CLAP",
     "AU"
    ],
