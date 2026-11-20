@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:23:26Z",
+ "updated": "2026-11-20T13:58:54Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6993,
+   "stars": 6994,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3504,
+   "stars": 3512,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1074,
+   "stars": 1076,
    "license": "AGPL-3.0",
    "version": "1.4.2",
    "download": {
@@ -440,7 +440,7 @@
    "about": "Frequency modulation synthesizer plugin (VST2, CLAP). Runs on macOS, Windows and Linux.",
    "url": "https://www.octasine.com/",
    "repo": "greatest-ape/OctaSine",
-   "stars": 824,
+   "stars": 823,
    "license": "AGPL-3.0",
    "version": "v0.9.1",
    "download": {
@@ -560,7 +560,7 @@
    "about": "⚡Rapid note management for the terminal.",
    "url": "https://github.com/shashwatah/jot",
    "repo": "shashwatah/jot",
-   "stars": 612,
+   "stars": 611,
    "license": "MIT",
    "version": "v0.1.2",
    "download": null,
@@ -584,7 +584,7 @@
    "about": "A JUCE plugin for broadband noise reduction",
    "url": "https://github.com/lucianodato/noise-repellent",
    "repo": "lucianodato/noise-repellent",
-   "stars": 575,
+   "stars": 576,
    "license": null,
    "version": "v0.4.1",
    "download": {
@@ -811,7 +811,7 @@
    "about": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2, CLAP and AU.",
    "url": "https://midilab.co/jc303",
    "repo": "midilab/jc303",
-   "stars": 313,
+   "stars": 314,
    "license": "GPL-3.0",
    "version": "v0.14.0",
    "download": {
@@ -853,7 +853,7 @@
    "about": "Convolution reverb with pre and post modulation",
    "url": "https://github.com/tiagolr/reevr",
    "repo": "tiagolr/reevr",
-   "stars": 299,
+   "stars": 300,
    "license": "GPL-3.0",
    "version": "v1.4.0",
    "download": {
@@ -894,7 +894,7 @@
    "about": "VSTi  8-bit Sampler inspired by the sound of the famous Commodore Amiga for Windows/MacOS/Linux using VST3/AU/LV2",
    "url": "https://github.com/astriiddev/Ami-Sampler-VST",
    "repo": "astriiddev/Ami-Sampler-VST",
-   "stars": 236,
+   "stars": 237,
    "license": "GPL-3.0",
    "version": "v0.7.2",
    "download": {
