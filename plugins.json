@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T13:58:54Z",
+ "updated": "2026-11-21T13:26:33Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6994,
+   "stars": 6995,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3512,
+   "stars": 3515,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -622,24 +622,24 @@
    "repo": "amsynth/amsynth",
    "stars": 507,
    "license": "GPL-2.0",
-   "version": "release-2.0.0",
+   "version": "release-2.0.1",
    "download": {
-    "url": "https://github.com/amsynth/amsynth/releases/download/release-2.0.0/amsynth-2.0.0-macos.zip",
-    "name": "amsynth-2.0.0-macos.zip",
-    "size": 10072513,
+    "url": "https://github.com/amsynth/amsynth/releases/download/release-2.0.1/amsynth-2.0.1-macos.zip",
+    "name": "amsynth-2.0.1-macos.zip",
+    "size": 10073702,
     "type": "zip"
    },
    "downloads": {
     "mac": {
-     "url": "https://github.com/amsynth/amsynth/releases/download/release-2.0.0/amsynth-2.0.0-macos.zip",
-     "name": "amsynth-2.0.0-macos.zip",
-     "size": 10072513,
+     "url": "https://github.com/amsynth/amsynth/releases/download/release-2.0.1/amsynth-2.0.1-macos.zip",
+     "name": "amsynth-2.0.1-macos.zip",
+     "size": 10073702,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/amsynth/amsynth/releases/download/release-2.0.0/amsynth-2.0.0-windows.exe",
-     "name": "amsynth-2.0.0-windows.exe",
-     "size": 3240660,
+     "url": "https://github.com/amsynth/amsynth/releases/download/release-2.0.1/amsynth-2.0.1-windows.exe",
+     "name": "amsynth-2.0.1-windows.exe",
+     "size": 3240301,
      "type": "exe"
     }
    },
@@ -853,7 +853,7 @@
    "about": "Convolution reverb with pre and post modulation",
    "url": "https://github.com/tiagolr/reevr",
    "repo": "tiagolr/reevr",
-   "stars": 300,
+   "stars": 301,
    "license": "GPL-3.0",
    "version": "v1.4.0",
    "download": {
@@ -1164,7 +1164,7 @@
    "about": "Terminal based project management",
    "url": "https://kanban.rs",
    "repo": "kanban-rs/kanban",
-   "stars": 190,
+   "stars": 192,
    "license": "Apache-2.0",
    "version": "v0.13.0",
    "download": null,
@@ -1230,7 +1230,7 @@
    "about": "Minimal, blazing fast npm scripts runner",
    "url": "https://github.com/ryanccn/nrr",
    "repo": "ryanccn/nrr",
-   "stars": 177,
+   "stars": 178,
    "license": "GPL-3.0",
    "version": "v0.11.0",
    "download": {
@@ -1607,7 +1607,7 @@
    "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
    "url": "https://psemiletov.github.io/drumlabooh/",
    "repo": "psemiletov/drumlabooh",
-   "stars": 135,
+   "stars": 136,
    "license": "GPL-3.0",
    "version": "14.0.0",
    "download": null,
@@ -2221,7 +2221,7 @@
    "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
    "url": "https://benjamindehli.github.io/overtonium/",
    "repo": "benjamindehli/overtonium",
-   "stars": 77,
+   "stars": 78,
    "license": "AGPL-3.0",
    "version": "v1.18.0",
    "download": {
@@ -2401,6 +2401,36 @@
    "source": "github"
   },
   {
+   "name": "Even",
+   "vendor": "egor-sm",
+   "kind": "effect",
+   "about": "12-band parametric EQ",
+   "url": "https://github.com/egor-sm/even",
+   "repo": "egor-sm/even",
+   "stars": 62,
+   "license": "GPL-3.0",
+   "version": "v0.1.0",
+   "download": {
+    "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+    "name": "Even-0.1.0.pkg",
+    "size": 12571296,
+    "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+     "name": "Even-0.1.0.pkg",
+     "size": 12571296,
+     "type": "pkg"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Repitch",
    "vendor": "ellamenop",
    "kind": "effect",
@@ -2437,36 +2467,6 @@
     }
    },
    "formats": [
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Even",
-   "vendor": "egor-sm",
-   "kind": "effect",
-   "about": "12-band parametric EQ",
-   "url": "https://github.com/egor-sm/even",
-   "repo": "egor-sm/even",
-   "stars": 62,
-   "license": "GPL-3.0",
-   "version": "v0.1.0",
-   "download": {
-    "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
-    "name": "Even-0.1.0.pkg",
-    "size": 12571296,
-    "type": "pkg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
-     "name": "Even-0.1.0.pkg",
-     "size": 12571296,
-     "type": "pkg"
-    }
-   },
-   "formats": [
-    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2737,6 +2737,42 @@
      "name": "MicVST.exe",
      "size": 9134592,
      "type": "exe"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "REV 246",
+   "vendor": "tehguitarist",
+   "kind": "effect",
+   "about": "EMT 246 inspired digital reverb plugin",
+   "url": "https://github.com/tehguitarist/REV-246",
+   "repo": "tehguitarist/REV-246",
+   "stars": 40,
+   "license": "AGPL-3.0",
+   "version": "plugin-v1.0.2",
+   "download": {
+    "url": "https://github.com/tehguitarist/REV-246/releases/download/plugin-v1.0.2/REV246-macOS-Universal-v1.0.2.zip",
+    "name": "REV246-macOS-Universal-v1.0.2.zip",
+    "size": 20307253,
+    "type": "zip"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/tehguitarist/REV-246/releases/download/plugin-v1.0.2/REV246-macOS-Universal-v1.0.2.zip",
+     "name": "REV246-macOS-Universal-v1.0.2.zip",
+     "size": 20307253,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/tehguitarist/REV-246/releases/download/plugin-v1.0.2/REV246-Windows-v1.0.2.zip",
+     "name": "REV246-Windows-v1.0.2.zip",
+     "size": 6721675,
+     "type": "zip"
     }
    },
    "formats": [
