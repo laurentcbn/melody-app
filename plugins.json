@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:26:33Z",
+ "updated": "2026-11-22T13:18:41Z",
  "plugins": [
   {
    "name": "Vital",
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3515,
+   "stars": 3521,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -620,7 +620,7 @@
    "about": "Simple software synthesizer for Linux",
    "url": "https://github.com/amsynth/amsynth",
    "repo": "amsynth/amsynth",
-   "stars": 507,
+   "stars": 508,
    "license": "GPL-2.0",
    "version": "release-2.0.1",
    "download": {
@@ -655,7 +655,7 @@
    "about": "A soundfont editor for quickly designing musical instruments.",
    "url": "https://www.polyphone.io",
    "repo": "davy7125/polyphone",
-   "stars": 488,
+   "stars": 489,
    "license": "GPL-3.0",
    "version": "2.6.0",
    "download": {
@@ -935,9 +935,9 @@
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64.zip",
-     "name": "ZL.Compressor-0.6.1-Linux-x86-64.zip",
-     "size": 8943456,
+     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
+     "size": 9412291,
      "type": "zip"
     },
     "mac": {
@@ -1164,7 +1164,7 @@
    "about": "Terminal based project management",
    "url": "https://kanban.rs",
    "repo": "kanban-rs/kanban",
-   "stars": 192,
+   "stars": 193,
    "license": "Apache-2.0",
    "version": "v0.13.0",
    "download": null,
@@ -1522,7 +1522,7 @@
    "about": "A MIDI driven, performance oriented, versatile synthesizer.",
    "url": "https://attilammagyar.github.io/js80p/",
    "repo": "attilammagyar/js80p",
-   "stars": 146,
+   "stars": 147,
    "license": "GPL-3.0",
    "version": "v4.1.1",
    "download": {
@@ -1607,7 +1607,7 @@
    "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
    "url": "https://psemiletov.github.io/drumlabooh/",
    "repo": "psemiletov/drumlabooh",
-   "stars": 136,
+   "stars": 137,
    "license": "GPL-3.0",
    "version": "14.0.0",
    "download": null,
@@ -2029,48 +2029,6 @@
    "source": "github"
   },
   {
-   "name": "ZLSpectrumEqualizer",
-   "vendor": "ZL-Audio",
-   "kind": "effect",
-   "about": "dynamic spectrum equalizer plugin",
-   "url": "https://zl-audio.github.io/plugins/zlspeceq/",
-   "repo": "ZL-Audio/ZLSpectrumEqualizer",
-   "stars": 90,
-   "license": "AGPL-3.0",
-   "version": "0.1.2",
-   "download": {
-    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
-    "name": "ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
-    "size": 5808458,
-    "type": "dmg"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-Linux-x86-64-AVX2.zip",
-     "name": "ZL.Spectrum.Equalizer-0.1.2-Linux-x86-64-AVX2.zip",
-     "size": 6294913,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
-     "name": "ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
-     "size": 5808458,
-     "type": "dmg"
-    },
-    "windows": {
-     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-Windows-x86-64-AVX2.msi",
-     "name": "ZL.Spectrum.Equalizer-0.1.2-Windows-x86-64-AVX2.msi",
-     "size": 6299648,
-     "type": "msi"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "PerceptoMap",
    "vendor": "hqrrr",
    "kind": "effect",
@@ -2221,7 +2179,7 @@
    "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
    "url": "https://benjamindehli.github.io/overtonium/",
    "repo": "benjamindehli/overtonium",
-   "stars": 78,
+   "stars": 79,
    "license": "AGPL-3.0",
    "version": "v1.18.0",
    "download": {
@@ -2401,36 +2359,6 @@
    "source": "github"
   },
   {
-   "name": "Even",
-   "vendor": "egor-sm",
-   "kind": "effect",
-   "about": "12-band parametric EQ",
-   "url": "https://github.com/egor-sm/even",
-   "repo": "egor-sm/even",
-   "stars": 62,
-   "license": "GPL-3.0",
-   "version": "v0.1.0",
-   "download": {
-    "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
-    "name": "Even-0.1.0.pkg",
-    "size": 12571296,
-    "type": "pkg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
-     "name": "Even-0.1.0.pkg",
-     "size": 12571296,
-     "type": "pkg"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Repitch",
    "vendor": "ellamenop",
    "kind": "effect",
@@ -2467,6 +2395,36 @@
     }
    },
    "formats": [
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Even",
+   "vendor": "egor-sm",
+   "kind": "effect",
+   "about": "12-band parametric EQ",
+   "url": "https://github.com/egor-sm/even",
+   "repo": "egor-sm/even",
+   "stars": 62,
+   "license": "GPL-3.0",
+   "version": "v0.1.0",
+   "download": {
+    "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+    "name": "Even-0.1.0.pkg",
+    "size": 12571296,
+    "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+     "name": "Even-0.1.0.pkg",
+     "size": 12571296,
+     "type": "pkg"
+    }
+   },
+   "formats": [
+    "VST3",
     "AU"
    ],
    "source": "github"
