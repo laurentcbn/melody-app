@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T13:18:41Z",
+ "updated": "2026-11-23T15:55:26Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6995,
+   "stars": 6996,
    "license": "GPL-3.0",
    "version": "v1.10",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3521,
+   "stars": 3531,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1076,
+   "stars": 1080,
    "license": "AGPL-3.0",
    "version": "1.4.2",
    "download": {
@@ -440,7 +440,7 @@
    "about": "Frequency modulation synthesizer plugin (VST2, CLAP). Runs on macOS, Windows and Linux.",
    "url": "https://www.octasine.com/",
    "repo": "greatest-ape/OctaSine",
-   "stars": 823,
+   "stars": 824,
    "license": "AGPL-3.0",
    "version": "v0.9.1",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 664,
+   "stars": 665,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -924,7 +924,7 @@
    "about": "dynamic range processor plugin",
    "url": "https://zl-audio.github.io/plugins/zlcompressor/",
    "repo": "ZL-Audio/ZLCompressor",
-   "stars": 232,
+   "stars": 233,
    "license": "AGPL-3.0",
    "version": "0.6.1",
    "download": {
@@ -935,9 +935,9 @@
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
-     "name": "ZL.Compressor-0.6.1-Linux-x86-64-AVX2.zip",
-     "size": 9412291,
+     "url": "https://github.com/ZL-Audio/ZLCompressor/releases/download/0.6.1/ZL.Compressor-0.6.1-Linux-x86-64.zip",
+     "name": "ZL.Compressor-0.6.1-Linux-x86-64.zip",
+     "size": 8943456,
      "type": "zip"
     },
     "mac": {
@@ -1110,7 +1110,7 @@
    "about": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also uniq",
    "url": "https://quamplex.com/geonkick",
    "repo": "quamplex/geonkick",
-   "stars": 200,
+   "stars": 201,
    "license": "GPL-3.0",
    "version": "v3.9.1",
    "download": null,
@@ -1164,7 +1164,7 @@
    "about": "Terminal based project management",
    "url": "https://kanban.rs",
    "repo": "kanban-rs/kanban",
-   "stars": 193,
+   "stars": 194,
    "license": "Apache-2.0",
    "version": "v0.13.0",
    "download": null,
@@ -1558,6 +1558,31 @@
    "source": "github"
   },
   {
+   "name": "Drumlabooh",
+   "vendor": "psemiletov",
+   "kind": "instrument",
+   "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
+   "url": "https://psemiletov.github.io/drumlabooh/",
+   "repo": "psemiletov/drumlabooh",
+   "stars": 139,
+   "license": "GPL-3.0",
+   "version": "14.1.0",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/psemiletov/drumlabooh/releases/download/14.1.0/drumlabooh-installer.exe",
+     "name": "drumlabooh-installer.exe",
+     "size": 188654461,
+     "type": "exe"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Lamb Rs",
    "vendor": "magnetophon",
    "kind": "effect",
@@ -1596,31 +1621,6 @@
    "formats": [
     "VST3",
     "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Drumlabooh",
-   "vendor": "psemiletov",
-   "kind": "instrument",
-   "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
-   "url": "https://psemiletov.github.io/drumlabooh/",
-   "repo": "psemiletov/drumlabooh",
-   "stars": 137,
-   "license": "GPL-3.0",
-   "version": "14.0.0",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/psemiletov/drumlabooh/releases/download/14.0.0/drumlabooh-installer.exe",
-     "name": "drumlabooh-installer.exe",
-     "size": 188654369,
-     "type": "exe"
-    }
-   },
-   "formats": [
-    "VST3",
     "AU"
    ],
    "source": "github"
@@ -1740,13 +1740,49 @@
    "source": "github"
   },
   {
+   "name": "Plasma",
+   "vendor": "Dimethoxy",
+   "kind": "effect",
+   "about": "Asymmetrical Distortion Audio Plugin for Windows, MacOS and Linux",
+   "url": "https://dimethoxy.com",
+   "repo": "Dimethoxy/Plasma",
+   "stars": 117,
+   "license": "AGPL-3.0",
+   "version": "v1.2.1",
+   "download": {
+    "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg",
+    "name": "plasma-v1.2.1-macos.pkg",
+    "size": 11398049,
+    "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg",
+     "name": "plasma-v1.2.1-macos.pkg",
+     "size": 11398049,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-windows.exe",
+     "name": "plasma-v1.2.1-windows.exe",
+     "size": 3991791,
+     "type": "exe"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Signalizer",
    "vendor": "jthorborg",
    "kind": "effect",
    "about": "Audio/signal visualizer plugin",
    "url": "https://jthorborg.com/index.html?ipage=signalizer",
    "repo": "jthorborg/signalizer",
-   "stars": 116,
+   "stars": 117,
    "license": null,
    "version": "v0.5.0",
    "download": {
@@ -1781,42 +1817,6 @@
    "source": "github"
   },
   {
-   "name": "Plasma",
-   "vendor": "Dimethoxy",
-   "kind": "effect",
-   "about": "Asymmetrical Distortion Audio Plugin for Windows, MacOS and Linux",
-   "url": "https://dimethoxy.com",
-   "repo": "Dimethoxy/Plasma",
-   "stars": 115,
-   "license": "AGPL-3.0",
-   "version": "v1.2.1",
-   "download": {
-    "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg",
-    "name": "plasma-v1.2.1-macos.pkg",
-    "size": 11398049,
-    "type": "pkg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-macos.pkg",
-     "name": "plasma-v1.2.1-macos.pkg",
-     "size": 11398049,
-     "type": "pkg"
-    },
-    "windows": {
-     "url": "https://github.com/Dimethoxy/Plasma/releases/download/v1.2.1/plasma-v1.2.1-windows.exe",
-     "name": "plasma-v1.2.1-windows.exe",
-     "size": 3991791,
-     "type": "exe"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Owmb",
    "vendor": "samplaman",
    "kind": "effect",
@@ -1827,22 +1827,22 @@
    "license": null,
    "version": "1.0.0",
    "download": {
-    "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
-    "name": "OWMB-macOS-Universal-Installer.dmg",
-    "size": 48997449,
+    "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal.dmg",
+    "name": "OWMB-macOS-Universal.dmg",
+    "size": 49190017,
     "type": "dmg"
    },
    "downloads": {
     "windows": {
      "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-Windows-11-x64.zip",
      "name": "OWMB-Windows-11-x64.zip",
-     "size": 8887894,
+     "size": 8937093,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal-Installer.dmg",
-     "name": "OWMB-macOS-Universal-Installer.dmg",
-     "size": 48997449,
+     "url": "https://github.com/samplaman/owmb/releases/download/1.0.0/OWMB-macOS-Universal.dmg",
+     "name": "OWMB-macOS-Universal.dmg",
+     "size": 49190017,
      "type": "dmg"
     }
    },
@@ -1961,7 +1961,7 @@
    "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
    "url": "https://astramusic.dev/prism",
    "repo": "Boof2015/prism",
-   "stars": 93,
+   "stars": 94,
    "license": "GPL-3.0",
    "version": "v0.4.0-beta",
    "download": {
@@ -2024,6 +2024,48 @@
    "formats": [
     "VST3",
     "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "ZLSpectrumEqualizer",
+   "vendor": "ZL-Audio",
+   "kind": "effect",
+   "about": "dynamic spectrum equalizer plugin",
+   "url": "https://zl-audio.github.io/plugins/zlspeceq/",
+   "repo": "ZL-Audio/ZLSpectrumEqualizer",
+   "stars": 91,
+   "license": "AGPL-3.0",
+   "version": "0.1.2",
+   "download": {
+    "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
+    "name": "ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
+    "size": 5808458,
+    "type": "dmg"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-Linux-x86-64-AVX2.zip",
+     "name": "ZL.Spectrum.Equalizer-0.1.2-Linux-x86-64-AVX2.zip",
+     "size": 6294913,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
+     "name": "ZL.Spectrum.Equalizer-0.1.2-macOS-arm64.dmg",
+     "size": 5808458,
+     "type": "dmg"
+    },
+    "windows": {
+     "url": "https://github.com/ZL-Audio/ZLSpectrumEqualizer/releases/download/0.1.2/ZL.Spectrum.Equalizer-0.1.2-Windows-x86-64-AVX2.msi",
+     "name": "ZL.Spectrum.Equalizer-0.1.2-Windows-x86-64-AVX2.msi",
+     "size": 6299648,
+     "type": "msi"
+    }
+   },
+   "formats": [
+    "VST3",
     "AU"
    ],
    "source": "github"
@@ -2179,7 +2221,7 @@
    "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
    "url": "https://benjamindehli.github.io/overtonium/",
    "repo": "benjamindehli/overtonium",
-   "stars": 79,
+   "stars": 80,
    "license": "AGPL-3.0",
    "version": "v1.18.0",
    "download": {
@@ -2480,31 +2522,6 @@
    "source": "github"
   },
   {
-   "name": "Niner",
-   "vendor": "hyperfocusdsp",
-   "kind": "instrument",
-   "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
-   "url": "https://github.com/hyperfocusdsp/niner",
-   "repo": "hyperfocusdsp/niner",
-   "stars": 47,
-   "license": "GPL-3.0",
-   "version": "v1.0.1",
-   "download": null,
-   "downloads": {
-    "windows": {
-     "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
-     "name": "niner-windows-x86_64.zip",
-     "size": 22861704,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "CLAP",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Firefly Synth 2",
    "vendor": "sjoerdvankreel",
    "kind": "instrument",
@@ -2542,6 +2559,31 @@
    },
    "formats": [
     "VST3",
+    "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Niner",
+   "vendor": "hyperfocusdsp",
+   "kind": "instrument",
+   "about": "Monophonic analogue kick drum synthesizer — 3 voices, compression, distortion, EQ.   VST3/CLAP/Standalone for Linux, Windows, macOS",
+   "url": "https://github.com/hyperfocusdsp/niner",
+   "repo": "hyperfocusdsp/niner",
+   "stars": 47,
+   "license": "GPL-3.0",
+   "version": "v1.0.1",
+   "download": null,
+   "downloads": {
+    "windows": {
+     "url": "https://github.com/hyperfocusdsp/niner/releases/download/v1.0.1/niner-windows-x86_64.zip",
+     "name": "niner-windows-x86_64.zip",
+     "size": 22861704,
+     "type": "zip"
+    }
+   },
+   "formats": [
     "CLAP",
     "AU"
    ],
@@ -2649,7 +2691,7 @@
    "about": "Six free, open-source bass-music audio plug-ins (VST3/AU, Mac + Windows) by Vivid Fever Dreams, built with JUCE",
    "url": "https://www.vividfeverdreams.xyz",
    "repo": "vividfeverdreams/vfd-plugin-suite",
-   "stars": 43,
+   "stars": 44,
    "license": "AGPL-3.0",
    "version": "v1.6.5",
    "download": {
@@ -2685,7 +2727,7 @@
    "about": "Lightweight Windows Mic tray app: route a microphone through a VST3 plugin chain into a virtual audio cable, usable as a mic in any app.",
    "url": "https://github.com/philipz794/MicVST",
    "repo": "philipz794/MicVST",
-   "stars": 41,
+   "stars": 42,
    "license": "GPL-3.0",
    "version": "v1.2.0",
    "download": null,
