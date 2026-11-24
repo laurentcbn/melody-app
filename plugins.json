@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T15:55:26Z",
+ "updated": "2026-11-24T15:50:06Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,32 +321,32 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6996,
+   "stars": 6997,
    "license": "GPL-3.0",
-   "version": "v1.10",
+   "version": "v1.22",
    "download": {
-    "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/macos-rnnoise.zip",
+    "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.22/macos-rnnoise.zip",
     "name": "macos-rnnoise.zip",
-    "size": 81797637,
+    "size": 28739246,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/linux-rnnoise.zip",
+     "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.22/linux-rnnoise.zip",
      "name": "linux-rnnoise.zip",
-     "size": 36831356,
+     "size": 14274078,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/macos-rnnoise.zip",
+     "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.22/macos-rnnoise.zip",
      "name": "macos-rnnoise.zip",
-     "size": 81797637,
+     "size": 28739246,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.10/win-rnnoise.zip",
+     "url": "https://github.com/werman/noise-suppression-for-voice/releases/download/v1.22/win-rnnoise.zip",
      "name": "win-rnnoise.zip",
-     "size": 37740885,
+     "size": 14047985,
      "type": "zip"
     }
    },
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3531,
+   "stars": 3535,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 665,
+   "stars": 666,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -657,24 +657,24 @@
    "repo": "davy7125/polyphone",
    "stars": 489,
    "license": "GPL-3.0",
-   "version": "2.6.0",
+   "version": "2.7.3",
    "download": {
-    "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-macOS_12.dmg",
-    "name": "Polyphone_2.6.0-macOS_12.dmg",
-    "size": 31438016,
-    "type": "dmg"
+    "url": "https://github.com/davy7125/polyphone/releases/download/2.7.3/Polyphone-plugin_2.7.3-macOS_12.zip",
+    "name": "Polyphone-plugin_2.7.3-macOS_12.zip",
+    "size": 15120744,
+    "type": "zip"
    },
    "downloads": {
     "mac": {
-     "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-macOS_12.dmg",
-     "name": "Polyphone_2.6.0-macOS_12.dmg",
-     "size": 31438016,
-     "type": "dmg"
+     "url": "https://github.com/davy7125/polyphone/releases/download/2.7.3/Polyphone-plugin_2.7.3-macOS_12.zip",
+     "name": "Polyphone-plugin_2.7.3-macOS_12.zip",
+     "size": 15120744,
+     "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/davy7125/polyphone/releases/download/2.6.0/Polyphone_2.6.0-windows_x64-portable.zip",
-     "name": "Polyphone_2.6.0-windows_x64-portable.zip",
-     "size": 20587137,
+     "url": "https://github.com/davy7125/polyphone/releases/download/2.7.3/Polyphone-plugin_2.7.3-windows_x64.zip",
+     "name": "Polyphone-plugin_2.7.3-windows_x64.zip",
+     "size": 13345165,
      "type": "zip"
     }
    },
@@ -736,30 +736,30 @@
    "repo": "tucktuckg00se/INTERSECT",
    "stars": 346,
    "license": "GPL-3.0",
-   "version": "v0.20.0",
+   "version": "v0.20.1",
    "download": {
-    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-macOS-arm64.zip",
-    "name": "INTERSECT-v0.20.0-macOS-arm64.zip",
-    "size": 10734483,
+    "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.1/INTERSECT-v0.20.1-macOS-arm64.zip",
+    "name": "INTERSECT-v0.20.1-macOS-arm64.zip",
+    "size": 10787866,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-Linux-x64.zip",
-     "name": "INTERSECT-v0.20.0-Linux-x64.zip",
-     "size": 9546747,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.1/INTERSECT-v0.20.1-Linux-x64.zip",
+     "name": "INTERSECT-v0.20.1-Linux-x64.zip",
+     "size": 9575963,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-macOS-arm64.zip",
-     "name": "INTERSECT-v0.20.0-macOS-arm64.zip",
-     "size": 10734483,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.1/INTERSECT-v0.20.1-macOS-arm64.zip",
+     "name": "INTERSECT-v0.20.1-macOS-arm64.zip",
+     "size": 10787866,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.0/INTERSECT-v0.20.0-Windows-x64.zip",
-     "name": "INTERSECT-v0.20.0-Windows-x64.zip",
-     "size": 8168503,
+     "url": "https://github.com/tucktuckg00se/INTERSECT/releases/download/v0.20.1/INTERSECT-v0.20.1-Windows-x64.zip",
+     "name": "INTERSECT-v0.20.1-Windows-x64.zip",
+     "size": 8006635,
      "type": "zip"
     }
    },
@@ -813,30 +813,30 @@
    "repo": "midilab/jc303",
    "stars": 314,
    "license": "GPL-3.0",
-   "version": "v0.14.0",
+   "version": "v0.14.1",
    "download": {
-    "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-macos_universal-plugins.zip",
-    "name": "jc303-0.14.0-macos_universal-plugins.zip",
-    "size": 69267408,
+    "url": "https://github.com/midilab/jc303/releases/download/v0.14.1/jc303-0.14.1-macos_universal-plugins.zip",
+    "name": "jc303-0.14.1-macos_universal-plugins.zip",
+    "size": 69329928,
     "type": "zip"
    },
    "downloads": {
     "linux": {
-     "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-linux_x64-plugins.zip",
-     "name": "jc303-0.14.0-linux_x64-plugins.zip",
-     "size": 28669450,
+     "url": "https://github.com/midilab/jc303/releases/download/v0.14.1/jc303-0.14.1-linux_x64-plugins.zip",
+     "name": "jc303-0.14.1-linux_x64-plugins.zip",
+     "size": 28701453,
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-macos_universal-plugins.zip",
-     "name": "jc303-0.14.0-macos_universal-plugins.zip",
-     "size": 69267408,
+     "url": "https://github.com/midilab/jc303/releases/download/v0.14.1/jc303-0.14.1-macos_universal-plugins.zip",
+     "name": "jc303-0.14.1-macos_universal-plugins.zip",
+     "size": 69329928,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/midilab/jc303/releases/download/v0.14.0/jc303-0.14.0-windows_x64-plugins.zip",
-     "name": "jc303-0.14.0-windows_x64-plugins.zip",
-     "size": 27444816,
+     "url": "https://github.com/midilab/jc303/releases/download/v0.14.1/jc303-0.14.1-windows_x64-plugins.zip",
+     "name": "jc303-0.14.1-windows_x64-plugins.zip",
+     "size": 27466262,
      "type": "zip"
     }
    },
@@ -1166,13 +1166,13 @@
    "repo": "kanban-rs/kanban",
    "stars": 194,
    "license": "Apache-2.0",
-   "version": "v0.13.0",
+   "version": "v0.13.1",
    "download": null,
    "downloads": {
     "windows": {
-     "url": "https://github.com/kanban-rs/kanban/releases/download/v0.13.0/kanban-v0.13.0-x86_64-pc-windows-msvc.zip",
-     "name": "kanban-v0.13.0-x86_64-pc-windows-msvc.zip",
-     "size": 13311264,
+     "url": "https://github.com/kanban-rs/kanban/releases/download/v0.13.1/kanban-v0.13.1-x86_64-pc-windows-msvc.zip",
+     "name": "kanban-v0.13.1-x86_64-pc-windows-msvc.zip",
+     "size": 13303616,
      "type": "zip"
     }
    },
@@ -1474,48 +1474,6 @@
    "source": "github"
   },
   {
-   "name": "CloudReverb",
-   "vendor": "xunil-cloud",
-   "kind": "effect",
-   "about": "algorithmic reverb plugin based on CloudSeed",
-   "url": "https://github.com/xunil-cloud/CloudReverb",
-   "repo": "xunil-cloud/CloudReverb",
-   "stars": 147,
-   "license": "GPL-3.0",
-   "version": "v0.5",
-   "download": {
-    "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-macOS.zip",
-    "name": "CloudReverb-v0.5-macOS.zip",
-    "size": 15082485,
-    "type": "zip"
-   },
-   "downloads": {
-    "linux": {
-     "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Linux-x86_64.zip",
-     "name": "CloudReverb-v0.5-Linux-x86_64.zip",
-     "size": 7050789,
-     "type": "zip"
-    },
-    "mac": {
-     "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-macOS.zip",
-     "name": "CloudReverb-v0.5-macOS.zip",
-     "size": 15082485,
-     "type": "zip"
-    },
-    "windows": {
-     "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Windows-x86_64.zip",
-     "name": "CloudReverb-v0.5-Windows-x86_64.zip",
-     "size": 8238611,
-     "type": "zip"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Js80P",
    "vendor": "attilammagyar",
    "kind": "instrument",
@@ -1558,13 +1516,55 @@
    "source": "github"
   },
   {
+   "name": "CloudReverb",
+   "vendor": "xunil-cloud",
+   "kind": "effect",
+   "about": "algorithmic reverb plugin based on CloudSeed",
+   "url": "https://github.com/xunil-cloud/CloudReverb",
+   "repo": "xunil-cloud/CloudReverb",
+   "stars": 147,
+   "license": "GPL-3.0",
+   "version": "v0.5",
+   "download": {
+    "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-macOS.zip",
+    "name": "CloudReverb-v0.5-macOS.zip",
+    "size": 15082485,
+    "type": "zip"
+   },
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Linux-x86_64.zip",
+     "name": "CloudReverb-v0.5-Linux-x86_64.zip",
+     "size": 7050789,
+     "type": "zip"
+    },
+    "mac": {
+     "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-macOS.zip",
+     "name": "CloudReverb-v0.5-macOS.zip",
+     "size": 15082485,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/xunil-cloud/CloudReverb/releases/download/v0.5/CloudReverb-v0.5-Windows-x86_64.zip",
+     "name": "CloudReverb-v0.5-Windows-x86_64.zip",
+     "size": 8238611,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Drumlabooh",
    "vendor": "psemiletov",
    "kind": "instrument",
    "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
    "url": "https://psemiletov.github.io/drumlabooh/",
    "repo": "psemiletov/drumlabooh",
-   "stars": 139,
+   "stars": 140,
    "license": "GPL-3.0",
    "version": "14.1.0",
    "download": null,
@@ -1823,7 +1823,7 @@
    "about": "open wav media browser",
    "url": "https://samplaman.github.io/owmb/",
    "repo": "samplaman/owmb",
-   "stars": 113,
+   "stars": 114,
    "license": null,
    "version": "1.0.0",
    "download": {
@@ -1883,7 +1883,7 @@
    "about": "VST plugin version of the WebSID Commodore 64 synthesizer",
    "url": "https://www.igorski.nl/download/vstsid",
    "repo": "igorski/VSTSID",
-   "stars": 108,
+   "stars": 109,
    "license": "MIT",
    "version": "v1.1.2",
    "download": {
@@ -2401,6 +2401,36 @@
    "source": "github"
   },
   {
+   "name": "Even",
+   "vendor": "egor-sm",
+   "kind": "effect",
+   "about": "12-band parametric EQ",
+   "url": "https://github.com/egor-sm/even",
+   "repo": "egor-sm/even",
+   "stars": 62,
+   "license": "GPL-3.0",
+   "version": "v0.1.0",
+   "download": {
+    "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+    "name": "Even-0.1.0.pkg",
+    "size": 12571296,
+    "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
+     "name": "Even-0.1.0.pkg",
+     "size": 12571296,
+     "type": "pkg"
+    }
+   },
+   "formats": [
+    "VST3",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "Repitch",
    "vendor": "ellamenop",
    "kind": "effect",
@@ -2442,36 +2472,6 @@
    "source": "github"
   },
   {
-   "name": "Even",
-   "vendor": "egor-sm",
-   "kind": "effect",
-   "about": "12-band parametric EQ",
-   "url": "https://github.com/egor-sm/even",
-   "repo": "egor-sm/even",
-   "stars": 62,
-   "license": "GPL-3.0",
-   "version": "v0.1.0",
-   "download": {
-    "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
-    "name": "Even-0.1.0.pkg",
-    "size": 12571296,
-    "type": "pkg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/egor-sm/even/releases/download/v0.1.0/Even-0.1.0.pkg",
-     "name": "Even-0.1.0.pkg",
-     "size": 12571296,
-     "type": "pkg"
-    }
-   },
-   "formats": [
-    "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
    "name": "Ykchorus",
    "vendor": "SpotlightKid",
    "kind": "effect",
@@ -2502,7 +2502,7 @@
    "about": "A collection of virtual-analog filter multi-format audio plugins.",
    "url": "https://github.com/SpotlightKid/faustfilters",
    "repo": "SpotlightKid/faustfilters",
-   "stars": 52,
+   "stars": 53,
    "license": null,
    "version": "v0.4.0",
    "download": null,
@@ -2532,9 +2532,9 @@
    "license": "MIT",
    "version": "v2.1.7",
    "download": {
-    "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-vst3-Release.zip",
-    "name": "FireflySynth2-mac-vst3-Release.zip",
-    "size": 15727660,
+    "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-clap-Release.zip",
+    "name": "FireflySynth2-mac-clap-Release.zip",
+    "size": 15695983,
     "type": "zip"
    },
    "downloads": {
@@ -2545,9 +2545,9 @@
      "type": "zip"
     },
     "mac": {
-     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-vst3-Release.zip",
-     "name": "FireflySynth2-mac-vst3-Release.zip",
-     "size": 15727660,
+     "url": "https://github.com/sjoerdvankreel/firefly-synth-2/releases/download/v2.1.7/FireflySynth2-mac-clap-Release.zip",
+     "name": "FireflySynth2-mac-clap-Release.zip",
+     "size": 15695983,
      "type": "zip"
     },
     "windows": {
@@ -2754,24 +2754,30 @@
    "repo": "tehguitarist/REV-246",
    "stars": 40,
    "license": "AGPL-3.0",
-   "version": "plugin-v1.0.2",
+   "version": "plugin-v1.0.3",
    "download": {
-    "url": "https://github.com/tehguitarist/REV-246/releases/download/plugin-v1.0.2/REV246-macOS-Universal-v1.0.2.zip",
-    "name": "REV246-macOS-Universal-v1.0.2.zip",
-    "size": 20307253,
+    "url": "https://github.com/tehguitarist/REV-246/releases/download/plugin-v1.0.3/REV246-macOS-Universal-v1.0.3.zip",
+    "name": "REV246-macOS-Universal-v1.0.3.zip",
+    "size": 20307216,
     "type": "zip"
    },
    "downloads": {
+    "linux": {
+     "url": "https://github.com/tehguitarist/REV-246/releases/download/plugin-v1.0.3/REV246-Linux-v1.0.3.zip",
+     "name": "REV246-Linux-v1.0.3.zip",
+     "size": 11535974,
+     "type": "zip"
+    },
     "mac": {
-     "url": "https://github.com/tehguitarist/REV-246/releases/download/plugin-v1.0.2/REV246-macOS-Universal-v1.0.2.zip",
-     "name": "REV246-macOS-Universal-v1.0.2.zip",
-     "size": 20307253,
+     "url": "https://github.com/tehguitarist/REV-246/releases/download/plugin-v1.0.3/REV246-macOS-Universal-v1.0.3.zip",
+     "name": "REV246-macOS-Universal-v1.0.3.zip",
+     "size": 20307216,
      "type": "zip"
     },
     "windows": {
-     "url": "https://github.com/tehguitarist/REV-246/releases/download/plugin-v1.0.2/REV246-Windows-v1.0.2.zip",
-     "name": "REV246-Windows-v1.0.2.zip",
-     "size": 6721675,
+     "url": "https://github.com/tehguitarist/REV-246/releases/download/plugin-v1.0.3/REV246-Windows-v1.0.3.zip",
+     "name": "REV246-Windows-v1.0.3.zip",
+     "size": 6721682,
      "type": "zip"
     }
    },
