@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T15:33:34Z",
+ "updated": "2026-11-26T15:08:04Z",
  "plugins": [
   {
    "name": "Vital",
@@ -321,7 +321,7 @@
    "about": "Noise suppression plugin based on Xiph's RNNoise",
    "url": "https://github.com/werman/noise-suppression-for-voice",
    "repo": "werman/noise-suppression-for-voice",
-   "stars": 6997,
+   "stars": 6998,
    "license": "GPL-3.0",
    "version": "v1.22",
    "download": {
@@ -363,7 +363,7 @@
    "about": "Audio Plugin for Audio to MIDI transcription using deep learning.",
    "url": "https://neuralnote.co/",
    "repo": "DamRsn/NeuralNote",
-   "stars": 3538,
+   "stars": 3543,
    "license": "Apache-2.0",
    "version": "v2.2.0",
    "download": {
@@ -398,7 +398,7 @@
    "about": "dynamic equalizer plugin",
    "url": "https://zl-audio.github.io/plugins/zlequalizer2/",
    "repo": "ZL-Audio/ZLEqualizer",
-   "stars": 1082,
+   "stars": 1084,
    "license": "AGPL-3.0",
    "version": "1.4.2",
    "download": {
@@ -482,7 +482,7 @@
    "about": "automatic mastering plugin for live streaming, podcasts and internet radio.",
    "url": "https://github.com/trummerschlunk/master_me",
    "repo": "trummerschlunk/master_me",
-   "stars": 765,
+   "stars": 766,
    "license": "GPL-3.0",
    "version": "1.3.1",
    "download": {
@@ -518,7 +518,7 @@
    "about": "A physically modeled synth",
    "url": "https://github.com/tiagolr/ripplerx",
    "repo": "tiagolr/ripplerx",
-   "stars": 665,
+   "stars": 667,
    "license": "GPL-3.0",
    "version": "v1.5.19",
    "download": {
@@ -584,7 +584,7 @@
    "about": "A JUCE plugin for broadband noise reduction",
    "url": "https://github.com/lucianodato/noise-repellent",
    "repo": "lucianodato/noise-repellent",
-   "stars": 577,
+   "stars": 579,
    "license": null,
    "version": "v0.4.1",
    "download": {
@@ -655,7 +655,7 @@
    "about": "A soundfont editor for quickly designing musical instruments.",
    "url": "https://www.polyphone.io",
    "repo": "davy7125/polyphone",
-   "stars": 489,
+   "stars": 491,
    "license": "GPL-3.0",
    "version": "2.7.3",
    "download": {
@@ -734,7 +734,7 @@
    "about": "A nondestructive, time-stretching, and intersecting sample slicer plugin with independent per-slice parameter control.",
    "url": "https://tucktuckg00se.github.io/INTERSECT/",
    "repo": "tucktuckg00se/INTERSECT",
-   "stars": 346,
+   "stars": 347,
    "license": "GPL-3.0",
    "version": "v0.20.1",
    "download": {
@@ -853,7 +853,7 @@
    "about": "Convolution reverb with pre and post modulation",
    "url": "https://github.com/tiagolr/reevr",
    "repo": "tiagolr/reevr",
-   "stars": 302,
+   "stars": 303,
    "license": "GPL-3.0",
    "version": "v1.4.0",
    "download": {
@@ -924,7 +924,7 @@
    "about": "dynamic range processor plugin",
    "url": "https://zl-audio.github.io/plugins/zlcompressor/",
    "repo": "ZL-Audio/ZLCompressor",
-   "stars": 233,
+   "stars": 234,
    "license": "AGPL-3.0",
    "version": "0.6.1",
    "download": {
@@ -1110,7 +1110,7 @@
    "about": "Geonkick is a free software synthesizer capable of generating a wide range of percussive sounds, including kicks, snares, claps, hi-hats, shakers, and also uniq",
    "url": "https://quamplex.com/geonkick",
    "repo": "quamplex/geonkick",
-   "stars": 201,
+   "stars": 202,
    "license": "GPL-3.0",
    "version": "v3.9.1",
    "download": null,
@@ -1140,7 +1140,7 @@
    "about": "Ratatouille is a Neural Model loader and mixer for Linux/Windows",
    "url": "https://github.com/brummer10/Ratatouille.lv2",
    "repo": "brummer10/Ratatouille.lv2",
-   "stars": 198,
+   "stars": 199,
    "license": "BSD-3-Clause",
    "version": "v0.9.12",
    "download": null,
@@ -1164,7 +1164,7 @@
    "about": "Terminal based project management",
    "url": "https://kanban.rs",
    "repo": "kanban-rs/kanban",
-   "stars": 194,
+   "stars": 195,
    "license": "Apache-2.0",
    "version": "v0.13.1",
    "download": null,
@@ -1188,7 +1188,7 @@
    "about": "Envelope based filter modulator",
    "url": "https://github.com/tiagolr/filtr",
    "repo": "tiagolr/filtr",
-   "stars": 179,
+   "stars": 180,
    "license": "AGPL-3.0",
    "version": "v1.3.0",
    "download": {
@@ -1379,7 +1379,7 @@
    "about": "A Dual Delay with more features than it should",
    "url": "https://github.com/tiagolr/qdelay",
    "repo": "tiagolr/qdelay",
-   "stars": 166,
+   "stars": 167,
    "license": "GPL-3.0",
    "version": "v1.2.3",
    "download": {
@@ -1564,7 +1564,7 @@
    "about": "LV2/VSTi drum machine that can use Hydrogen, SFZ, and own drumkit formats",
    "url": "https://psemiletov.github.io/drumlabooh/",
    "repo": "psemiletov/drumlabooh",
-   "stars": 140,
+   "stars": 142,
    "license": "GPL-3.0",
    "version": "14.1.0",
    "download": null,
@@ -1858,7 +1858,7 @@
    "about": "12-band equalizer designed for precise spectral shaping, mixing, mastering, and corrective audio processing.",
    "url": "https://github.com/brummer10/ToneShiftEQ",
    "repo": "brummer10/ToneShiftEQ",
-   "stars": 110,
+   "stars": 111,
    "license": "BSD-3-Clause",
    "version": "v1.3.0",
    "download": null,
@@ -1913,6 +1913,43 @@
    "source": "github"
   },
   {
+   "name": "Prism",
+   "vendor": "Boof2015",
+   "kind": "effect",
+   "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
+   "url": "https://astramusic.dev/prism",
+   "repo": "Boof2015/prism",
+   "stars": 97,
+   "license": "GPL-3.0",
+   "version": "v0.4.0-beta",
+   "download": {
+    "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism-0.4.0-beta-arm64.pkg",
+    "name": "Prism-0.4.0-beta-arm64.pkg",
+    "size": 172047319,
+    "type": "pkg"
+   },
+   "downloads": {
+    "mac": {
+     "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism-0.4.0-beta-arm64.pkg",
+     "name": "Prism-0.4.0-beta-arm64.pkg",
+     "size": 172047319,
+     "type": "pkg"
+    },
+    "windows": {
+     "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism.Setup.0.4.0-beta.exe",
+     "name": "Prism.Setup.0.4.0-beta.exe",
+     "size": 132370968,
+     "type": "exe"
+    }
+   },
+   "formats": [
+    "VST3",
+    "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
    "name": "XenRoll",
    "vendor": "Ankalot",
    "kind": "instrument",
@@ -1950,43 +1987,6 @@
    },
    "formats": [
     "VST3",
-    "AU"
-   ],
-   "source": "github"
-  },
-  {
-   "name": "Prism",
-   "vendor": "Boof2015",
-   "kind": "effect",
-   "about": "Real-time audio analysis and metering for desktop, DAWs, and the terminal",
-   "url": "https://astramusic.dev/prism",
-   "repo": "Boof2015/prism",
-   "stars": 94,
-   "license": "GPL-3.0",
-   "version": "v0.4.0-beta",
-   "download": {
-    "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism-0.4.0-beta-arm64.pkg",
-    "name": "Prism-0.4.0-beta-arm64.pkg",
-    "size": 172047319,
-    "type": "pkg"
-   },
-   "downloads": {
-    "mac": {
-     "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism-0.4.0-beta-arm64.pkg",
-     "name": "Prism-0.4.0-beta-arm64.pkg",
-     "size": 172047319,
-     "type": "pkg"
-    },
-    "windows": {
-     "url": "https://github.com/Boof2015/prism/releases/download/v0.4.0-beta/Prism.Setup.0.4.0-beta.exe",
-     "name": "Prism.Setup.0.4.0-beta.exe",
-     "size": 132370968,
-     "type": "exe"
-    }
-   },
-   "formats": [
-    "VST3",
-    "CLAP",
     "AU"
    ],
    "source": "github"
@@ -2221,7 +2221,7 @@
    "about": "32-partial additive synthesizer laid out like a 32-channel mixer. Every channel is one sine oscillator locked to a harmonic of the played note, and every channe",
    "url": "https://benjamindehli.github.io/overtonium/",
    "repo": "benjamindehli/overtonium",
-   "stars": 80,
+   "stars": 81,
    "license": "AGPL-3.0",
    "version": "v1.18.0",
    "download": {
@@ -2517,6 +2517,37 @@
    "formats": [
     "VST3",
     "CLAP",
+    "AU"
+   ],
+   "source": "github"
+  },
+  {
+   "name": "Grm Guitar Vst",
+   "vendor": "innermost47",
+   "kind": "instrument",
+   "about": "A physically modelled guitar as a free VST3 / standalone plugin: every string, pick, palm, finger, body and room is a GRM network solved in C++, with a guitar r",
+   "url": "https://www.youtube.com/watch?v=PHgxrdl3X0Q",
+   "repo": "innermost47/grm-guitar-vst",
+   "stars": 52,
+   "license": "AGPL-3.0",
+   "version": "v0.4.0",
+   "download": null,
+   "downloads": {
+    "linux": {
+     "url": "https://github.com/innermost47/grm-guitar-vst/releases/download/v0.4.0/GRM-Guitar-linux-vst3.zip",
+     "name": "GRM-Guitar-linux-vst3.zip",
+     "size": 8839923,
+     "type": "zip"
+    },
+    "windows": {
+     "url": "https://github.com/innermost47/grm-guitar-vst/releases/download/v0.4.0/GRM.Guitar-windows.vst3.zip",
+     "name": "GRM.Guitar-windows.vst3.zip",
+     "size": 4302279,
+     "type": "zip"
+    }
+   },
+   "formats": [
+    "VST3",
     "AU"
    ],
    "source": "github"
